@@ -1,0 +1,8 @@
+@inproceedings{heo2019featuredistill,
+    title={A Comprehensive Overhaul of Feature Distillation},
+    author={Heo, Byeongho and Kim, Jeesoo and Yun, Sangdoo and Park, Hyojin and Kwak, Nojun and Choi, Jin Young},
+    booktitle = {International Conference on Computer Vision (ICCV)},
+    year={2019},
+    pubstate={published},
+    tppubtype={inproceedings}
+}

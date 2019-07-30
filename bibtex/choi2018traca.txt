@@ -1,0 +1,9 @@
+@inproceedings{choi2018traca,
+author = {Jongwon Choi and Hyung Jin Chang and Tobias Fischer and Sangdoo Yun and Kyuewang Lee and Jiyeoup Jeong and Yiannis Demiris and Jin Young Choi},
+title = {{Context-aware Deep Feature Compression for High-speed Visual Tracking}},
+booktitle = {IEEE Conference on Computer Vision and Pattern Recognition},
+year = {2018},
+month = {June},
+pages = {479--488}
+}
+

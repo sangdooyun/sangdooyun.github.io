@@ -1,0 +1,6 @@
+@article{yoo2017butterfly,
+  title={Butterfly Effect: Bidirectional Control of Classification Performance by Small Additive Perturbation},
+  author={Yoo, YoungJoon and Park, Seonguk and Choi, Junyoung and Yun, Sangdoo and Kwak, Nojun},
+  journal={arXiv preprint arXiv:1711.09681},
+  year={2017}
+}

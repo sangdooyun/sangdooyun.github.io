@@ -1,0 +1,7 @@
+@inproceedings{lee2018unsupervised,
+  title={Unsupervised holistic image generation from key local patches},
+  author={Lee, Donghoon and Yun, Sangdoo and Choi, Sungjoon and Yoo, Hwiyeon and Yang, Ming-Hsuan and Oh, Songhwai},
+  booktitle={Proceedings of the European Conference on Computer Vision (ECCV)},
+  pages={19--35},
+  year={2018}
+}

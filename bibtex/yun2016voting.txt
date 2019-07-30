@@ -1,0 +1,8 @@
+@inproceedings{yun2016voting,
+  title={Voting-based 3D object cuboid detection robust to partial occlusion from RGB-D images},
+  author={Yun, Sangdoo and Jeong, Hawook and Kim, Soo Wan and Choi, Jin Young},
+  booktitle={2016 IEEE Winter Conference on Applications of Computer Vision (WACV)},
+  pages={1--8},
+  year={2016},
+  organization={IEEE}
+}

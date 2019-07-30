@@ -1,0 +1,8 @@
+@inproceedings{yun2012multiple,
+  title={Multiple ground plane estimation for 3D scene understanding using a monocular camera},
+  author={Yun, Sangdoo and Kim, Soo Wan and Yi, Kwang Moo and Yoo, Haan-ju and Choi, Jin Young},
+  booktitle={Proceedings of the 27th Conference on Image and Vision Computing New Zealand},
+  pages={1--6},
+  year={2012},
+  organization={ACM}
+}

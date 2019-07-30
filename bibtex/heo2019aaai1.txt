@@ -1,0 +1,6 @@
+@article{heo2018knowledge,
+  title={Knowledge distillation with adversarial samples supporting decision boundary},
+  author={Heo, Byeongho and Lee, Minsik and Yun, Sangdoo and Choi, Jin Young},
+  journal={arXiv preprint arXiv:1805.05532},
+  year={2018}
+}

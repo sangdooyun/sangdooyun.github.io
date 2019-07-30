@@ -1,0 +1,6 @@
+@article{heo2018activation,
+  title={Knowledge transfer via distillation of activation boundaries formed by hidden neurons},
+  author={Heo, Byeongho and Lee, Minsik and Yun, Sangdoo and Choi, Jin Young},
+  journal={arXiv preprint arXiv:1811.03233},
+  year={2018}
+}
