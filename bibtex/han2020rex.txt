@@ -1,6 +1,6 @@
-@article{han2020rexnet,
-  title={ReXNet: Diminishing Representational Bottleneck on Convolutional Neural Network},
+@inproceedings{han2021rexnet,
+  title={Rethinking Channel Dimensions for Efficient Model Design},
   author={Han, Dongyoon and Yun, Sangdoo and Heo, Byeongho and Yoo, YoungJoon},
-  journal={arXiv preprint arXiv:2007.00992},
-  year={2020}
+  booktitle={Proceedings of the IEEE conference on computer vision and pattern recognition},
+  year={2021}
 }
