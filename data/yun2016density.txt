@@ -1,0 +1,8 @@
+@inproceedings{yun2016density,
+  title={Density-aware pedestrian proposal networks for robust people detection in crowded scenes},
+  author={Yun, Sangdoo and Yun, Kimin and Choi, Jongwon and Choi, Jin Young},
+  booktitle={European Conference on Computer Vision},
+  pages={643--654},
+  year={2016},
+  organization={Springer}
+}

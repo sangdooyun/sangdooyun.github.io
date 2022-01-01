@@ -1,0 +1,7 @@
+@inproceedings{choi2017attentional,
+  title={Attentional correlation filter network for adaptive visual tracking},
+  author={Choi, Jongwon and Jin Chang, Hyung and Yun, Sangdoo and Fischer, Tobias and Demiris, Yiannis and Young Choi, Jin},
+  booktitle={Proceedings of the IEEE conference on computer vision and pattern recognition},
+  pages={4807--4816},
+  year={2017}
+}

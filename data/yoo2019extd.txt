@@ -1,0 +1,6 @@
+@article{yoo2019extd,
+  title={EXTD: Extremely Tiny Face Detector via Iterative Filter Reuse},
+  author={Yoo, YoungJoon and Han, Dongyoon and Yun, Sangdoo},
+  journal={arXiv preprint arXiv:1906.06579},
+  year={2019}
+}

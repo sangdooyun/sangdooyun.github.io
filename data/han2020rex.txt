@@ -1,0 +1,6 @@
+@inproceedings{han2021rexnet,
+  title={Rethinking Channel Dimensions for Efficient Model Design},
+  author={Han, Dongyoon and Yun, Sangdoo and Heo, Byeongho and Yoo, YoungJoon},
+  booktitle={Proceedings of the IEEE conference on computer vision and pattern recognition},
+  year={2021}
+}

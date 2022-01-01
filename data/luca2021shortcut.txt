@@ -1,0 +1,6 @@
+@article{scimeca2021shortcut,
+  title={Which shortcut cues will dnns choose? a study from the parameter-space perspective},
+  author={Scimeca, Luca and Oh, Seong Joon and Chun, Sanghyuk and Poli, Michael and Yun, Sangdoo},
+  journal={arXiv preprint arXiv:2110.03095},
+  year={2021}
+}

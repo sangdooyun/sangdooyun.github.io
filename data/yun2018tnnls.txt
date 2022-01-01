@@ -1,0 +1,10 @@
+@article{yun2018action,
+  title={Action-driven visual object tracking with deep reinforcement learning},
+  author={Yun, Sangdoo and Choi, Jongwon and Yoo, Youngjoon and Yun, Kimin and Choi, Jin Young},
+  journal={IEEE transactions on neural networks and learning systems},
+  volume={29},
+  number={6},
+  pages={2239--2252},
+  year={2018},
+  publisher={IEEE}
+}

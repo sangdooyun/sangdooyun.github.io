@@ -1,0 +1,8 @@
+@inproceedings{yun2014visual,
+  title={Visual surveillance briefing system: Event-based video retrieval and summarization},
+  author={Yun, Sangdoo and Yun, Kimin and Kim, Soo Wan and Yoo, Youngjoon and Jeong, Jiyeoup},
+  booktitle={2014 11th IEEE International Conference on Advanced Video and Signal Based Surveillance (AVSS)},
+  pages={204--209},
+  year={2014},
+  organization={IEEE}
+}

@@ -1,0 +1,7 @@
+@inproceedings{yun2017action,
+  title={Action-decision networks for visual tracking with deep reinforcement learning},
+  author={Yun, Sangdoo and Choi, Jongwon and Yoo, Youngjoon and Yun, Kimin and Young Choi, Jin},
+  booktitle={Proceedings of the IEEE conference on computer vision and pattern recognition},
+  pages={2711--2720},
+  year={2017}
+}

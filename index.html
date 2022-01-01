@@ -1,445 +1,1274 @@
-<!doctype html>
-<html lang="en">
-    <head>
-        
-        <!-- Global site tag (gtag.js) - Google Analytics -->
-        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-97298954-4"></script>
-        <script>
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
+<!DOCTYPE HTML>
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 
-          gtag('config', 'UA-97298954-4');
-        </script>
+  <title>Sangdoo Yun</title>
+  
+  <meta name="author" content="Sangdoo Yun">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <link rel="stylesheet" type="text/css" href="stylesheet.css">
+  <link rel="icon" type="image/png" href="images/my_image_icon.png">
+</head>
 
+<body>
+  <table style="width:100%;max-width:800px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+    <tr style="padding:0">
+      <td style="padding:0px">
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+          <tr style="padding:0px">
+            <td style="padding:2.5%;width:63%;vertical-align:middle">
+              <p style="text-align:center">
+                <name>Sangdoo Yun</name>
+              </p>
+              <p>
+                I am a research scientist at <a href="https://clova.ai/en/research/publications.html">Naver AI Lab</a>,
+                working on computer vision and machine learning towards real-world applications.
+<!--                I am interested in training robust, generalizable, and transferable ML models for real-world applications.-->
+              </p>
 
-        <!-- Required meta tags -->
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+              <p>
+                At Naver, I've worked for network architectures (<a href="#han2021cvpr_rex">ReXNet</a>, <a href="#heo2021iccv_pit">PiT</a>),
+                training techniques (<a href="#yun2019cutmix">CutMix</a>, <a href="#yun2021relabel">ReLabel</a>, <a href="#heo2021iclr_adamp">AdamP</a>,
+                <a href="#heo2019iccv_od">KD</a>),
+                and robustness (<a href="#bahng2020rebias">ReBias</a>).
+                I've also participated on Naver's <a href="https://clova.ai/ocr">OCR</a>
+                (<em>e.g.</em>, <a href="#baek2019craft">CRAFT</a>, <a href="#baek2019STR">STR</a>, <a href="#kim2021donut">Donut</a>)
+                and <a href="#yoo2019extd">Face</a> products.
+              </p>
 
-        <!-- Bootstrap CSS -->
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-        <!-- <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"> -->
-        <!-- <link rel="icon" type="image/png" href="favicon.png"> -->
+              <p>
+                I received my MS, and PhD in computer vision at <a href="https://ece.snu.ac.kr/en">Seoul National University</a> in 2013 and 2017, respectively, under supervision of <a href="http://pil.snu.ac.kr/about/view.do?idx=1">Prof. Jin Young Choi</a>.
+                I received my BS from <a href="https://ece.snu.ac.kr/en">Seoul National University</a> in 2010.
+              </p>
 
-        <title>Sangdoo Yun</title>
-    </head>
-    <body>
-        <div style="width: 92%; margin:0 auto;">
-            <div class="container text-justify">
-                <div class="mx-auto text-center mt-5 mb-3">
-                    <h1>Sangdoo Yun</h1>
-                </div>
-
-                <div class="mx-auto text-center">
-                    <ul class="list-unstyled">
-                        <li>Research Scientist at NAVER AI LAB</li>
-                        <li>Email: sangdoo.yun [at] navercorp.com</li>
-                        <li><a href="https://scholar.google.co.kr/citations?user=o0qtjzYAAAAJ&hl=en">[Google Scholar]</a> <a href="CV_sangdoo_sep_2021.pdf">[Curriculum Vitae]</a></li>
-                    </ul>
-                </div>
-
-                <div class="row mt-5">
-                    <ul style="padding-left: 1.5em;">
-                        <li>Research Scientist at <a href="https://naver-career.gitbook.io/en/publications/computer-vision">NAVER AI Lab</a> (Mar. 2018 - Now)</li>
-                        <li>Visiting Professor at <a href="https://cse.snu.ac.kr/en/professor/sangdoo-yun">SNU CSE Dept.</a> (Sep. 2021 - Now)</li>                        
-                        <li>Ph.D. in Computer Vision from Seoul National University (<a href="https://scholar.google.co.kr/citations?user=NoEVFWQAAAAJ&hl=en">Advisor: Prof. Jin Young Choi</a>) (Mar. 2013 - Aug. 2017)</li>
-                    </ul>
-                </div>
-
-                <hr>
-
-                <div class="row mb-2">
-                    <h2>News</h2>
-                </div>                
-                <div class="row row-papers">
-                    <ul class="list-unstyled">   
-                        <li>(Dec 13, 2021) We host NeurIPS'21 workshop on ImageNet: Past, Present, and Future. 
-                            <a href="https://sites.google.com/view/imagenet-workshop/">[website]</a>
-                            <a href="https://www.rsipvision.com/ComputerVisionNews-2021December/12/">[Computer Vision News]</a></li>
-                        <li>(Sep 1, 2021) Being a Visiting Professor at <a href="https://cse.snu.ac.kr/en/professor/sangdoo-yun">SNU CSE Dept</a>.</li>
-                    </ul>
-                </div>      
-                
-                <div class="row mb-2">
-                    <h2>Publications</h2>
-                </div>
-
-                
-                <div class="row year2021">
-                    <h4>2021</h4>
-                </div>                
+              <p>
+                I also became an <a href="https://cse.snu.ac.kr/en/professor/sangdoo-yun">adjunct professor</a> in
+                <a href="https://cse.snu.ac.kr/en">Dept. of Computer Science and Engineering</a> at <a href="https://en.snu.ac.kr/index.html">Seoul National University</a> from September 2021.
+              </p>
 
 
-                <div class="row row-papers">
-                    <ul class="list-unstyled">                                                
-                        <li><strong>Rethinking spatial dimensions of vision transformers</strong></li>
-                        <li>Byeongho Heo, <strong>Sangdoo Yun</strong>, Dongyoon Han, Sanghyuk Chun, Junsuk Choe, Seong Joon Oh</li>
-                        <li>IEEE International Conference on Computer Vision (<strong>ICCV</strong>), 2021.</li>
-                        <li></li>
-                        <li><a href="https://arxiv.org/abs/2103.16302">[paper]</a> <a href="https://github.com/naver-ai/pit">[code]</a> <a href="bibtex/heo2021pit.txt">[bibtex]</a></li>
-                    </ul>
-                </div>         
-                
+              <p style="text-align:center">
+                <a href="mailto:oodgnas@gmail.com">Email</a> &nbsp/&nbsp
+                <a href="data/sangdoo-CV-dec2021.pdf">CV</a> &nbsp/&nbsp
+                <a href="https://scholar.google.com/citations?user=o0qtjzYAAAAJ&hl=en">Google Scholar</a> &nbsp/&nbsp
+                <a href="https://github.com/hellbell/">Github</a>
+              </p>
+            </td>
+            <td style="padding:2.5%;width:40%;max-width:40%">
+              <img style="width:100%;max-width:100%" alt="profile photo" src="images/my_image.png" class="hoverZoomLink">
+            </td>
+          </tr>
+        </tbody></table>
 
-                <div class="row row-papers">
-                    <ul class="list-unstyled">                                                
-                        <li><strong>Normalization Matters in Weakly Supervised Object Localization</strong></li>
-                        <li>Jeesoo Kim, Junsuk Choe, <strong>Sangdoo Yun</strong>, Nojun Kwak</li>
-                        <li>IEEE International Conference on Computer Vision (<strong>ICCV</strong>), 2021.</li>
-                        <li></li>
-                        <li><a href="">[paper]</a> <a href="">[code]</a> <a href="">[bibtex]</a></li>
-                    </ul>
-                </div>         
-                                
-                
-                <div class="row row-papers">
-                    <ul class="list-unstyled">                                                
-                        <li><strong>Re-labeling ImageNet: from Single to Multi-Labels, from Global to Localized Labels</strong></li>
-                        <li><strong>Sangdoo Yun</strong>, Seong Joon Oh, Byeongho Heo, Dongyoon Han, Junsuk Choe, Sanghyuk Chun</li>
-                        <li>IEEE Computer Vision and Pattern Recognition (<strong>CVPR</strong>), 2021.</li>                        
-                        <li></li>
-                        <li><a href="https://arxiv.org/abs/2101.05022">[paper]</a> <a href="https://github.com/naver-ai/relabel_imagenet">[code]</a> <a href="bibtex/yun2021relabel.txt">[bibtex]</a></li>
-                    </ul>
-                </div>                
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+          <tr>
+            <td style="padding:20px;width:100%;vertical-align:middle">
+              <heading>News</heading>
+              <ul>
+              <li>
+                13 December 2021. we hosted NeurIPS'21 workshop on <a href="https://sites.google.com/view/imagenet-workshop/">ImageNet: Past, Present, and Future</a>.
+              </li>
 
-                <div class="row row-papers">
-                    <ul class="list-unstyled">                                                
-                        <li><strong>Rethinking Channel Dimensions for Efficient Model Design</strong></li>
-                        <li>Dongyoon Han, <strong>Sangdoo Yun</strong>, Byeongho Heo, YoungJoon Yoo</li>
-                        <li>IEEE Computer Vision and Pattern Recognition (<strong>CVPR</strong>), 2021.</li>                        
-                        <li></li>
-                        <li><a href="https://arxiv.org/abs/2007.00992">[paper]</a> <a href="https://github.com/clovaai/rexnet">[code]</a> <a href="bibtex/han2021rexnet.txt">[bibtex]</a></li>
-                    </ul>
-                </div>                     
-                
-                <div class="row row-papers">
-                    <ul class="list-unstyled">                                                
-                        <li><strong>AdamP: Slowing Down the Slowdown for Momentum Optimizers on Scale-invariant Weights</strong></li>
-                        <li>Byeongho Heo*, Sanghyuk Chun*, Seong Joon Oh, Dongyoon Han, <strong>Sangdoo Yun</strong>, Youngjung Uh, Jung-Woo Ha. (*Equal contribution)</li>
-                        <li>International Conference on Learning Representations (<strong>ICLR</strong>), 2021.</li>
-                        <li></li>
-                        <li><a href="https://arxiv.org/abs/2006.08217">[paper]</a> <a href="https://github.com/clovaai/AdamP">[code]</a> <a href="https://clovaai.github.io/AdamP/">[project]</a> <a href="bibtex/heo2021adamp.txt">[bibtex]</a></li>
-                    </ul>
-                </div>
-
-                <div class="row year2020">
-                    <h4>2020</h4>
-                </div>
-
-                <div class="row row-papers">
-                    <ul class="list-unstyled">                                                
-                        <li><strong>VideoMix: Rethinking Data Augmentation for Video Classification</strong></li>
-                        <li><strong>Sangdoo Yun</strong>, Seong Joon Oh, Byeongho Heo, Dongyoon Han, Jinhyung Kim</li>
-                        <li>arXiv, 2020.</li>
-                        <li></li>
-                        <li><a href="https://arxiv.org/abs/2012.03457">[paper]</a> <a href="bibtex/yun2020videomix.txt">[bibtex]</a></li>
-                    </ul>
-                </div>                     
-                
-
-                                
-                <div class="row row-papers">
-                    <ul class="list-unstyled">                                                
-                        <li><strong>Learning De-biased Representations with Biased Representations</strong></li>
-                        <li>Hyojin Bahng, Sanghyuk Chun, <strong>Sangdoo Yun</strong>, Jaegul Choo, Seong Joon Oh</li>
-                        <li>International Conference on Machine Learning (<strong>ICML</strong>), 2020.</li>
-                        <li></li>
-                        <li><a href="https://arxiv.org/pdf/1910.02806.pdf">[paper]</a> <a href="">[code]</a> <a href="bibtex/bahng2020rebias.txt">[bibtex]</a></li>
-                    </ul>
-                </div>
-                
-                <div class="row year2019">
-                    <h4>2019</h4>
-                </div>
-               
-                <div class="row row-papers">
-                    <ul class="list-unstyled">                                                
-                        <li><strong>CutMix: Regularization Strategy to Train Strong Classifiers with Localizable Features</strong></li>
-                        <li><strong>Sangdoo Yun</strong>, Dongyoon Han, Seong Joon Oh, Sanghyuk Chun, Junsuk Choe, Youngjoon Yoo</li>
-                        <li>IEEE International Conference on Computer Vision (<strong>ICCV</strong>), 2019. <span class="text-danger"><strong>Oral presentation</strong></span></li>
-                        <li></li>
-                        <li><a href="https://arxiv.org/abs/1905.04899">[paper]</a> <a href="https://github.com/ClovaAI/CutMix-PyTorch">[code]</a> <a href="papers/yun2019iccv_talk.pdf">[talk]</a> <a href="papers/yun2019iccv_poster.pdf">[poster]</a> <a href="https://clova-ai.blog/2019/07/15/cutmix-regularization-strategy-to-train-strong-classifiers-with-localizable-features/">[blog post]</a> <a href="bibtex/yun2019cutmix.txt">[bibtex]</a></li>
-                    </ul>
-                </div>
+              </ul>
+            </td>
+          </tr>
+        </tbody></table>
 
 
-                <div class="row row-papers">
-                    <ul class="list-unstyled">
-                        <li><strong>What Is Wrong with Scene Text Recognition Model Comparisons? Dataset and Model Analysis</strong></li>
-                        <li>Jeonghun Baek, Geewook Kim, Junyeop Lee, Sungrae Park, Dongyoon Han, <strong>Sangdoo Yun</strong>, Seong Joon Oh, Hwalsuk Lee</li>
-                        <li>IEEE International Conference on Computer Vision (<strong>ICCV</strong>), 2019. <span class="text-danger"><strong>Oral presentation</strong></span></li>
-                        <li><a href="https://arxiv.org/pdf/1904.01906">[paper]</a> <a href="https://github.com/clovaai/deep-text-recognition-benchmark">[code]</a> <a href="bibtex/baek2019STR.txt">[bibtex]</a></li>
-                    </ul>
-                </div>
-
-                <div class="row row-papers">
-                    <ul class="list-unstyled">
-                        <li><strong>A Comprehensive Overhaul of Feature Distillation</strong></li>
-                        <li>Byeongho Heo, Jeesoo Kim, <strong>Sangdoo Yun</strong>, Hyojin Park, Nojun Kwak, and Jin Young Choi</li>
-                        <li>IEEE International Conference on Computer Vision (<strong>ICCV</strong>), 2019.</li>
-                        <li><a href="https://arxiv.org/abs/1904.01866">[paper]</a> <a href="https://github.com/clovaai/overhaul-distillation">[code]</a> <a href="bibtex/heo2019distill.txt">[bibtex]</a></li>
-                    </ul>
-                </div>
-
-
-                <div class="row row-papers">
-                    <ul class="list-unstyled">
-                        <li><strong>An Empirical Evaluation on Robustness and Uncertainty of Regularization Methods</strong></li>
-                        <li>Sanghyuk Chun, Seong Joon Oh, <strong>Sangdoo Yun</strong>, Dongyoon Han, Junsuk Choe, Youngjoon Yoo</li>
-                        <li>Uncertainty & Robustness in Deep Learning, <em>ICML Workshop</em>, 2019.</li>
-                        <li><a href="http://www.gatsby.ucl.ac.uk/~balaji/udl2019/accepted-papers/UDL2019-paper-21.pdf">[paper]</a><a href="bibtex/chun2019icmlw.txt">[bibtex]</a></li>
-                    </ul>
-                </div>
-
-
-                <div class="row row-papers">
-                    <ul class="list-unstyled">
-                        <li><strong>Character Region Awareness for Text Detection</strong></li>
-                        <li>Youngmin Baek, Bado Lee, Dongyoon Han, <strong>Sangdoo Yun</strong>, and Hwalsuk Lee</li>
-                        <li>IEEE Computer Vision and Pattern Recognition (<strong>CVPR</strong>), 2019.</li>                        
-                        <li><a href="https://arxiv.org/abs/1904.01941">[paper]</a> <a href="https://github.com/clovaai/CRAFT-pytorch">[code]</a> <a href="bibtex/baek2019craft.txt">[bibtex]</a></li>
-                    </ul>
-                </div>
-
-
-                <div class="row row-papers">
-                    <ul class="list-unstyled">
-                        <li><strong>Knowledge Distillation with Adversarial Samples Supporting Decision Boundary</strong></li>
-                        <li>Byeongho Heo, Minsik Lee, <strong>Sangdoo Yun</strong>, Jin Young Choi</li>
-                        <li>Association for the Advancement of Artificial Intelligence (<strong>AAAI</strong>), 2019.</li>  
-                        <li><a href="https://arxiv.org/abs/1805.05532">[paper]</a> <a href="https://github.com/bhheo/BSS_distillation">[code]</a> <a href="bibtex/heo2019aaai1.txt">[bibtex]</a></li>
-                    </ul>
-                </div>
-
-                <div class="row row-papers">
-                    <ul class="list-unstyled">
-                        <li><strong>Knowledge Transfer via Distillation of Activation Boundaries Formed by Hidden Neurons</strong></li>
-                        <li>Byeongho Heo, Minsik Lee, <strong>Sangdoo Yun</strong>, Jin Young Choi</li>
-                        <li>Association for the Advancement of Artificial Intelligence (<strong>AAAI</strong>), 2019. <span class="text-danger"><strong>Oral presentation</strong></span></li>
-                        <li><a href="https://arxiv.org/abs/1811.03233">[paper]</a> <a href="https://github.com/bhheo/AB_distillation">[code]</a> <a href="bibtex/heo2019aaai2.txt">[bibtex]</a></li>
-                    </ul>
-                </div>
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+            <tr>
+            <td style="padding:20px;width:100%;vertical-align:middle">
+              <heading>Research</heading>
+              <p>
+                I am interested in training <strong>robust</strong>, <strong>generalizable</strong>, and <strong>transferable</strong> ML models for <strong>real-world</strong> applications.
+              </p>
+            </td>
+          </tr>
+        </tbody></table>
 
 
 
-               <div class="row year2018">
-                    <h4>2018</h4>
-                </div>
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
 
-                <div class="row row-papers">
-                    <ul class="list-unstyled">
-                        <li><strong>Unsupervised Holistic Image Generation from Key Local Patches</strong></li>
-                        <li>Donghoon Lee, <strong>Sangdoo Yun</strong>, Sungjoon Choi, Hwiyeon Yoo, Ming-Hsuan Yang, and Songhwai Oh</li>
-                        <li>European Conference on Computer Vision (<strong>ECCV</strong>), 2018.</li>    
-                        <li><a href="https://arxiv.org/abs/1703.10730">[paper]</a> <a href="https://github.com/hellbell/KeyPatchGan">[code]</a> <a href="bibtex/lee2018keypatchgan.txt">[bibtex]</a></li>                    
-                    </ul>
-                </div>
+        <!--
+        arXiv 2021 The Majority Can Help The Minority: Context-rich Minority Oversampling for Long-tailed Classification
+        -->
 
+          <tr>
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <img src="images/park2021cmo.png" alt="park2021cmo" width="160" >
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a href="data/park2021cmo.pdf">
+              <papertitle>The Majority Can Help The Minority: Context-rich Minority Oversampling for Long-tailed Classification</papertitle>
+              </a>
+              <br>
 
-                <div class="row row-papers">
-                    <ul class="list-unstyled">
-                        <li><strong>Context-aware Deep Feature Compression for High-speed Visual Tracking</strong></li>
-                        <li>Jongwon Choi, Hyung Jin Chang, Tobias Fischer, <strong>Sangdoo Yun</strong>, Kyuewang Lee, Jiyeoup Jeong, Yiannis Demiris, Jin Young Choi</li>
-                        <li>IEEE Computer Vision and Pattern Recognition (<strong>CVPR</strong>), 2018.</li>
-                        <li><a href="https://arxiv.org/abs/1803.10537">[paper]</a> <a href="https://sites.google.com/site/jwchoivision/home/traca">[code]</a> <a href="bibtex/choi2018traca.txt">[bibtex]</a></li>
-                    </ul>
-                </div>
+              <a href="https://www.linkedin.com/in/seulki-park-49a775147?originalSubdomain=kr">Seulki Park</a>,
+              <a href="https://grayhong.github.io/">Youngkyu Hong</a>,
+              <a href="https://sites.google.com/view/byeongho-heo/home">Byeongho Heo</a>,
+              <strong>Sangdoo Yun</strong>,
+              <a href="http://pil.snu.ac.kr/about/view.do?idx=1">Jin Young Choi</a>.
 
-                <div class="row row-papers">
-                    <ul class="list-unstyled">
-                        <li><strong>Action-Driven Visual Object Tracking with Deep Reinforcement Learning</strong></li>
-                        <li><strong>Sangdoo Yun</strong>, Jongwon Choi, Youngjoon Yoo, Kimin Yun, and Jin Young Choi</li>
-                        <li>IEEE Transactions on Neural Networks and Learning Systems (<strong>TNNLS</strong>), 2018.</li>                        
-                        <li><a href="bibtex/yun2018tnnls.txt">[bibtex]</a></li>
-                    </ul>
-                </div>
-
-               <div class="row year2017">
-                    <h4>2017</h4>
-                </div>
-
-                <div class="row row-papers">
-                    <ul class="list-unstyled">
-                        <li><strong>Action-Decision Networks for Visual Tracking with Deep Reinforcement Learning</strong></li>
-                        <li><strong>Sangdoo Yun</strong>, Jongwon Choi, Youngjoon Yoo, Kimin Yun, and Jin Young Choi</li>
-                        <li>IEEE Computer Vision and Pattern Recognition (<strong>CVPR</strong>), 2017. <span class="text-danger"><strong>Spotlight presentation</strong></span></li>
-                        <li><a href="http://openaccess.thecvf.com/content_cvpr_2017/papers/Yun_Action-Decision_Networks_for_CVPR_2017_paper.pdf">[paper]</a> <a href="https://github.com/hellbell/ADNet">[code]</a> <a href="bibtex/yun2017adnet.txt">[bibtex]</a></li>
-                    </ul>
-                </div>
+              <br>
+              <em>arXiv</em>, 2021
+              <br>
+              <a href="data/park2021cmo.txt">Bibtex</a>
+              <p></p>
+              <p>
+                Data oversampling is a simple solution for long-tailed classification, but it may exacerbate overfitting with limited context information.
+                Motivated from <a href="#yun2019cutmix">CutMix</a>, we introduce a simple context-rich oversampling method.
+                Interestingly, majority classes play a key role for boosting classification accuracy of minority classes!
+              </p>
+            </td>
+          </tr>
 
 
-                <div class="row row-papers">
-                    <ul class="list-unstyled">
-                        <li><strong>Variational Autoencoded Regression: High Dimensional Regression of Visual Data on Complex Manifold</strong></li>
-                        <li>Youngjoon Yoo, <strong>Sangdoo Yun</strong>, Hyung Jin Chang, Yiannis Demiris, and Jin Young Choi</li>
-                        <li>IEEE Computer Vision and Pattern Recognition (<strong>CVPR</strong>), 2017.</li>
-                        <li><a href="http://openaccess.thecvf.com/content_cvpr_2017/papers/Yoo_Variational_Autoencoded_Regression_CVPR_2017_paper.pdf">[paper]</a> <a href="https://sites.google.com/view/yjyoo3312/project_page_vaeregression">[code]</a> <a href="bibtex/yoo2017regression.txt">[bibtex]</a></li>
-                    </ul>
-                </div>
+        <!--
+        arXiv 2021 Donut: Document Understanding Transformer without OCR
+        -->
+<!--        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>-->
+          <tr>
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <img src="images/kim2021donut.png" alt="kim2021donut" width="160" >
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a href="data/kim2021donut.pdf" id="kim2021donut">
+              <papertitle>Donut &#127849;: Document Understanding Transformer without OCR</papertitle>
+              </a>
+              <br>
+              <a href="http://geewook.kim/">Geewook Kim</a>,
+              <a href="http://ailab.kaist.ac.kr/users/tghong">Teakgyu Hong</a>,
+              <a href="https://github.com/moonbings">Moonbin Yim</a>,
+              Jinyoung Park,
+              <a href="https://scholar.google.co.kr/citations?user=UltFXK0AAAAJ&hl=en">Jinyeong Yim</a>,
+              <a href="https://scholar.google.com/citations?user=M13_WdcAAAAJ&hl=en">Wonseok Hwang</a>,
+              <strong>Sangdoo Yun</strong>,
+              <a href="https://sites.google.com/site/dyhan0920/">Dongyoon Han</a>,
+              <a href="https://scholar.google.co.kr/citations?user=iowjmTwAAAAJ&hl=en">Seunghyun Park</a>
+              <br>
+              <em>arXiv</em>, 2021
+              <br>
+              <a href="data/kim2021donut.txt">Bibtex</a>
+              <p></p>
+              <p>
+                Current visual document understanding (VDU) models heavily rely on external OCR framework (<em>e.g.</em>, <a href="#baek2019craft">text detection</a>,
+                <a href="#baek2019STR">text recognition</a>).
+                OCR is expensive and sometimes not available.
+                We bravely remove the dependency of OCR by modeling a simple transformer architecture.
+                Take our highly efficient and powerful VDU model, Donut &#127849;!
 
-                <div class="row row-papers">
-                    <ul class="list-unstyled">
-                        <li><strong>Attentional Correlation Filter Network for Adaptive Visual Tracking</strong></li>
-                        <li>Jongwon Choi, Hyung Jin Chang, <strong>Sangdoo Yun</strong>, Tobias Fischer, Yiannis Demiris, and Jin Young Choi</li>
-                        <li>IEEE Computer Vision and Pattern Recognition (<strong>CVPR</strong>), 2017.</li>
-                        <li><a href="http://openaccess.thecvf.com/content_cvpr_2017/papers/Choi_Attentional_Correlation_Filter_CVPR_2017_paper.pdf">[paper]</a> <a href="https://sites.google.com/site/jwchoivision/home/acfn-1">[code]</a> <a href="bibtex/choi2017acfn.txt">[bibtex]</a></li>
-                    </ul>
-                </div>
+              </p>
+            </td>
+          </tr>
 
-                <div class="row row-papers">
-                    <ul class="list-unstyled">
-                        <li><strong>PaletteNet: Image Recolorization with Given Color Palette</strong></li>
-                        <li>Junho Cho, <strong>Sangdoo Yun</strong>, Kyoungmu Lee and Jin Young Choi</li>
-                        <li>NTIRE, <em>CVPR Workshop</em>, 2017.</li>
-                        <li><a href="http://openaccess.thecvf.com/content_cvpr_2017_workshops/w12/papers/Cho_PaletteNet_Image_Recolorization_CVPR_2017_paper.pdf">[paper]</a><a href="bibtex/cho2017ntire.txt">[bibtex]</a></li>                        
-                    </ul>
-                </div>
-
-
-                <div class="row row-papers">
-                    <ul class="list-unstyled">
-                        <li><strong>Butterfly Effect: Bidirectional Control of Classification Performance by Small Additive Perturbation</strong></li>
-                        <li>YoungJoon Yoo, Seonguk Park, Junyoung Choi, <strong>Sangdoo Yun</strong>, Nojun Kwak</li>
-                        <li><em>arXiv</em> 2017.</li>
-                        <li><a href="https://arxiv.org/abs/1711.09681">[paper]</a><a href="bibtex/yoo2017butterfly.txt">[bibtex]</a></li>
-                    </ul>
-                </div>
-
-
-               <div class="row year2016">
-                    <h4>~2016</h4>
-                </div>
-
-                <div class="row row-papers">
-                    <ul class="list-unstyled">
-                        <li><strong>Visual Path Prediction in Complex Scenes with Crowded Moving Objects</strong></li>
-                        <li>YoungJoon Yoo, Kimin Yun, <strong>Sangdoo Yun</strong>, JongHee Hong, Hawook Jeong and Jin Young Choi</li>
-                        <li>IEEE Computer Vision and Pattern Recognition (<strong>CVPR</strong>), 2016.</li>
-                        <li><a href="https://www.cv-foundation.org/openaccess/content_cvpr_2016/papers/Yoo_Visual_Path_Prediction_CVPR_2016_paper.pdf">[paper]</a><a href="bibtex/yoo2016prediction.txt">[bibtex]</a></li>
-                    </ul>
-                </div>
-
-                <div class="row row-papers">
-                    <ul class="list-unstyled">
-                        <li><strong>Density-aware Pedestrian Proposal Networks for Robust People Detection in Crowded Scenes</strong></li>
-                        <li><strong>Sangdoo Yun</strong>, Kimim Yun, Jongwon Choi, Jin Young Choi </li>
-                        <li>Crowd Understanding, <em>ECCV Workshop</em>, 2016.</li>
-                        <li><a href="bibtex/yun2016density.txt">[bibtex]</a></li>
-                    </ul>
-                </div>
-
-                <div class="row row-papers">
-                    <ul class="list-unstyled">
-                        <li><strong>Voting-based 3D Object Cuboid Detection Robust to Partial Occlusion from RGB-D Images</strong></li>
-                        <li><strong>Sangdoo Yun</strong>, Hawook Jeong, Soo Wan Kim, Jin Young Choi</li>
-                        <li>IEEE Winter Conference on Applications of Computer Vision (<strong>WACV</strong>), 2016.</li>     
-                        <li><a href="bibtex/yun2016voting.txt">[bibtex]</a></li>
-                    </ul>
-                </div>
+        <!--
+        arXiv 2021 Which shortcut cues will dnns choose? a study from the parameter-space perspective
+        -->
+<!--        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>-->
+          <tr>
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <img src="images/luca2021shortcut.png" alt="luca2021shortcut" width="160" >
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a href="data/luca2021shortcut.pdf">
+              <papertitle>Which shortcut cues will dnns choose? a study from the parameter-space perspective</papertitle>
+              </a>
+              <br>
+              <a href="https://lucascimeca.com/">Luca Scimeca</a>,
+              <a href="https://coallaoh.github.io/">Seong Joon Oh</a>,
+              <a href="https://sanghyukchun.github.io/home/">Sanghyuk Chun</a>,
+              <a href="https://scholar.google.com/citations?user=RgIBwboAAAAJ&hl=en">Michael Poli</a>,
+              <strong>Sangdoo Yun</strong>.
+              <br>
+              <em>arXiv</em>, 2021
+              <br>
+              <a href="data/luca2021shortcut.txt">Bibtex</a>
+              <p></p>
+              <p>
+                What causes <a href="https://arxiv.org/abs/2004.07780">shortcut learning</a> problem?
+                We observe the model's behaviors when we provide equal chance of being fit to multiple cues (<em>e.g.</em>, color and shape with equal chance).
+                Interestingly, the model would like to fit into a certain cue (<em>e.g.</em>, color than shape) in such even situation.
+                This paper explains the reason in terms of parameter-space perspective.
+              </p>
+            </td>
+          </tr>
 
 
-                <div class="row row-papers">
-                    <ul class="list-unstyled">
-                        <li><strong>Attention-Inspired Moving Object Detection in Monocular Dashcam Videos</strong></li>
-                        <li>Kimin Yun, Jongin Lim, <strong>Sangdoo Yun</strong>, Soo Wan Kim, and Jin Young Choi</li>
-                        <li>International Conference on Pattern Recognition (<strong>ICPR</strong>), 2016.</li>
-                        <li><a href="bibtex/yun2016attention.txt">[bibtex]</a></li>
-                    </ul>
-                </div>
+        <!--
+        IEEE Access 2021 Detecting and Removing Text in the Wild
+        -->
+<!--        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>-->
+          <tr>
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <img src="images/cho2021text.png" alt="cho2021text" width="160" >
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a href="https://ieeexplore.ieee.org/iel7/6287639/9312710/09529177.pdf">
+              <papertitle>Detecting and Removing Text in the Wild</papertitle>
+              </a>
+              <br>
+              <a href="http://pil.snu.ac.kr/member/view.do?idx=9">Junho Cho</a>,
+              <strong>Sangdoo Yun</strong>,
+              <a href="https://sites.google.com/site/dyhan0920/">Dongyoon Han</a>,
+              <a href="https://sites.google.com/view/byeongho-heo/home">Byeongho Heo</a>,
+              <a href="http://pil.snu.ac.kr/about/view.do?idx=1">Jin Young Choi</a>.
+              <br>
+              <em>IEEE Access</em>, 2021
+              <br>
+              <a href="data/cho2021text.txt">Bibtex</a>
+              <p></p>
+              <p>
+                Unifyied text detection and text removal framework for scene text removal in the wild.
+              </p>
+            </td>
+          </tr>
 
-                <div class="row row-papers">
-                    <ul class="list-unstyled">
-                        <li><strong>Category Attentional Search for Fast Object Detection by Mimicking Human Visual Perception</strong></li>
-                        <li>Hawook Jeong, <strong>Sangdoo Yun</strong>, Kwang Moo Yi, and Jin Young Choi</li>
-                        <li>IEEE Winter Conference on Applications of Computer Vision (<strong>WACV</strong>), 2015.</li>
-                        <li><a href="bibtex/jeong2015category.txt">[bibtex]</a></li>
-                    </ul>
-                </div>
 
-                <div class="row row-papers">
-                    <ul class="list-unstyled">
-                        <li><strong>Visual Surveillance Briefing System: Event-based Video Retrieval and Summarization</strong></li>
-                        <li><strong>Sangdoo Yun</strong>, Kimin Yun, Soo Wan Kim, Youngjoon Yoo, Jiyeoup Jeong</li>
-                        <li>IEEE Conference on Advanced Video and Signal based Surveillance (<strong>AVSS</strong>), 2014. <span class="text-danger"><strong>Oral presentation</strong></span></li>
-                        <li><a href="bibtex/yun2014vsb.txt">[bibtex]</a></li>
-                    </ul>
-                </div>
+        <!--
+        ICCV 2021 Rethinking spatial dimensions of vision transformers
+        -->
+<!--        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>-->
+          <tr>
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <img src="images/heo2021iccv_pit.png" alt="heo2021iccv_pit" width="160" >
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a href="data/heo2021iccv_pit.pdf" id="heo2021iccv_pit">
+              <papertitle>Rethinking spatial dimensions of vision transformers</papertitle>
+              </a>
+              <br>
+              <a href="https://sites.google.com/view/byeongho-heo/home">Byeongho Heo</a>,
+              <strong>Sangdoo Yun</strong>,
+              <a href="https://sites.google.com/site/dyhan0920/">Dongyoon Han</a>,
+              <a href="https://sanghyukchun.github.io/home/">Sanghyuk Chun</a>,
+              <a href="https://sites.google.com/site/junsukchoe/">Junsuk Choe</a>,
+              <a href="https://coallaoh.github.io/">Seong Joon Oh</a>.
+              <br>
+              <em>ICCV</em>, 2021
+              <br>
+              <a href="data/heo2021iccv_pit.txt">Bibtex</a> /
+              <a href="https://github.com/naver-ai/pit">Code</a>
+              <p></p>
+              <p>
+                The <a href="https://arxiv.org/abs/2010.11929">Vision transformer (ViT)</a> has become a strong design principle for vision modeling.
+                Because ViT is originated from NLP's <a href="http://papers.neurips.cc/paper/7181-attention-is-all-you-need.pdf">Transformer</a>,
+                it has no intermediate pooling layers, which is common in CNNs.
+                We simply inject the pooling concept on ViT and introduce a new architecture PiT.
+              </p>
+            </td>
+          </tr>
 
-                <div class="row row-papers">
-                    <ul class="list-unstyled">
-                        <li><strong>Self-organizing Cascaded Structure of Deformable Part Models for Fast Object Detection</strong></li>
-                        <li><strong>Sangdoo Yun</strong>, Hawook Jeong, Woo-Sung Kang, Byeongho Heo, Jin Young Choi</li>
-                        <li>International Conference on Pattern Recognition (<strong>ICPR</strong>), 2014.</li>
-                        <li><a href="bibtex/yun2014self.txt">[bibtex]</a></li>
-                    </ul>
-                </div>
+        <!--
+        ICCV 2021 Normalization Matters in Weakly Supervised Object Localization
+        -->
+<!--        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>-->
+          <tr>
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <img src="images/kim2021iccv_wsol.png" alt="kim2021iccv_wsol" width="160" >
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a href="https://openaccess.thecvf.com/content/ICCV2021/papers/Kim_Normalization_Matters_in_Weakly_Supervised_Object_Localization_ICCV_2021_paper.pdf" id="kim2021iccv_wsolnorm">
+              <papertitle>Normalization Matters in Weakly Supervised Object Localization</papertitle>
+              </a>
+              <br>
+              <a href="https://sites.google.com/site/jeesookim0305">Jeesoo Kim</a>,
+              <a href="https://sites.google.com/site/junsukchoe/">Junsuk Choe</a>,
+              <strong>Sangdoo Yun</strong>,
+              <a href="http://mipal.snu.ac.kr/index.php/Nojun_Kwak">Nojun Kwak</a>.
+              <br>
+              <em>ICCV</em>, 2021
+              <br>
+              <a href="data/kim2021iccv_wsol.txt">Bibtex</a> /
+              <a href="https://github.com/GenDisc/IVR">Code</a>
+              <p></p>
+              <p>
+                We investigates the effect of <a href="http://cnnlocalization.csail.mit.edu/Zhou_Learning_Deep_Features_CVPR_2016_paper.pdf">CAM (CVPR'16)</a> normalization on WSOL,
+                and suggest a new normalization method.
+              </p>
+            </td>
+          </tr>
 
-                <div class="row row-papers">
-                    <ul class="list-unstyled">
-                        <li><strong>Multiple ground plane estimation for 3D scene understanding using a monocular camera</strong></li>
-                        <li><strong>Sangdoo Yun</strong>, Soo Wan Kim, Kwang Moo Yi, Haan-ju Yoo, Jin Young Choi</li>
-                        <li>Image and Vision Computing New Zealand (<strong>IVCNZ</strong>), 2012.  <span class="text-danger"><strong>Oral presentation</strong></span> </li>
-                        <li><a href="bibtex/yun2012multiple.txt">[bibtex]</a></li>
-                    </ul>
-                </div>
 
-                <hr>
+          <!--
+          CVPR 2021 Re-labeling ImageNet: from Single to Multi-Labels, from Global to Localized Labels
+          -->
+          <tr>
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <img src="images/yun2021relabel.png" alt="yun2021relabel" width="160" >
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a href="data/yun2021cvpr_relabel.pdf"  id="yun2021relabel">
+              <papertitle>Re-labeling ImageNet: from Single to Multi-Labels, from Global to Localized Labels</papertitle>
+              </a>
+              <br>
+              <strong>Sangdoo Yun</strong>,
 
-                <div class="row mb-2">
-                    <h2>Academic activities</h2>
-                </div>
-                
-                <div class="row mb-2">
-                    <ul class="list-unstyled">
-                        <li><strong>Workshop on ImageNet: Past, Present, and Future</strong></li>
-                        <li>Zeynep Akata, Lucas Beyer, Sanghyuk Chun, Almut Sophia Koepke, Diane Larlus, Seong Joon Oh, Rafael Sampaio de Rezende, <strong>Sangdoo Yun</strong>, ‪Xiaohua Zhai‬.</li>
-                        <li><strong>NeurIPS 2021</strong></li>
-                        <li><a href="https://sites.google.com/view/imagenet-workshop/">[website]</a>
-                            <a href="https://www.rsipvision.com/ComputerVisionNews-2021December/12/">[Computer Vision News]</a></li>                            
-                    </ul>
-                </div>                                                
-                <div class="row mb-2">
-                    <ul class="list-unstyled">
-                        <li><strong>Reviewer</strong></li>
-                        <li>Serve as a reviewer for CVPR, ICCV, ECCV, NeurIPS, ICLR, ICML, etc.</li>
-                        <li><span class="text-danger"><strong>Ourstanding Reviewer Awards</strong></span> ICCV 2021</li>  
-                        <li><span class="text-danger"><strong>Ourstanding Reviewer Awards</strong></span> CVPR 2021</li> 
-                    </ul>
-                </div>                
-                <div class="row mb-2">
-                    <ul class="list-unstyled">
-                        <li><strong>Meta-Reviewer</strong></li>
-                        <li>Senior Program Committee AAAI 2022</li>  
-                    </ul>
-                </div>                                
-                <div class="row mb-2">                
-                    <ul class="list-unstyled">
-                        <li><strong>Talks</strong></li>
-                        <li><a href="https://docs.google.com/presentation/d/1I21EApGD05KfKCLPsnbNjWgtUA7eeyPzjvfi25ZsqaA/edit?usp=sharing">How to Make Deep Models Strong and Robust</a>, UNIST, Ulsan, Jun, 2021</li>                        
-                    </ul>                    
-                </div>                
-                
-                <hr>
+              <a href="https://coallaoh.github.io/">Seong Joon Oh</a>,
+              <a href="https://sites.google.com/view/byeongho-heo/home">Byeongho Heo</a>,
+              <a href="https://sites.google.com/site/dyhan0920/">Dongyoon Han</a>,
+              <a href="https://sites.google.com/site/junsukchoe/">Junsuk Choe</a>,
+              <a href="https://sanghyukchun.github.io/home/">Sanghyuk Chun</a>.
 
-                <div class="row mb-2">
-                    <h2>Education</h2>
-                </div>
-                <div class="row mb-5">
-                    <ul class="list-unstyled">
-                        <li>Ph.D. in Computer Vision from Seoul National University (<a href="https://scholar.google.co.kr/citations?user=NoEVFWQAAAAJ&hl=en">Advisor: Prof. Jin Young Choi</a>) (Mar. 2013 - Aug. 2017)</li>                        
-                        <li>M.S. in Computer Vision from Seoul National University (<a href="https://scholar.google.co.kr/citations?user=NoEVFWQAAAAJ&hl=en">Advisor: Prof. Jin Young Choi</a>) (Mar. 2011 - Feb. 2013) </li>
-                        <li>B.S. in Electrical Engineering and Computer Sciences from Seoul National University (Mar. 2006 - Aug. 2010)</li>
-                    </ul>
-                </div>
+              <br>
+              <em>CVPR</em>, 2021
+              <br>
+              <a href="data/yun2021cvpr_relabel.txt">Bibtex</a> /
+              <a href="https://github.com/naver-ai/relabel_imagenet">Code</a> /
+              <a href="https://www.youtube.com/watch?v=hc29xYQIlBE">Video</a> /
+              <a href="data/yun2021cvpr_relabel_poster.pdf">Poster</a>
 
-            </div>
-        </div>
+              <p></p>
+              <p>
+                <a href="https://www.image-net.org/">ImageNet</a> has lots of label noises and there have been efforts to fix them on the evaluation set
+                (<em>e.g.</em> <a href="http://proceedings.mlr.press/v119/shankar20c.html">Shankar <em>et al.</em></a>, <a href="https://arxiv.org/abs/2006.07159">Bayer <em>et al.</em></a>).
+                We paid our attention to the training set, whose label noises have been overlooked, and release the re-labeled ImageNet and codebase
+                (published at <a href="https://github.com/naver-ai/relabel_imagenet">this repo</a>).
+                The re-labeled data improves the ImageNet and downstream task accuracies.
+              </p>
+            </td>
+          </tr>
 
-        <!-- Optional JavaScript -->
-        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-    </body>
+
+          <!--
+          CVPR 2021 Rethinking Channel Dimensions for Efficient Model Design
+          -->
+          <tr>
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <img src="images/han2021cvpr_rex.png" alt="han2021cvpr_rex" width="160" >
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a href="data/han2021cvpr_rex.pdf" id="han2021cvpr_rex">
+              <papertitle>Rethinking Channel Dimensions for Efficient Model Design</papertitle>
+              </a>
+              <br>
+              <a href="https://sites.google.com/site/dyhan0920/">Dongyoon Han</a>,
+              <strong>Sangdoo Yun</strong>,
+              <a href="https://sites.google.com/view/byeongho-heo/home">Byeongho Heo</a>,
+              <a href="https://yjyoo3312.github.io/">Youngjoon Yoo</a>.
+
+              <br>
+              <em>CVPR</em>, 2021
+              <br>
+              <a href="data/han2021cvpr_rex.txt">Bibtex</a> /
+              <a href="https://github.com/clovaai/rexnet">Code</a>
+
+              <p></p>
+              <p>
+                CNN architectures (<em>e.g.,</em> ResNet, MobileNet, etc.) usually follows the same feature-map down-sampling policy.
+                We conjecture such design policy would harm the representation ability of intermediate layers.
+                We analyze the feature-map's rank (inspired by softmax-bottleneck) and suggests a new network architecture,
+                namely, Rank eXpanded Network (ReXNet).
+              </p>
+            </td>
+          </tr>
+
+
+          <!--
+          ICLR 2021 AdamP: Slowing Down the Slowdown for Momentum Optimizers on Scale-invariant Weights
+          -->
+          <tr>
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <img src="images/heo2021iclr_adamp.png" alt="heo2021iclr_adamp" width="160" >
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a href="data/heo2021iclr_adamp.pdf" id="heo2021iclr_adamp">
+              <papertitle>AdamP: Slowing Down the Slowdown for Momentum Optimizers on Scale-invariant Weights</papertitle>
+              </a>
+              <br>
+              <a href="https://sites.google.com/view/byeongho-heo/home">Byeongho Heo*</a>,
+              <a href="https://sanghyukchun.github.io/home/">Sanghyuk Chun*</a>,
+              <a href="https://coallaoh.github.io/">Seong Joon Oh</a>,
+              <a href="https://sites.google.com/site/dyhan0920/">Dongyoon Han</a>,
+              <a href="https://sites.google.com/site/youngjunguh">Youngjung Uh</a>,
+              <strong>Sangdoo Yun</strong>,
+              <a href="https://sites.google.com/site/hjw9096/">Jungwoo Ha</a>.
+              <br>
+              <em>*Equal contribution</em>
+              <br>
+              <em>ICLR</em>, 2021
+
+              <br>
+              <a href="data/heo2021iclr_adamp.txt">Bibtex</a> /
+              <a href="https://github.com/clovaai/AdamP">Code</a> /
+              <a href="https://clovaai.github.io/AdamP/">Project</a>
+
+              <p></p>
+              <p>
+                Adding projection operation on Adam and SGD optimizer to mitigate slowdown of convergence due to rapidly increased norm.
+                It leads to performance improvements across the board with easy installation (<em>pip install adamp</em>).
+              </p>
+            </td>
+          </tr>
+
+          <!--
+          arxiv 2020 VideoMix: Rethinking Data Augmentation for Video Classification
+          -->
+          <tr>
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <img src="images/yun2020videomix.png" alt="yun2020videomix" width="160" >
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a href="data/yun2020videomix.pdf">
+              <papertitle>VideoMix: Rethinking Data Augmentation for Video Classification</papertitle>
+              </a>
+              <br>
+              <strong>Sangdoo Yun</strong>,
+              <a href="https://coallaoh.github.io/">Seong Joon Oh</a>,
+              <a href="https://sites.google.com/view/byeongho-heo/home">Byeongho Heo</a>,
+              <a href="https://sites.google.com/site/dyhan0920/">Dongyoon Han</a>,
+              <a href="https://scholar.google.com/citations?user=HPd_1LMAAAAJ&hl=en">Jinhyung Kim</a>.
+              <br>
+              <em>arXiv</em>, 2020
+              <br>
+              <a href="data/yun2020videomix.txt">Bibtex</a>
+              <p></p>
+              <p>Extension of <a href="#yun2019cutmix">CutMix</a> to video recognition.
+                We search for the best mixing strategy for video tasks.
+              </p>
+            </td>
+          </tr>
+
+
+          <!--
+          ICML 2020 Learning De-biased Representations with Biased Representations
+          -->
+          <tr>
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <img src="images/bahng2020rebias.png" alt="bahng2020rebias" width="160" >
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a href="data/bahng2020rebias.pdf" id="bahng2020rebias">
+              <papertitle>Learning De-biased Representations with Biased Representations</papertitle>
+              </a>
+              <br>
+              <a href="https://hjbahng.github.io/">Hyojin Bahng</a>,
+              <a href="https://sanghyukchun.github.io/home/">Sanghyuk Chun</a>,
+              <strong>Sangdoo Yun</strong>,
+              <a href="https://sangdooyun.github.io/">Jaegul Choo</a>,
+              <a href="https://coallaoh.github.io/">Seong Joon Oh</a>,
+              <br>
+              <em>ICML</em>, 2020
+              <br>
+              <a href="data/bahng2020rebias.txt">Bibtex</a> /
+              <a href="https://github.com/clovaai/rebias">Code</a> /
+              <a href="https://icml.cc/virtual/2020/poster/5783">ICML Virtual</a> /
+              <a href="https://www.youtube.com/watch?v=lkjMxZDGubA">Youtube</a>
+              <p></p>
+              <p>
+                Models tend to learn biased representations.
+                To "de-bias" model representation, we "minus" biased representation from the target model.
+
+              </p>
+            </td>
+          </tr>
+
+          <!--
+          arxiv 2019 EXTD: Extremely tiny face detector via iterative filter reuse
+          -->
+          <tr>
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <img src="images/yoo2019extd.png" alt="yoo2019extd" width="160" >
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a href="data/yoo2019extd.pdf" id="yoo2019extd">
+              <papertitle>EXTD: Extremely tiny face detector via iterative filter reuse</papertitle>
+              </a>
+              <br>
+              <a href="https://yjyoo3312.github.io/">Youngjoon Yoo</a>,
+              <a href="https://sites.google.com/site/dyhan0920/">Dongyoon Han</a>,
+              <strong>Sangdoo Yun</strong>.
+              <br>
+              <em>arXiv</em>, 2019
+              <br>
+              <a href="data/yoo2019extd.txt">Bibtex</a> /
+              <a href="https://github.com/clovaai/EXTD_Pytorch">Code</a>
+
+              <p></p>
+              <p>
+                Face detector has multi-stage for multi-resolution, but it indeed does not require such complex feature encoding.
+                We introduce an extremely tiny face detector via iterative filter reuse.
+              </p>
+            </td>
+          </tr>
+
+          <!--
+          ICCV 2019 CutMix: Regularization Strategy to Train Strong Classifiers with Localizable Features
+          -->
+          <tr>
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <img src="images/yun2019cutmix.png" alt="yun2019cutmix" width="160" >
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a href="data/yun2019cutmix.pdf" id="yun2019cutmix">
+              <papertitle>CutMix: Regularization Strategy to Train Strong Classifiers with Localizable Features</papertitle>
+              </a>
+              <br>
+              <strong>Sangdoo Yun</strong>,
+              <a href="https://sites.google.com/site/dyhan0920/">Dongyoon Han</a>,
+              <a href="https://coallaoh.github.io/">Seong Joon Oh</a>,
+              <a href="https://sanghyukchun.github.io/home/">Sanghyuk Chun</a>,
+              <a href="https://sites.google.com/site/junsukchoe/">Junsuk Choe</a>,
+              <a href="https://yjyoo3312.github.io/">Youngjoon Yoo</a>.
+
+              <br>
+              <em>ICCV</em>, 2019 <span style="color: red; "><strong>(Oral Presentation)</strong></span>
+              <br>
+              <a href="data/yun2019cutmix.txt">Bibtex</a> /
+              <a href="https://github.com/clovaai/CutMix-PyTorch">Code</a> /
+              <a href="data/yun2019cutmix_talk.pdf">Talk</a> /
+              <a href="data/yun2019cutmix_poster.pdf">Poster</a> /
+              <a href="https://clova-ai.blog/2019/07/15/cutmix-regularization-strategy-to-train-strong-classifiers-with-localizable-features/">Blog</a>
+
+              <p></p>
+              <p>
+                Simple cut-and-paste strategy brings significant performance boosts across tasks and datasets.
+              </p>
+            </td>
+          </tr>
+
+          <!--
+          ICCV 2019 What Is Wrong with Scene Text Recognition Model Comparisons? Dataset and Model Analysis
+          -->
+          <tr>
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <img src="images/baek2019STR.png" alt="baek2019STR" width="160" >
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a href="data/baek2019str.pdf" id="baek2019STR">
+              <papertitle>What Is Wrong with Scene Text Recognition Model Comparisons? Dataset and Model Analysis</papertitle>
+              </a>
+              <br>
+              <a href="http://jeonghunbaek.net/">Jeonghun Baek</a>,
+              <a href="http://geewook.kim/">Geewook Kim</a>,
+              <a href="https://scholar.google.com/citations?user=syo1R9UAAAAJ&hl=en">Junyeop Lee</a>,
+              <a href="https://sites.google.com/view/sungraepark">Sungrae Park</a>,
+              <a href="https://sites.google.com/site/dyhan0920/">Dongyoon Han</a>,
+              <strong>Sangdoo Yun</strong>,
+              <a href="https://coallaoh.github.io/">Seong Joon Oh</a>,
+              <a href="https://github.com/hwalsuklee">Hwalsuk Lee</a>.
+
+              <br>
+              <em>ICCV</em>, 2019 <span style="color: red; "><strong>(Oral Presentation)</strong></span>
+              <br>
+              <a href="data/baek2019STR.txt">Bibtex</a> /
+              <a href="https://github.com/clovaai/deep-text-recognition-benchmark">Code</a>
+
+              <p></p>
+              <p>
+                Scene text recognition evaluation has been somewhat wrong because the model and dataset were not controlled.
+                We provide unified benchmark protocol and fairly reproduced results. We also found a new architecture from those unified experiments.
+              </p>
+            </td>
+          </tr>
+
+          <!--
+          ICCV 2019 A Comprehensive Overhaul of Feature Distillation
+          -->
+          <tr>
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <img src="images/heo2019iccv_od.png" alt="heo2019iccv_od" width="160" >
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a href="data/heo2019overhauldistill.pdf" id="heo2019iccv_od">
+              <papertitle>A Comprehensive Overhaul of Feature Distillation</papertitle>
+              </a>
+              <br>
+
+              <a href="https://sites.google.com/view/byeongho-heo/home">Byeongho Heo</a>,
+              <a href="https://sites.google.com/site/jeesookim0305">Jeesoo Kim</a>,
+              <strong>Sangdoo Yun</strong>,
+              <a href="https://sites.google.com/view/hyojin-park">Hyojin Park</a>,
+              <a href="http://mipal.snu.ac.kr/index.php/Nojun_Kwak">Nojun Kwak</a>,
+              <a href="http://pil.snu.ac.kr/about/view.do?idx=1">Jin Young Choi</a>.
+
+              <br>
+              <em>ICCV</em>, 2019
+              <br>
+              <a href="data/heo2019overhauldistill.txt">Bibtex</a> /
+              <a href="https://github.com/clovaai/overhaul-distillation">Code</a>
+
+              <p></p>
+              <p>
+                There are lots of options for feature distillation: loss function, distillation position, teacher/student transforms.
+                We study all the possible methods and provide comprehensive overhaul for feature distillation.
+                Through this, we found the best feature distillation method which even beats the teacher's accuracy.
+              </p>
+            </td>
+          </tr>
+
+
+          <!--
+          ICMLw 2019 An Empirical Evaluation on Robustness and Uncertainty of Regularization Methods
+          -->
+          <tr>
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <img src="images/chun2019robustness.png" alt="chun2019robustness" width="160" >
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a href="data/chun2019robustness.pdf">
+              <papertitle>An Empirical Evaluation on Robustness and Uncertainty of Regularization Methods</papertitle>
+              </a>
+              <br>
+              <a href="https://sanghyukchun.github.io/home/">Sanghyuk Chun</a>,
+              <a href="https://coallaoh.github.io/">Seong Joon Oh</a>,
+              <strong>Sangdoo Yun</strong>,
+              <a href="https://sites.google.com/site/dyhan0920/">Dongyoon Han</a>,
+              <a href="https://sites.google.com/site/junsukchoe/">Junsuk Choe</a>,
+              <a href="https://yjyoo3312.github.io/">Youngjoon Yoo</a>.
+
+              <br>
+              <em>ICML Workshop</em>, 2019
+              <br>
+              <a href="data/chun2019icmlw.txt">Bibtex</a>
+
+              <p></p>
+              <p>
+                We provide structured experimental results for the effectiveness of regularization methods on robustness and uncertainty benchmarks.
+              </p>
+            </td>
+          </tr>
+
+          <!--
+          CVPR 2019 Character Region Awareness for Text Detection
+          -->
+          <tr>
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <img src="images/baek2019craft.png" alt="baek2019craft" width="160" >
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a href="data/baek2019craft.pdf" id="baek2019craft">
+              <papertitle>Character Region Awareness for Text Detection</papertitle>
+              </a>
+              <br>
+              <a href="https://scholar.google.com/citations?user=5rN9zcYAAAAJ&hl=en/">Youngmin Baek</a>,
+              <a href="https://scholar.google.com/citations?user=UAcfGOgAAAAJ&hl=en">Bado Lee</a>,
+              <a href="https://sites.google.com/site/dyhan0920/">Dongyoon Han</a>,
+              <strong>Sangdoo Yun</strong>,
+              <a href="https://github.com/hwalsuklee">Hwalsuk Lee</a>.
+
+              <br>
+              <em>CVPR</em>, 2019
+              <br>
+              <a href="data/baek2019craft.txt">Bibtex</a> /
+              <a href="https://github.com/clovaai/CRAFT-pytorch">Code</a>
+
+              <p></p>
+              <p>
+                 Text detectors often fail to detect real-world scene-texts, <em>e.g.</em>, curved or long texts.
+                 We propose a two-stage approach; first detect individual characters and connect them.
+                 We also introduce semi-weakly-supervised training trick to boost our detector's performance.
+              </p>
+            </td>
+          </tr>
+
+          <!--
+          AAAI 2019 Knowledge Transfer via Distillation of Activation Boundaries Formed by Hidden Neurons
+          -->
+          <tr>
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <img src="images/heo2019aaai_ab.png" alt="heo2019aaai_ab" width="160" >
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a href="data/heo2019aaai_ab.pdf">
+              <papertitle>Knowledge Transfer via Distillation of Activation Boundaries Formed by Hidden Neurons</papertitle>
+              </a>
+              <br>
+
+              <a href="https://sites.google.com/view/byeongho-heo/home">Byeongho Heo</a>,
+              <a href="http://vml.hanyang.ac.kr/people/minsik-lee/?doing_wp_cron=1639638686.3880200386047363281250">Minsik Lee</a>,
+              <strong>Sangdoo Yun</strong>,
+              <a href="http://pil.snu.ac.kr/about/view.do?idx=1">Jin Young Choi</a>.
+
+              <br>
+              <em>AAAI</em>, 2019  <span style="color: red; "><strong>(Oral Presentation)</strong></span>
+              <br>
+              <a href="data/heo2019aaai_ab.txt">Bibtex</a> /
+              <a href="https://github.com/bhheo/AB_distillation">Code</a>
+
+              <p></p>
+              <p>
+                Previous feature distillation approach (<em>e.g.</em> <a href="https://arxiv.org/abs/1412.6550">FitNet</a>) focuses on mimicking the teacher's feature values.
+                Rather, our goal is to transfer the actual "activation boundary" by assigning binary labels (<em>i.e.</em> activated or not) for all the neurons.
+                Our loss minimizes the binary-labels' similarity.
+                It shows outperforming performance against state-of-the-art KD methods.
+
+              </p>
+            </td>
+          </tr>
+
+          <!--
+          AAAI 2019 Knowledge Distillation with Adversarial Samples Supporting Decision Boundary
+          -->
+          <tr>
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <img src="images/heo2019aaai_adv.png" alt="heo2019aaai_adv" width="160" >
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a href="data/heo2019aaai_adv.pdf">
+              <papertitle>Knowledge Distillation with Adversarial Samples Supporting Decision Boundary</papertitle>
+              </a>
+              <br>
+
+              <a href="https://sites.google.com/view/byeongho-heo/home">Byeongho Heo</a>,
+              <a href="http://vml.hanyang.ac.kr/people/minsik-lee/?doing_wp_cron=1639638686.3880200386047363281250">Minsik Lee</a>,
+              <strong>Sangdoo Yun</strong>,
+              <a href="http://pil.snu.ac.kr/about/view.do?idx=1">Jin Young Choi</a>.
+
+              <br>
+              <em>AAAI</em>, 2019
+              <br>
+              <a href="data/heo2019aaai_adv.txt">Bibtex</a> /
+              <a href="https://github.com/bhheo/BSS_distillation">Code</a>
+
+              <p></p>
+              <p>
+                To find teacher network's decision boundary more precisely, we adopt adversarial attack technique.
+                We show the attacked samples improve distillation performance.
+              </p>
+            </td>
+          </tr>
+
+          <!--
+          ECCV 2018 Unsupervised Holistic Image Generation from Key Local Patches
+          -->
+          <tr>
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <img src="images/lee2018keypatchgan.png" alt="lee2018keypatchgan" width="160" >
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a href="data/lee2018keypatchgan.pdf">
+              <papertitle>Unsupervised Holistic Image Generation from Key Local Patches</papertitle>
+              </a>
+              <br>
+              <a href="http://rllab.snu.ac.kr/people/alumni-folder/donghoon-lee/donghoon-lee">Donghoon Lee</a>,
+              <strong>Sangdoo Yun</strong>,
+              <a href="https://sites.google.com/view/sungjoon-choi/personal">Sungjoon Choi</a>,
+              <a href="http://rllab.snu.ac.kr/people/hwiyeon-yoo/hwiyeon-yoo">Hwiyeon Yoo</a>,
+              <a href="https://faculty.ucmerced.edu/mhyang/">Ming-Hsuan Yang</a>,
+              <a href="http://rllab.snu.ac.kr/people/songhwai-oh">Songhwai Oh</a>
+
+              <br>
+              <em>ECCV</em>, 2018
+              <br>
+              <a href="data/lee2018keypatchgan.txt">Bibtex</a> /
+              <a href="https://github.com/hellbell/KeyPatchGan">Code</a>
+
+              <p></p>
+              <p>
+                We train a GAN model that generates a holistic image from its small parts.
+              </p>
+            </td>
+          </tr>
+
+          <!--
+          CVPR 2018 Context-aware Deep Feature Compression for High-speed Visual Tracking
+          -->
+          <tr>
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <img src="images/choi2018traca.png" alt="choi2018traca" width="160" >
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a href="data/choi2018traca.pdf">
+              <papertitle>Context-aware Deep Feature Compression for High-speed Visual Tracking</papertitle>
+              </a>
+              <br>
+
+              <a href="https://sites.google.com/site/jwchoivision/">Jongwon Choi</a>,
+              <a href="https://hyungjinchang.wordpress.com/">Hyung Jin Chang</a>,
+              <a href="https://www.tobiasfischer.info/">Tobias Fischer</a>,
+              <strong>Sangdoo Yun</strong>,
+              <a href="http://pil.snu.ac.kr/member/view.do?idx=15">Kyuewang Lee</a>,
+              <a href="http://pil.snu.ac.kr/member/view.do?idx=7">Jiyeoup Jeong</a>,
+              <a href="https://www.imperial.ac.uk/people/y.demiris">Yiannis Demiris</a>,
+              <a href="http://pil.snu.ac.kr/about/view.do?idx=1">Jin Young Choi</a>.
+
+              <br>
+              <em>CVPR</em>, 2018
+              <br>
+              <a href="data/choi2018traca.txt">Bibtex</a> /
+              <a href="https://sites.google.com/site/jwchoivision/home/traca">Code</a>
+
+              <p></p>
+              <p>
+                Correlation-based trackers have shown promising performance using hand-crafted features (<em>e.g.,</em> HOG).
+                When adopting deep features for correlation-based trackers, the bottleneck is the computing costs for CNN feature extraction.
+                We propose a deep feature compression method for high-speed and high-accuracy visual tracker.
+              </p>
+            </td>
+          </tr>
+
+          <!--
+          TNNLS 2018 Action-Driven Visual Object Tracking with Deep Reinforcement Learning
+          -->
+          <tr>
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <img src="images/yun2017adnet.png" alt="yun2018tnnls_adnet" width="160" >
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a href="https://ieeexplore.ieee.org/document/8306309" id="yun2018_adnet">
+              <papertitle>Action-Driven Visual Object Tracking with Deep Reinforcement Learning</papertitle>
+              </a>
+              <br>
+
+              <strong>Sangdoo Yun</strong>,
+              <a href="https://sites.google.com/site/jwchoivision/">Jongwon Choi</a>,
+              <a href="https://yjyoo3312.github.io/">Youngjoon Yoo</a>,
+              <a href="https://sites.google.com/view/kiminyun/profile">Kimin Yun</a>,
+              <a href="http://pil.snu.ac.kr/about/view.do?idx=1">Jin Young Choi</a>.
+
+              <br>
+              <em>TNNLS</em>, 2018
+              <br>
+              <a href="data/yun2018tnnls.txt">Bibtex</a> /
+              <a href="https://github.com/hellbell/ADNet">Code</a>
+
+              <p></p>
+              <p>
+                A journal extension of <a href="#yun2017_adnet">ADNet (CVPR'17)</a>.
+              </p>
+            </td>
+          </tr>
+
+
+          <!--
+          CVPR 2017 Action-Decision Networks for Visual Tracking with Deep Reinforcement Learning
+          -->
+          <tr>
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <img src="images/yun2017adnet.png" alt="yun2017_adnet" width="160" >
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a href="http://openaccess.thecvf.com/content_cvpr_2017/papers/Yun_Action-Decision_Networks_for_CVPR_2017_paper.pdf" id="yun2017_adnet">
+              <papertitle>Action-Decision Networks for Visual Tracking with Deep Reinforcement Learning</papertitle>
+              </a>
+              <br>
+
+              <strong>Sangdoo Yun</strong>,
+              <a href="https://sites.google.com/site/jwchoivision/">Jongwon Choi</a>,
+              <a href="https://yjyoo3312.github.io/">Youngjoon Yoo</a>,
+              <a href="https://sites.google.com/view/kiminyun/profile">Kimin Yun</a>,
+              <a href="http://pil.snu.ac.kr/about/view.do?idx=1">Jin Young Choi</a>.
+
+              <br>
+              <em>CVPR</em>, 2017  <span style="color: red; "><strong>(Spotlight Presentation)</strong></span>
+              <br>
+              <a href="data/yun2017adnet.txt">Bibtex</a> /
+              <a href="https://github.com/hellbell/ADNet">Code</a>
+
+              <p></p>
+              <p>
+                We fomulate visual tracking as a decision making process and propose a reinforcement learning method to train visual trackers.
+                Our RL-based tracker shows state-of-the-art level performance and especially it shows high efficiency with semi-supervised scenario.
+
+              </p>
+            </td>
+          </tr>
+
+          <!--
+          CVPR 2017 Variational Autoencoded Regression: High Dimensional Regression of Visual Data on Complex Manifold
+          -->
+          <tr>
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <img src="images/yoo2017vae.png" alt="yoo2017vae" width="160" >
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a href="http://openaccess.thecvf.com/content_cvpr_2017/papers/Yoo_Variational_Autoencoded_Regression_CVPR_2017_paper.pdf">
+              <papertitle>Variational Autoencoded Regression: High Dimensional Regression of Visual Data on Complex Manifold</papertitle>
+              </a>
+              <br>
+
+              <a href="https://yjyoo3312.github.io/">Youngjoon Yoo</a>,
+              <strong>Sangdoo Yun</strong>,
+              <a href="https://hyungjinchang.wordpress.com/">Hyung Jin Chang</a>,
+              <a href="https://www.imperial.ac.uk/people/y.demiris">Yiannis Demiris</a>,
+              <a href="http://pil.snu.ac.kr/about/view.do?idx=1">Jin Young Choi</a>.
+
+              <br>
+              <em>CVPR</em>, 2017
+              <br>
+              <a href="data/yoo2017vae.txt">Bibtex</a> /
+              <a href="https://sites.google.com/view/yjyoo3312/project_page_vaeregression">Code</a>
+
+              <p></p>
+              <p>
+                Generating visual data from given condition (<em>e.g.</em> frame index, pose skeleton, etc.) is difficult due to the visual data's high dimensions.
+                Our idea is to regress the visual data in latent space which is encoded by <a href="https://arxiv.org/abs/1312.6114">VAE</a>.
+                Our method can generate high-quality visual data from frame index or pose skeletons.
+              </p>
+            </td>
+          </tr>
+
+
+          <!--
+          CVPR 2017 Attentional Correlation Filter Network for Adaptive Visual Tracking
+          -->
+          <tr>
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <img src="images/choi2017acfn.png" alt="choi2017acfn" width="160" >
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a href="http://openaccess.thecvf.com/content_cvpr_2017/papers/Choi_Attentional_Correlation_Filter_CVPR_2017_paper.pdf">
+              <papertitle>Attentional Correlation Filter Network for Adaptive Visual Tracking</papertitle>
+              </a>
+              <br>
+
+              <a href="https://sites.google.com/site/jwchoivision/">Jongwon Choi</a>,
+              <a href="https://hyungjinchang.wordpress.com/">Hyung Jin Chang</a>,
+              <strong>Sangdoo Yun</strong>,
+              <a href="https://www.tobiasfischer.info/">Tobias Fischer</a>,
+              <a href="https://www.imperial.ac.uk/people/y.demiris">Yiannis Demiris</a>,
+              <a href="http://pil.snu.ac.kr/about/view.do?idx=1">Jin Young Choi</a>.
+
+              <br>
+              <em>CVPR</em>, 2017
+              <br>
+              <a href="data/choi2017acfn.txt">Bibtex</a> /
+              <a href="https://sites.google.com/site/jwchoivision/home/acfn-1">Code</a>
+
+              <p></p>
+              <p>
+                Correlation-filter-based trackers usually use pre-defined feature extractor (<em>e.g.,</em> color, edge, etc).
+                Using more correlation filters with diverse feature extractors at the same time will bring higher accuracy, but it induces speed-accuracy trade-off.
+                This work extends the number of correlation filters more than one hundred for maximizing accuracy.
+                To deal with heavy computation, we introduce a LSTM-based attentional filter selection approach.
+                Our method the state-of-the-art performance amongst real-time trackers.
+
+              </p>
+            </td>
+          </tr>
+
+
+          <!--
+          CVPR 2017 PaletteNet: Image Recolorization with Given Color Palette
+          -->
+          <tr>
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <img src="images/cho2017palette.png" alt="cho2017palette" width="160" >
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a href="http://openaccess.thecvf.com/content_cvpr_2017_workshops/w12/papers/Cho_PaletteNet_Image_Recolorization_CVPR_2017_paper.pdf">
+              <papertitle>PaletteNet: Image Recolorization with Given Color Palette</papertitle>
+              </a>
+              <br>
+
+              <a href="http://pil.snu.ac.kr/member/view.do?idx=9">Junho Cho</a>,
+              <strong>Sangdoo Yun</strong>,
+              <a href="https://cv.snu.ac.kr/index.php/~kmlee/">Kyoung Mu Lee</a>,
+              <a href="http://pil.snu.ac.kr/about/view.do?idx=1">Jin Young Choi</a>.
+
+              <br>
+              <em>CVPR Workshop</em>, 2017
+              <br>
+              <a href="data/cho2017palette.txt">Bibtex</a>
+              <p></p>
+              <p>
+                We propose a image colorization method from the given palette.
+              </p>
+            </td>
+          </tr>
+
+          <!--
+          arXiv 2017 Butterfly Effect: Bidirectional Control of Classification Performance by Small Additive Perturbation
+          -->
+          <tr>
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <img src="images/yoo2017butterfly.png" alt="yoo2017butterfly" width="160" >
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a href="data/yoo2017butterfly.pdf">
+              <papertitle>Butterfly Effect: Bidirectional Control of Classification Performance by Small Additive Perturbation</papertitle>
+              </a>
+              <br>
+
+              <a href="https://yjyoo3312.github.io/">Youngjoon Yoo</a>,
+              <a href="http://mipal.snu.ac.kr/index.php/SeongUk_Park">Seonguk Park</a>,
+              <a href="http://mipal.snu.ac.kr/index.php/Junyoung_Choi">Junyoung Choi</a>,
+              <strong>Sangdoo Yun</strong>,
+              <a href="http://mipal.snu.ac.kr/index.php/Nojun_Kwak">Nojun Kwak</a>.
+
+              <br>
+              <em>arXiv</em>, 2017
+              <br>
+              <a href="data/yoo2017butterfly.txt">Bibtex</a>
+              <p></p>
+              <p>
+                This paper proposes a new algorithm for controlling classification results by generating a small perturbation without changing the classifier network.
+                We show that the perturbation can degrade the performance like adversarial attack, or can improve classification accuracy as well.
+
+              </p>
+            </td>
+          </tr>
+
+
+          <!--
+          CVPR 2016 Visual Path Prediction in Complex Scenes with Crowded Moving Objects
+          -->
+          <tr>
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <img src="images/yoo2016lda.png" alt="yoo2016lda" width="160" >
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a href="https://www.cv-foundation.org/openaccess/content_cvpr_2016/papers/Yoo_Visual_Path_Prediction_CVPR_2016_paper.pdf">
+              <papertitle>Visual Path Prediction in Complex Scenes with Crowded Moving Objects</papertitle>
+              </a>
+              <br>
+
+              <a href="https://yjyoo3312.github.io/">Youngjoon Yoo</a>,
+              <a href="https://sites.google.com/view/kiminyun/profile">Kimin Yun</a>,
+              <strong>Sangdoo Yun</strong>,
+              JongHee Hong,
+              <a href="https://www.linkedin.com/in/hawook-jeong-b7472b119/">Hawook Jeong</a>,
+              <a href="http://pil.snu.ac.kr/about/view.do?idx=1">Jin Young Choi</a>.
+              <br>
+              <em>CVPR</em>, 2016
+              <br>
+              <a href="data/yoo2016lda.txt">Bibtex</a>
+              <p></p>
+              <p>
+                Learn latent Dirichlet allocation model from the trajectory of people and predict future paths of people.
+              </p>
+            </td>
+          </tr>
+
+          <!--
+          ECCV workshop 2016 Density-aware Pedestrian Proposal Networks for Robust People Detection in Crowded Scenes
+          -->
+          <tr>
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <img src="images/yun2016density.png" alt="yun2016density" width="160" >
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a href="https://openreview.net/forum?id=S1N49t-uZr">
+              <papertitle>Density-aware Pedestrian Proposal Networks for Robust People Detection in Crowded Scenes</papertitle>
+              </a>
+              <br>
+              <strong>Sangdoo Yun</strong>,
+              <a href="https://sites.google.com/view/kiminyun/profile">Kimin Yun</a>,
+              <a href="https://sites.google.com/site/jwchoivision/">Jongwon Choi</a>,
+              <a href="http://pil.snu.ac.kr/about/view.do?idx=1">Jin Young Choi</a>.
+              <br>
+              <em>ECCV Workshop</em>, 2016
+              <br>
+              <a href="data/yun2016density.txt">Bibtex</a>
+              <p></p>
+              <p>
+                Detecting people in crowded scene by considering crowd density information.
+                Our intuition is more people should be detected in crowded region.
+              </p>
+            </td>
+          </tr>
+
+          <!--
+          WACV 2016 Voting-based 3D Object Cuboid Detection Robust to Partial Occlusion from RGB-D Images
+          -->
+          <tr>
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <img src="images/yun2016voting.png" alt="yun2016voting" width="160" >
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a href="https://ieeexplore.ieee.org/document/7477654">
+              <papertitle>Voting-based 3D Object Cuboid Detection Robust to Partial Occlusion from RGB-D Images</papertitle>
+              </a>
+              <br>
+              <strong>Sangdoo Yun</strong>,
+              <a href="https://www.linkedin.com/in/hawook-jeong-b7472b119/">Hawook Jeong</a>,
+              <a href="https://www.linkedin.com/in/soo-wan-kim-53936111b/">Soo Wan Kim</a>,
+              <a href="http://pil.snu.ac.kr/about/view.do?idx=1">Jin Young Choi</a>.
+              <br>
+              <em>WACV</em>, 2016
+              <br>
+              <a href="data/yun2016voting.txt">Bibtex</a>
+              <p></p>
+              <p>
+                Predicting holistic 3D structure from pratially occluded RGB-D images.
+                The key idea is a voting mechanism. Each part of an object indicates the center of the 3D structure.
+              </p>
+            </td>
+          </tr>
+
+          <!--
+          AVSS 2014 Visual Surveillance Briefing System: Event-based Video Retrieval and Summarization
+          -->
+          <tr>
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <img src="images/yun2014vsb.png" alt="yun2014vsb" width="160" >
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a href="http://ieeexplore.ieee.org/document/6918669/">
+              <papertitle>Visual Surveillance Briefing System: Event-based Video Retrieval and Summarization</papertitle>
+              </a>
+              <br>
+              <strong>Sangdoo Yun</strong>,
+              <a href="https://sites.google.com/view/kiminyun/profile">Kimin Yun</a>,
+              <a href="https://www.linkedin.com/in/soo-wan-kim-53936111b/">Soo Wan Kim</a>,
+              <a href="https://yjyoo3312.github.io/">Youngjoon Yoo</a>,
+              <a href="http://pil.snu.ac.kr/member/view.do?idx=7">Jiyeoup Jeong</a>.
+              <br>
+              <em>AVSS</em>, 2014 <span style="color: red; "><strong>(Oral Presentation)</strong></span>
+              <br>
+              <a href="data/yun2014vsb.txt">Bibtex</a>
+              <p></p>
+              <p>
+                We propose a Visual Surveillance Briefing (VSB) system which generates summarized video with important events.
+              </p>
+            </td>
+          </tr>
+
+          <!--
+          ICPR 2014 Self-organizing Cascaded Structure of Deformable Part Models for Fast Object Detection
+          -->
+          <tr>
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <img src="images/yun2014dpm.png" alt="yun2014dpm" width="160" >
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a href="https://ieeexplore.ieee.org/document/6977440/">
+              <papertitle>Self-organizing Cascaded Structure of Deformable Part Models for Fast Object Detection</papertitle>
+              </a>
+              <br>
+              <strong>Sangdoo Yun</strong>,
+              <a href="https://www.linkedin.com/in/hawook-jeong-b7472b119/">Hawook Jeong</a>,
+              Woo-Sung Kang,
+              <a href="https://sites.google.com/view/byeongho-heo/home">Byeongho Heo</a>,
+              <a href="http://pil.snu.ac.kr/about/view.do?idx=1">Jin Young Choi</a>.
+              <br>
+              <em>ICPR</em>, 2014
+              <br>
+              <a href="data/yun2014dpm.txt">Bibtex</a>
+              <p></p>
+              <p>
+                We improve the computational efficiency of deformable part model (DPM) by re-organizing the order of part filters.
+                With a cascaded structure, we place more important part filter at first for early rejection.
+              </p>
+            </td>
+          </tr>
+
+          <!--
+          IVCNZ 2012 Multiple ground plane estimation for 3D scene understanding using a monocular camera
+          -->
+          <tr>
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <img src="images/yun2012mgp.png" alt="yun2012mgp" width="160" >
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a href="https://dl.acm.org/doi/10.1145/2425836.2425838">
+              <papertitle>Multiple ground plane estimation for 3D scene understanding using a monocular camera</papertitle>
+              </a>
+              <br>
+              <strong>Sangdoo Yun</strong>,
+              <a href="https://www.linkedin.com/in/soo-wan-kim-53936111b/">Soo Wan Kim</a>,
+              <a href="https://www.cs.ubc.ca/~kmyi/">Kwang Moo Yi</a>,
+              <a href="https://www.linkedin.com/in/haanju-yoo/">Haan-ju Yoo</a>,
+              <a href="http://pil.snu.ac.kr/about/view.do?idx=1">Jin Young Choi</a>.
+              <br>
+              <em>IVCNZ</em>, 2012  <span style="color: red; "><strong>(Oral Presentation)</strong></span>
+              <br>
+              <a href="data/yun2012mgp.txt">Bibtex</a>
+              <p></p>
+              <p>
+                Ground plain estimation is important for 3D scene understanding.
+                Usually models assume the scene has a single ground plain, but sometimes it has multiple ground planes.
+                We introduce multiple ground plane estimation for more robust scene understanding.
+
+              </p>
+            </td>
+          </tr>
+
+
+        </tbody></table>
+
+        <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20"><tbody>
+          <tr>
+            <td>
+              <heading>Academic service</heading>
+            </td>
+          </tr>
+        </tbody></table>
+
+        <table width="100%" align="center" border="0" cellpadding="20"><tbody>
+          <tr>
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <img src="images/imagenet2021neurips_workshop.jpeg" alt="imagenet2021neurips_workshop" width="160">
+            </td>
+            <td width="75%" valign="center">
+              <a href="https://sites.google.com/view/imagenet-workshop/">
+              <papertitle>Workshop on ImageNet: Past, Present, and Future.</papertitle>
+              </a>
+              <br>
+              <a href="https://eml-unitue.de/people/zeynep-akata">Zeynep Akata</a>,
+              <a href="http://lucasb.eyer.be/">Lucas Beyer</a>,
+              <a href="https://sanghyukchun.github.io/home/">Sanghyuk Chun</a>,
+              <a href="https://eml-unitue.de/people/almut-sophia-koepke">Almut Sophia Koepke</a>,
+              <a href="https://europe.naverlabs.com/people_user/diane-larlus/">Diane Larlus</a>,
+              <a href="https://coallaoh.github.io/">Seong Joon Oh</a>,
+              <a href="https://europe.naverlabs.com/people_user/Rafael-Sampaio-De-Rezende/">Rafael Sampaio de Rezende</a>,
+              <strong>Sangdoo Yun</strong>,
+              <a href="https://sites.google.com/site/xzhai89">‪Xiaohua Zhai‬</a>.
+              <br>
+              <em>NeurIPS</em>, 2021
+              <br>
+              <a href="https://sites.google.com/view/imagenet-workshop/">Website</a> /
+              <a href="https://neurips.cc/virtual/2021/workshop/21879">Virtual Page</a> /
+              <a href="https://www.rsipvision.com/ComputerVisionNews-2021December/12/">Preview in CV News</a>
+
+              <p>
+                <a href="https://image-net.org/">ImageNet</a> has played an important role in CV and ML in the last decade.
+                It was created to train image classifiers at first but it has become a go-to benchmark for model architecture and training techniques.
+                We believe now is a good time to discuss the ImageNet and its future.
+                The workshop's questions will be like:
+                Did we solve ImageNet?
+                What have we learned from ImageNet?
+                What should the next-generation ImageNet-like dataset be?
+              </p>
+
+              <br>
+            </td>
+          </tr>
+        </tbody></table>
+
+
+        <table width="100%" align="center" border="0" cellpadding="20"><tbody>
+          <tr>
+            <td width="75%" valign="center">
+              <strong>Reviewing activities</strong>
+              <p></p>
+              <ul>
+                <li>Serve as a reviewer at CVPR, ICCV, ECCV, ICML, NeurIPS, ICLR, AAAI, etc.</li>
+                <li>Outstanding reviewer awards at
+                  <a href="https://cvpr2021.thecvf.com/node/184">CVPR'21</a>,
+                  <a href="https://iccv2021.thecvf.com/outstanding-reviewers">ICCV'21</a>. </li>
+                <li>Serve as a meta-reviewer at AAAI'22</li>
+              </ul>
+            </td>
+          </tr>
+        </tbody></table>
+
+        <table width="100%" align="center" border="0" cellpadding="20"><tbody>
+          <tr>
+            <td width="75%" valign="center">
+              <strong>Talks</strong>
+              <p></p>
+              <ul>
+                <li><a href="https://docs.google.com/presentation/d/1I21EApGD05KfKCLPsnbNjWgtUA7eeyPzjvfi25ZsqaA/edit?usp=sharing">How to Make Deep Models Strong and Robust</a>, UNIST, Jun, 2021</li>
+              </ul>
+            </td>
+          </tr>
+        </tbody></table>
+
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+          <tr>
+            <td style="padding:0px">
+              <br>
+              <p style="text-align:right;font-size:small;">
+                Template borrowed from <a href="https://jonbarron.info/">Jon Barron</a> and <a href="https://coallaoh.github.io/">Seong Joon Oh</a>.
+              </p>
+            </td>
+          </tr>
+        </tbody></table>
+
+      </tbody>
+  </table>
+</body>
+
 </html>

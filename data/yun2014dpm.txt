@@ -1,0 +1,8 @@
+@inproceedings{yun2014self,
+  title={Self-Organizing Cascaded Structure of Deformable Part Models for Fast Object Detection},
+  author={Yun, Sangdoo and Jeong, Hawook and Kang, Woo-Sung and Heo, Byeongho and Choi, Jin Young},
+  booktitle={2014 22nd International Conference on Pattern Recognition},
+  pages={4246--4250},
+  year={2014},
+  organization={IEEE}
+}

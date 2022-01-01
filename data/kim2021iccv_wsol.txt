@@ -1,0 +1,8 @@
+@InProceedings{Kim_2021_ICCV,
+    author    = {Kim, Jeesoo and Choe, Junsuk and Yun, Sangdoo and Kwak, Nojun},
+    title     = {Normalization Matters in Weakly Supervised Object Localization},
+    booktitle = {Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV)},
+    month     = {October},
+    year      = {2021},
+    pages     = {3427-3436}
+}

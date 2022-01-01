@@ -1,0 +1,7 @@
+@InProceedings{Cho_2017_CVPR_Workshops,
+author = {Cho, Junho and Yun, Sangdoo and Mu Lee, Kyoung and Young Choi, Jin},
+title = {PaletteNet: Image Recolorization With Given Color Palette},
+booktitle = {The IEEE Conference on Computer Vision and Pattern Recognition (CVPR) Workshops},
+month = {July},
+year = {2017}
+}

@@ -1,0 +1,8 @@
+@inproceedings{jeong2015category,
+  title={Category attentional search for fast object detection by mimicking human visual perception},
+  author={Jeong, Hawook and Yun, Sangdoo and Yi, Kwang Moo and Choi, Jin Young},
+  booktitle={2015 IEEE Winter Conference on Applications of Computer Vision},
+  pages={829--836},
+  year={2015},
+  organization={IEEE}
+}
