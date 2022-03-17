@@ -68,7 +68,7 @@
                   4 Mar 2022. Start a lecture on Special Topics in Artificial Intelligence <a href="https://ai773.github.io/spring-2022/index.html"> AI773 (4190.773.001)</a> at SNU.
                 </li>
                 <li>
-                  2 Mar 2022. Three papers are accepted at CVPR 2022. Two of them (<a href="#park2022cmo">CMO</a>, W-OoD) were our internship projects. 
+                  2 Mar 2022. Three papers are accepted at CVPR 2022. Two of them, (1) <a href="#park2022cmo">data augmentation for long-tailed classification</a> and (2) <a href="#lee2022cvpr_wood">weakly supervised sementic segmentation using BG images</a>, were our internship projects. 
                 </li>
                 <li>
                   24 Jan 2022. One paper is accepted at ICLR 2022 (<a href="#luca2021shortcut">shortcut learning with parameter-space study</a>).
@@ -99,7 +99,41 @@
 
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
         
-        
+
+        <!--
+        CVPR 2022 Weakly Supervised Semantic Segmentation using Out-of-Distribution Data
+        -->
+
+        <tr>
+          <td style="padding:20px;width:25%;vertical-align:middle">
+            <img src="images/lee2022cvpr_wood.png" alt="lee2022cvpr_wood" width="160" >
+          </td>
+          <td style="padding:20px;width:75%;vertical-align:middle">
+            <a href="data/lee2022cvpr_wood.pdf" id="lee2022cvpr_wood">
+            <papertitle>Weakly Supervised Semantic Segmentation using Out-of-Distribution Data</papertitle>
+            </a>
+            <br>
+            <a href="https://github.com/jbeomlee93">Jungbeom Lee</a>,
+            <a href="https://coallaoh.github.io/">Seong Joon Oh</a>,
+            <strong>Sangdoo Yun</strong>,
+            <a href="https://sites.google.com/site/junsukchoe/">Junsuk Choe</a>,
+            <a href="http://data.snu.ac.kr/index.php/people/">Eunji Kim</a>,
+            <a href="http://data.snu.ac.kr/index.php/people/">Sungroh Yoon</a>.
+            <br>
+            <em>CVPR</em>, 2022
+            <br>
+            <a href="data/lee2022cvpr_wood.txt">Bibtex</a> /
+            <a href="https://github.com/naver-ai/w-ood">Code</a>
+            <p></p>
+            <p>
+            Weakly supervised semantic segmentation (WSSS) suffers from spurious correlations between foreground (e.g., train) and background (e.g., rail). 
+            Our idea is to collect background images without any foreground pixels (e.g., collecting railroad images without trains).
+            Then we teach the model not to see the background pixels to classify foreground class. 
+            Adding small amount of background images brings large performance gain in WSSS. 
+            </p>
+          </td>
+        </tr>          
+
 
         <!--
         CVPR 2022 The Majority Can Help The Minority: Context-rich Minority Oversampling for Long-tailed Classification
@@ -146,11 +180,13 @@
             <papertitle>Which shortcut cues will dnns choose? a study from the parameter-space perspective</papertitle>
             </a>
             <br>
-            <a href="https://lucascimeca.com/">Luca Scimeca</a>,
-            <a href="https://coallaoh.github.io/">Seong Joon Oh</a>,
+            <a href="https://lucascimeca.com/">Luca Scimeca*</a>,
+            <a href="https://coallaoh.github.io/">Seong Joon Oh*</a>,
             <a href="https://sanghyukchun.github.io/home/">Sanghyuk Chun</a>,
             <a href="https://scholar.google.com/citations?user=RgIBwboAAAAJ&hl=en">Michael Poli</a>,
             <strong>Sangdoo Yun</strong>.
+            <br>
+            <em>*Equal contribution</em>
             <br>
             <em>ICLR</em>, 2022
             <br>
