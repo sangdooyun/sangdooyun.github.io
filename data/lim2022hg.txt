@@ -1,0 +1,6 @@
+@inproceedings{park2022majority,
+  title={The Majority Can Help The Minority: Context-rich Minority Oversampling for Long-tailed Classification},
+  author={Lim, Jongin and Yun, Sangdoo and Park, Seulki and Choi, Jin Young},
+  booktitle={Proceedings of the IEEE conference on computer vision and pattern recognition},
+  year={2022}
+}

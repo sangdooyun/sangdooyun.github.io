@@ -41,10 +41,8 @@
               </p>
 
               <p>
-                I also became an <a href="https://cse.snu.ac.kr/en/professor/sangdoo-yun">adjunct professor</a> in
-                <a href="https://cse.snu.ac.kr/en">Dept. of Computer Science and Engineering</a> at <a href="https://en.snu.ac.kr/index.html">Seoul National University</a> from September 2021.
+                I'm also an adjunct professor at <a href="https://aiis.snu.ac.kr/bbs/board.php?bo_table=sub2_6">SNU AI Inst.</a> from Sep 2022, continuing my previous position at <a href="https://cse.snu.ac.kr/en/professor/sangdoo-yun">SNU CSE Dept</a> (Sep 2021 - Aug 2022).
               </p>
-
 
               <p style="text-align:center">
                 <a href="mailto:oodgnas@gmail.com">Email</a> &nbsp/&nbsp
@@ -65,18 +63,17 @@
               <heading>News</heading>
               <ul>
                 <li>
-                  4 Mar 2022. Start a lecture on Special Topics in Artificial Intelligence <a href="https://ai773.github.io/spring-2022/index.html"> AI773 (4190.773.001)</a> at SNU.
+                  16 Sep 2022. One paper is accepted at NeurIPS 2022. 
                 </li>
                 <li>
-                  2 Mar 2022. Three papers are accepted at CVPR 2022. Two of them, (1) <a href="#park2022cmo">data augmentation for long-tailed classification</a> and (2) <a href="#lee2022cvpr_wood">weakly supervised sementic segmentation using BG images</a>, were our internship projects. 
+                  9 Jul 2022. One paper is accepted at ECCV 2022. 
                 </li>
                 <li>
-                  24 Jan 2022. One paper is accepted at ICLR 2022 (<a href="#luca2021shortcut">shortcut learning with parameter-space study</a>).
+                  2 June 2022. Two papers are accepted at ICML 2022. 
                 </li>
                 <li>
-                  13 Dec 2021. We hosted NeurIPS'21 workshop on <a href="https://sites.google.com/view/imagenet-workshop/">ImageNet: Past, Present, and Future</a>.
+                  2 Mar 2022. Three papers are accepted at CVPR 2022. 
                 </li>
-
               </ul>
             </td>
           </tr>
@@ -99,6 +96,149 @@
 
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
         
+
+
+        <!--
+        NeurIPS 2022 A Unified Analysis of Mixed Sample Data Augmentation: A Loss Function Perspective
+        -->
+
+        <tr>
+          <td style="padding:20px;width:25%;vertical-align:middle">
+            <img src="images/park2022msda.jpg" alt="park2022msda" width="160" >
+          </td>
+          <td style="padding:20px;width:75%;vertical-align:middle">
+            <a href="data/park2022msda.pdf" id="park2022msda">
+            <papertitle>A Unified Analysis of Mixed Sample Data Augmentation: A Loss Function Perspective</papertitle>
+            </a>
+            <br>
+            <a href="https://chanwoo-park-official.github.io/">Chanwoo Park*</a>,            
+            <strong>Sangdoo Yun*</strong>,
+            <a href="https://sanghyukchun.github.io/home/">Sanghyuk Chun</a>.
+            <br>
+            <em>NeurIPS</em>, 2022
+            <br>
+            <a href="data/park2022msda.txt">Bibtex</a> /
+            <a href="https://github.com/naver-ai/hmix-gmix">Code</a>
+            <p></p>
+            <p>
+              Mixed sample data augmentation (MSDA), such as <a href="https://arxiv.org/abs/1710.09412">mixup</a> and <a href="#yun2019cutmix">CutMix</a>, has become a de facto strategy, 
+              but its understanding is not studied deeply yet.
+              We introduce the first unified theoretical analysis for MSDAs and figure out what is the difference between mixup and CutMix. 
+              Up on the analysis, we build a simple hybrid version of mixup and CutMix to leverage the advantages of mixup and CutMix. 
+            </p>  
+          </td>
+        </tr>          
+
+
+        <!--
+        ECCV 2022 Donut: Document Understanding Transformer without OCR
+        -->
+        <tr>
+          <td style="padding:20px;width:25%;vertical-align:middle">
+            <img src="images/kim2021donut.png" alt="kim2021donut" width="160" >
+          </td>
+          <td style="padding:20px;width:75%;vertical-align:middle">
+            <a href="data/kim2021donut.pdf" id="kim2021donut">
+            <papertitle>Donut &#127849;: Document Understanding Transformer without OCR</papertitle>
+            </a>
+            <br>
+            <a href="http://geewook.kim/">Geewook Kim</a>,
+            <a href="http://ailab.kaist.ac.kr/users/tghong">Teakgyu Hong</a>,
+            <a href="https://github.com/moonbings">Moonbin Yim</a>,
+            Jinyoung Park,
+            <a href="https://scholar.google.co.kr/citations?user=UltFXK0AAAAJ&hl=en">Jinyeong Yim</a>,
+            <a href="https://scholar.google.com/citations?user=M13_WdcAAAAJ&hl=en">Wonseok Hwang</a>,
+            <strong>Sangdoo Yun</strong>,
+            <a href="https://sites.google.com/site/dyhan0920/">Dongyoon Han</a>,
+            <a href="https://scholar.google.co.kr/citations?user=iowjmTwAAAAJ&hl=en">Seunghyun Park</a>
+            <br>
+            <em>ECCV</em>, 2022
+            <br>
+            <a href="https://arxiv.org/abs/2111.15664">arXiv</a> / 
+            <a href="data/kim2021donut.txt">Bibtex</a> /
+            <a href="https://github.com/clovaai/donut">Code</a>
+            <p></p>
+            <p>
+              Current visual document understanding (VDU) models heavily rely on external OCR framework (<em>e.g.</em>, <a href="#baek2019craft">text detection</a>,
+              <a href="#baek2019STR">text recognition</a>).
+              OCR is expensive and sometimes not available.
+              We bravely remove the dependency of OCR by modeling a simple transformer architecture.
+              Take our highly efficient and powerful VDU model, Donut &#127849;!
+
+            </p>
+          </td>
+        </tr>
+
+
+
+        <!--
+        ICML 2022 Dataset Condensation via Efficient Synthetic-Data Parameterization
+        -->
+
+        <tr>
+          <td style="padding:20px;width:25%;vertical-align:middle">
+            <img src="images/kim2022dataset.png" alt="kim2022dataset" width="160" >
+          </td>
+          <td style="padding:20px;width:75%;vertical-align:middle">
+            <a href="data/kim2022dataset.pdf" id="kim2022dataset">
+            <papertitle>Dataset Condensation via Efficient Synthetic-Data Parameterization</papertitle>
+            </a>
+            <br>
+            <a href="https://janghyun1230.github.io/">Jang-Hyun Kim</a>,
+            <a href="https://mllab.snu.ac.kr/people.html">Jinuk Kim</a>,
+            <a href="https://coallaoh.github.io/">Seong Joon Oh</a>,
+            <strong>Sangdoo Yun</strong>,
+            <a href="https://sites.google.com/site/junsukchoe/">Hwanjun Song</a>,
+            <a href="https://songhwanjun.github.io/">Joonhyun Jeong</a>,
+            <a href="https://aidljwha.wordpress.com/">Jung-Woo Ha</a>,
+            <a href="https://mllab.snu.ac.kr/hyunoh/">Hyun Oh Song</a>.
+            <br>
+            <em>ICML</em>, 2022
+            <br>
+            <a href="data/kim2022dataset.txt">Bibtex</a> /
+            <a href="https://github.com/snu-mllab/Efficient-Dataset-Condensation">Code</a>
+            <p></p>
+            <p>
+              Data condensation is a trick to compress training data by synthesizing them into several images. 
+              The goal is to obtain higher performance with lower consumption of data storage. 
+              We propose practical tricks for data condensation to bring it into more practical real-world settings (e.g., 224x224 size with ImageNet) 
+              beyond previous toy-ish settings (e.g., 32x32 size with CIFARs).
+            </p>
+          </td>
+        </tr>          
+
+
+        <!--
+        ICML 2022 Dataset Condensation with Contrastive Signals
+        -->
+
+        <tr>
+          <td style="padding:20px;width:25%;vertical-align:middle">
+            <img src="images/lee2022dataset.jpg" alt="lee2022dataset" width="160" >
+          </td>
+          <td style="padding:20px;width:75%;vertical-align:middle">
+            <a href="data/lee2022dataset.pdf" id="lee2022dataset">
+            <papertitle>Dataset Condensation with Contrastive Signals</papertitle>
+            </a>
+            <br>
+            <a href="https://scholar.google.com/citations?user=nS24h74AAAAJ&hl=en">Saehyung Lee</a>,
+            <a href="https://sanghyukchun.github.io/home/">Sanghyuk Chun</a>,
+            <a href="https://sites.google.com/view/sangwon-jung">Sangwon Jung</a>,
+            <strong>Sangdoo Yun</strong>,
+            <a href="http://data.snu.ac.kr/index.php/people/">Sungroh Yoon</a>.
+            <br>
+            <em>ICML</em>, 2022
+            <br>
+            <a href="data/lee2022dataset.txt">Bibtex</a> 
+            <p></p>
+            <p>
+              Existing data condensation methods deal with class-wise gradients and ignore the inter-class information. 
+              We show it would degrade performance in practical scenarios like fine-grained classification. 
+              Our simple remedy is modifying the loss function to integrate contrastive signals, which shows effectiveness in several practical scenarios. 
+            </p>
+          </td>
+        </tr>          
+
 
         <!--
         CVPR 2022 Weakly Supervised Semantic Segmentation using Out-of-Distribution Data
@@ -158,7 +298,8 @@
             <br>
             <em>CVPR</em>, 2022
             <br>
-            <a href="data/park2021cmo.txt">Bibtex</a>
+            <a href="data/park2021cmo.txt">Bibtex</a> / 
+            <a href="https://github.com/naver-ai/cmo">Code</a>            
             <p></p>
             <p>
               Data oversampling is a simple solution for long-tailed classification, but it may exacerbate overfitting with limited context information.
@@ -168,6 +309,36 @@
           </td>
         </tr>
       
+        <!--
+        CVPR 2022 Hypergraph-Induced Semantic Tuplet Loss for Deep Metric Learning
+        -->
+
+        <tr>
+          <td style="padding:20px;width:25%;vertical-align:middle">
+            <img src="images/lim2022hg.jpg" alt="" width="160" >
+          </td>
+          <td style="padding:20px;width:75%;vertical-align:middle">
+            <a href="https://openaccess.thecvf.com/content/CVPR2022/papers/Lim_Hypergraph-Induced_Semantic_Tuplet_Loss_for_Deep_Metric_Learning_CVPR_2022_paper.pdf" id="lim2022hg">
+            <papertitle>Hypergraph-Induced Semantic Tuplet Loss for Deep Metric Learning</papertitle>
+            </a>
+            <br>
+            <a href="https://scholar.google.com/citations?user=6jxQqmoAAAAJ&hl=en&oi=ao">Jongin Lim</a>
+            <strong>Sangdoo Yun</strong>,
+            <a href="https://www.linkedin.com/in/seulki-park-49a775147?originalSubdomain=kr">Seulki Park</a>,
+            <a href="http://pil.snu.ac.kr/about/view.do?idx=1">Jin Young Choi</a>.
+            <br>
+            <em>CVPR</em>, 2022
+            <br>
+            <a href="lim2022hg.txt">Bibtex</a> /
+            <a href="https://github.com/ljin0429/HIST">Code</a>
+            <p></p>
+            <p>
+              We formulate deep metric learning as a hypergraph node classification problem to capture multilateral relationship by semantic tuples beyond previous pairwise relationship-based methods. 
+            </p>
+          </td>
+        </tr>          
+
+
         <!--
         ICLR 2022 Which shortcut cues will dnns choose? a study from the parameter-space perspective
         -->
@@ -201,44 +372,6 @@
             </p>
           </td>
         </tr>       
-
-
-        <!--
-        arXiv 2021 Donut: Document Understanding Transformer without OCR
-        -->
-          <tr>
-            <td style="padding:20px;width:25%;vertical-align:middle">
-              <img src="images/kim2021donut.png" alt="kim2021donut" width="160" >
-            </td>
-            <td style="padding:20px;width:75%;vertical-align:middle">
-              <a href="data/kim2021donut.pdf" id="kim2021donut">
-              <papertitle>Donut &#127849;: Document Understanding Transformer without OCR</papertitle>
-              </a>
-              <br>
-              <a href="http://geewook.kim/">Geewook Kim</a>,
-              <a href="http://ailab.kaist.ac.kr/users/tghong">Teakgyu Hong</a>,
-              <a href="https://github.com/moonbings">Moonbin Yim</a>,
-              Jinyoung Park,
-              <a href="https://scholar.google.co.kr/citations?user=UltFXK0AAAAJ&hl=en">Jinyeong Yim</a>,
-              <a href="https://scholar.google.com/citations?user=M13_WdcAAAAJ&hl=en">Wonseok Hwang</a>,
-              <strong>Sangdoo Yun</strong>,
-              <a href="https://sites.google.com/site/dyhan0920/">Dongyoon Han</a>,
-              <a href="https://scholar.google.co.kr/citations?user=iowjmTwAAAAJ&hl=en">Seunghyun Park</a>
-              <br>
-              <em>arXiv</em>, 2021
-              <br>
-              <a href="data/kim2021donut.txt">Bibtex</a>
-              <p></p>
-              <p>
-                Current visual document understanding (VDU) models heavily rely on external OCR framework (<em>e.g.</em>, <a href="#baek2019craft">text detection</a>,
-                <a href="#baek2019STR">text recognition</a>).
-                OCR is expensive and sometimes not available.
-                We bravely remove the dependency of OCR by modeling a simple transformer architecture.
-                Take our highly efficient and powerful VDU model, Donut &#127849;!
-
-              </p>
-            </td>
-          </tr>
 
 
         <!--
@@ -1280,8 +1413,10 @@
                 <li>Serve as a reviewer at CVPR, ICCV, ECCV, ICML, NeurIPS, ICLR, AAAI, etc.</li>
                 <li>Outstanding reviewer awards at
                   <a href="https://cvpr2021.thecvf.com/node/184">CVPR'21</a>,
-                  <a href="https://iccv2021.thecvf.com/outstanding-reviewers">ICCV'21</a>. </li>
-                <li>Serve as a meta-reviewer at AAAI'22</li>
+                  <a href="https://iccv2021.thecvf.com/outstanding-reviewers">ICCV'21</a>. 
+                  <a href="https://cvpr2022.thecvf.com/outstanding-reviewers">CVPR'22</a>,
+                </li>
+                <li>Serve as a meta-reviewer at AAAI'22 and AAAI'23</li>
               </ul>
             </td>
           </tr>
@@ -1293,6 +1428,7 @@
               <strong>Talks</strong>
               <p></p>
               <ul>
+                <li><a href="https://docs.google.com/presentation/d/1j3zpPP5ZwemU9KLphCEczuO-NKW3cMXQbF2qWlm7LFI/edit?usp=sharing">How to Make Deep Models Strong and Robust</a>, Sogang Uviv, Sep, 2022</li>
                 <li><a href="https://docs.google.com/presentation/d/1vCyUWKJWTqE0El-m1UPe8fc6nf0MAOV5w9P-9zIg3wo/edit?usp=sharing">How to Make Deep Models Strong and Robust</a>, Korea Uviv, Apr, 2022</li>
                 <li><a href="https://docs.google.com/presentation/d/1I21EApGD05KfKCLPsnbNjWgtUA7eeyPzjvfi25ZsqaA/edit?usp=sharing">How to Make Deep Models Strong and Robust</a>, UNIST, Jun, 2021</li>
               </ul>
