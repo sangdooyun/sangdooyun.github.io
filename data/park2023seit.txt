@@ -1,0 +1,6 @@
+@article{park2023storage,
+  title={SeiT: Storage-Efficient Vision Training with Tokens Using 1\% of Pixel Storage},
+  author={Park, Song and Chun, Sanghyuk and Heo, Byeongho and Kim, Wonjae and Yun, Sangdoo},
+  journal={arXiv preprint arXiv:2303.11114},
+  year={2023}
+}

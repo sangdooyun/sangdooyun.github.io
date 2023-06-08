@@ -1,0 +1,11 @@
+@inproceedings{NEURIPS2022_e6f32e64,
+ author = {Park, Chanwoo and Yun, Sangdoo and Chun, Sanghyuk},
+ booktitle = {Advances in Neural Information Processing Systems},
+ editor = {S. Koyejo and S. Mohamed and A. Agarwal and D. Belgrave and K. Cho and A. Oh},
+ pages = {35504--35518},
+ publisher = {Curran Associates, Inc.},
+ title = {A Unified Analysis of Mixed Sample Data Augmentation: A Loss Function Perspective},
+ url = {https://proceedings.neurips.cc/paper_files/paper/2022/file/e6f32e64b9c27d153b46c94f0fe22b56-Paper-Conference.pdf},
+ volume = {35},
+ year = {2022}
+}
