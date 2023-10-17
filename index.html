@@ -31,8 +31,8 @@
                 <a href="#heo2019iccv_od">KD</a>),
                 and robustness (<a href="#bahng2020rebias">ReBias</a>).
                 I've also participated on Naver's <a href="https://clova.ai/ocr">OCR</a>
-                (<em>e.g.</em>, <a href="#baek2019craft">CRAFT</a>, <a href="#baek2019STR">STR</a>, <a href="#kim2021donut">Donut</a>)
-                and <a href="#yoo2019extd">Face</a> products.
+                (<em>e.g.</em>, <a href="#baek2019craft">CRAFT</a>, <a href="#baek2019STR">STR</a>, <a href="#kim2021donut">Donut</a>),
+                <a href="#yoo2019extd">face recognition</a>, and LLMs (<a href="#kim2023cream">Cream</a>) products.
               </p>
 
               <p>
@@ -62,8 +62,11 @@
             <td style="padding:20px;width:100%;vertical-align:middle">
               <heading>News</heading>
               <ul>
+                <li>                  
+                  Oct 2023. I gave <a href="https://docs.google.com/presentation/d/1us5RbpRrUCq4vUbX-eNhrfgwSgLNcmCNchSQCl7GOEw/edit?usp=sharing">a talk</a> at <a href="https://sites.google.com/view/rcv2023/home">RCV workshop</a> in ICCV 2023. 
+                </li>                
                 <li>
-                  Oct 2023. One paper is accepted at EMNLP 2023: <a href="">CREAM</a>. 
+                  Oct 2023. One paper is accepted at EMNLP 2023: <a href="">Cream</a>. 
                 </li>                
                 <li>
                   Sep 2023. Two papers are accepted at NeurIPS 2023: <a href="kim2023nrg">Relation graph</a> and  <a href="">ProPILE</a> (spotlight). 
@@ -99,6 +102,43 @@
 
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
 
+
+        <!-- emnlp'23 cream -->
+        <tr>
+          <td style="padding:20px;width:25%;vertical-align:middle">
+            <img src="images/kim2023cream.png" alt="kim2023cream" width="160" >
+          </td>
+          <td style="padding:20px;width:75%;vertical-align:middle">
+            <a href="data/kim2023cream.pdf" id="kim2023cream">
+            <papertitle>Cream: Visually-Situated Natural Language Understanding with Contrastive Reading Model and Frozen Large Language Models</papertitle>
+            </a>
+            <br>
+
+            <a href="http://geewook.kim/">Geewook Kim</a>,
+            <a href="">Hodong Lee</a>,
+            <a href="">Daehee Kim</a>,
+            <a href="">Haeji Jung </a>,
+            <a href="">Sanghee Park</a>,
+            <a href="">Yoonsik Kim</a>,                        
+            <strong>Sangdoo Yun</strong>,
+            <a href="">Taeho Kil</a>,
+            <a href="">Bado Lee</a>,
+            <a href="https://scholar.google.co.kr/citations?user=iowjmTwAAAAJ&hl=en">Seunghyun Park</a>
+            <br>
+            <em>EMNLP</em>, 2023 
+            <br>
+            <a href="https://arxiv.org/abs/2305.15080">arXiv</a> /
+            <a href="data/kim2023cream.txt">Bibtex</a> /
+            <a href="">Code</a> /
+            <a href="">Demo</a>
+            <p></p>
+            <p>
+               After introducing <a href="#kim2021donut">Donut</a>, we build Cream🍦 which leverages large language models (LLMs).
+               To mitigate the gap between vision encoders and LMs, we propose auxiliary encoders and contrastive learning scheme. 
+               Cream demonstrates robust and impressive document understanding performance. 
+            </p>  
+          </td>
+        </tr>                 
           
         <!-- neurips'23 propile -->
         <tr>
@@ -126,7 +166,9 @@
             <a href="">Demo</a>
             <p></p>
             <p>
-
+              Perhaps, Large language models (LLMs) can answer just about anything, with their hyper-scale parameters and data. 
+              However, they may answer your private information (i.e., personally identifiable information (PII)), then it could be problematic. 
+              With our probing tool, ProPILE, we can investigate whether the model reveals our personal information or not. 
             </p>  
           </td>
         </tr>       
@@ -152,7 +194,10 @@
             <a href="">Code</a>
             <p></p>
             <p>
-              
+              Problematic data (e.g., outlier data or incorrect labels) harm model performance and robustness. 
+              However, identifying such problematic data in large-scale datasets is quite challenging.
+              Our solution focuses on the relationship among data, particularly in the feature space. 
+              By utilizing our relation graph, we can easily determine whether a data point is an outlier, has a misassigned label, or is perfectly fine.
             </p>  
           </td>
         </tr>       
@@ -1708,6 +1753,9 @@
               <strong>Talks</strong>
               <p></p>
               <ul>
+                <li><a href="https://docs.google.com/presentation/d/1us5RbpRrUCq4vUbX-eNhrfgwSgLNcmCNchSQCl7GOEw/edit?usp=sharing">Towards Strong and Robust Deep Models -– Insights from Data and Supervision</a>, RCV Workshop @ ICCV 2023</li>
+                <li><a href="https://docs.google.com/presentation/d/1ByUA6OK90x6hYTa6MBVXry0XKcaFWJJwWL9LcbfjDhg/edit?usp=sharing">Towards Strong and Robust Deep Models -– Insights from Data and Supervision</a>, POSTECH, Sep, 2023</li>
+                <li><a href="https://docs.google.com/presentation/d/1o3v-XlqjHxp282Tb2UXDjrxu8GgM3jYoZHaVrSeYM5E/edit?usp=sharing">Towards Strong and Robust Deep Models -– Insights from Data and Supervision</a>, UNIST, Sep, 2023</li>                
                 <li><a href="https://docs.google.com/presentation/d/1j3zpPP5ZwemU9KLphCEczuO-NKW3cMXQbF2qWlm7LFI/edit?usp=sharing">How to Make Deep Models Strong and Robust</a>, Sogang Uviv, Sep, 2022</li>
                 <li><a href="https://docs.google.com/presentation/d/1vCyUWKJWTqE0El-m1UPe8fc6nf0MAOV5w9P-9zIg3wo/edit?usp=sharing">How to Make Deep Models Strong and Robust</a>, Korea Uviv, Apr, 2022</li>
                 <li><a href="https://docs.google.com/presentation/d/1I21EApGD05KfKCLPsnbNjWgtUA7eeyPzjvfi25ZsqaA/edit?usp=sharing">How to Make Deep Models Strong and Robust</a>, UNIST, Jun, 2021</li>
