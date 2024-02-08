@@ -62,14 +62,17 @@
             <td style="padding:20px;width:100%;vertical-align:middle">
               <heading>News</heading>
               <ul>
+                <li>
+                  Jan 2024. Two papers are accepted at ICLR 2024: <a href="kim2024ccm">Context compression for LLMs</a>, <a href="">Prometheus</a>. 
+                </li>
                 <li>                  
                   Oct 2023. I gave <a href="https://docs.google.com/presentation/d/1us5RbpRrUCq4vUbX-eNhrfgwSgLNcmCNchSQCl7GOEw/edit?usp=sharing">a talk</a> at <a href="https://sites.google.com/view/rcv2023/home">RCV workshop</a> in ICCV 2023. 
                 </li>                
                 <li>
-                  Oct 2023. One paper is accepted at EMNLP 2023: <a href="">Cream</a>. 
+                  Oct 2023. One paper is accepted at EMNLP 2023: <a href="kim2023cream">Cream</a>. 
                 </li>                
                 <li>
-                  Sep 2023. Two papers are accepted at NeurIPS 2023: <a href="kim2023nrg">Relation graph</a> and  <a href="">ProPILE</a> (spotlight). 
+                  Sep 2023. Two papers are accepted at NeurIPS 2023: <a href="kim2023nrg">Relation graph</a> and <a href="kim2023propile">ProPILE</a> (spotlight). 
                 </li>
                 <li>
                   Jul 2023. Two papers are accepted at ICCV 2023: <a href="han2023luab">Neglected free lunch</a> and <a href="park2023seit">SeiT</a>. 
@@ -101,6 +104,75 @@
  
 
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+
+
+
+        <!-- iclr'24 Context compression -->
+        <tr>
+          <td style="padding:20px;width:25%;vertical-align:middle">
+            <img src="images/kim2024ccm.png" alt="kim2024ccm" width="160" >
+          </td>
+          <td style="padding:20px;width:75%;vertical-align:middle">
+            <a href="data/kim2024ccm.pdf" id="kim2024ccm">
+            <papertitle>Compressed Context Memory for Online Language Model Interaction</papertitle>
+            </a>
+            <br>
+            <a href="https://janghyun1230.github.io/">Jang-Hyun Kim</a>,
+            <a href="https://yeomjy.com/">Junyoung Yeom</a>,
+            <strong>Sangdoo Yun*</strong>,
+            <a href="https://mllab.snu.ac.kr/hyunoh/">Hyun Oh Song*</a>.
+            <br>
+            <em>ICLR</em>, 2024
+            <br>
+            <a href="https://arxiv.org/abs/2312.03414">arXiv</a> /
+            <a href="">Bibtex</a> /
+            <a href="https://github.com/snu-mllab/Context-Memory">Code</a>
+            <p></p>
+            <p>
+                How can we use infinitly long contexts for LLMs? Inspired from the <a href="https://arxiv.org/abs/2304.08467">gist token</a>, we propose an <strong>online</strong> context compression method. 
+                Our method can compress accumulated attention KVs into few [comp] tokens with 5x smaller context memory size. 
+            </p>  
+          </td>
+        </tr>               
+
+
+        <!-- iclr'24 prometheus -->
+        <tr>
+          <td style="padding:20px;width:25%;vertical-align:middle">
+            <img src="images/kim2024prom.png" alt="kim2024prom" width="160" >
+          </td>
+          <td style="padding:20px;width:75%;vertical-align:middle">
+            <a href="data/kim2024prom.pdf" id="kim2024prom">
+            <papertitle>Prometheus: Inducing Fine-grained Evaluation Capability in Language Models</papertitle>
+            </a>
+            <br>
+            <a href="https://seungonekim.github.io/">Seungone Kim*</a>,
+            <a href="https://www.jayshin.xyz/">Jamin Shin*</a>,
+            Yejin Cho*, 
+            <a href="https://joeljang.github.io/">Joel Jang</a>,
+            <a href="https://www.shaynelongpre.com/">Shayne Longpre</a>,
+            <a href="https://hwaranlee.github.io/">Hwaran Lee</a>
+            <strong>Sangdoo Yun</strong>,
+            <a href="https://scholar.google.com/citations?user=hF3NWVcAAAAJ&hl=en">Seongjin Shin</a>,
+            <a href="https://scholar.google.com/citations?user=xKrSnDoAAAAJ&hl=ko">Sungdong Kim</a>,
+            <a href="https://jamesthorne.com/">James Thorne</a>,
+            <a href="https://seominjoon.github.io/">Minjoon Seo</a>
+            <br>
+            <em>ICLR</em>, 2024
+            <br>
+            <a href="https://arxiv.org/abs/2310.08491">arXiv</a> /
+            <a href="">Bibtex</a> /
+            <a href="https://github.com/kaistAI/Prometheus">Code</a>
+            <p></p>
+            <p>
+                We introduce <strong>Prometheus</strong>, a fully open-sourced LLMs with GPT-4 compatible evaluation performance.  
+                We built the Feedback Collection dataset, which is also open-sourced, including more than 20K instructions and 100K responses.
+            </p>  
+          </td>
+        </tr>               
+
+
+
 
 
         <!-- emnlp'23 cream -->
