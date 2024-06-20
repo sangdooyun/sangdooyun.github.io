@@ -32,7 +32,7 @@
                 and robustness (<a href="#bahng2020rebias">ReBias</a>).
                 I've also participated on Naver's <a href="https://clova.ai/ocr">OCR</a>
                 (<em>e.g.</em>, <a href="#baek2019craft">CRAFT</a>, <a href="#baek2019STR">STR</a>, <a href="#kim2021donut">Donut</a>),
-                <a href="#yoo2019extd">face recognition</a>, and LLMs (<a href="#kim2023cream">Cream</a>) products.
+                <a href="#yoo2019extd">face recognition</a>, and LLMs (<em>e.g.</em>, <a href="kim2024prom">Prometheus</a>, <a href="#kim2023cream">Cream</a>) products.
               </p>
 
               <p>
@@ -63,12 +63,21 @@
               <heading>News</heading>
               <ul>
                 <li>
-                  Jan 2024. Two papers are accepted at ICLR 2024: <a href="kim2024ccm">Context compression for LLMs</a>, <a href="">Prometheus</a>. 
+                  May 2024. four papers are accepted at ACL 2024: <a href="gubri2024acl_trap">TRAP</a>, <a href="ulmer2024acl_apricot">APRICOT</a>, <a href="ahn2024acl_timechara">TimeChara</a>, <a href="lee2024acl_sweet">SWEET</a>. 
                 </li>
-                <li>                  
-                  Oct 2023. I gave <a href="https://docs.google.com/presentation/d/1us5RbpRrUCq4vUbX-eNhrfgwSgLNcmCNchSQCl7GOEw/edit?usp=sharing">a talk</a> at <a href="https://sites.google.com/view/rcv2023/home">RCV workshop</a> in ICCV 2023. 
-                </li>                
                 <li>
+                  Mar 2024. One paper is accepted at NAACL 2024: <a href="lee2024naacl_regionvlm">Region-VLM</a>.
+                </li>
+                <li>
+                  Mar 2024. One paper is accepted at CVPR 2024: <a href="gu2024cvpr_lincir">LinCIR</a>.
+                </li>
+                <li>
+                  Jan 2024. Two papers are accepted at ICLR 2024: <a href="kim2024ccm">Context compression for LLMs</a>, <a href="kim2024prom">Prometheus</a>. 
+                </li>
+                <!-- <li>                  
+                  Oct 2023. I gave <a href="https://docs.google.com/presentation/d/1us5RbpRrUCq4vUbX-eNhrfgwSgLNcmCNchSQCl7GOEw/edit?usp=sharing">a talk</a> at <a href="https://sites.google.com/view/rcv2023/home">RCV workshop</a> in ICCV 2023. 
+                </li>                 -->
+                <!-- <li>
                   Oct 2023. One paper is accepted at EMNLP 2023: <a href="kim2023cream">Cream</a>. 
                 </li>                
                 <li>
@@ -82,7 +91,7 @@
                 </li>
                 <li>
                   Jan 2023. Two papers are accepted at ICLR 2023: <a href="#park2023vitssl">CL-vs-MIM</a> and <a href="#kim2023dynaaug">Video aug</a>. 
-                </li>
+                </li> -->
               </ul>
             </td>
           </tr>
@@ -104,6 +113,203 @@
  
 
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+          
+        <!-- acl'24 TRAP -->
+        <tr> 
+          <td style="padding:20px;width:25%;vertical-align:middle">
+            <img src="images/gubri2024acl_trap.png" alt="gubri2024acl_trap" width="160" >
+          </td>
+          <td style="padding:20px;width:75%;vertical-align:middle">
+            <a href="data/gubri2024acl_trap.pdf" id="gubri2024acl_trap">
+            <papertitle>TRAP: Targeted Random Adversarial Prompt Honeypot for Black-Box Identification</papertitle>
+            </a>
+            <br>
+            <a href="https://gubri.eu/">Martin Gubri</a>,
+            <a href="https://dennisulmer.eu/">Dennis Thomas Ulmer</a>,
+            <a href="https://hwaranlee.github.io/">Hwaran Lee</a>,
+            <strong>Sangdoo Yun</strong>,
+            <a href="https://coallaoh.github.io/">Seong Joon Oh</a>.
+            <br>
+            <em>ACL Findings</em>, 2024
+            <br>
+            <a href="https://arxiv.org/abs/2402.12991">arXiv</a> /
+            <a href="">Bibtex</a> /
+            <a href="https://github.com/parameterlab/trap">Code</a>
+            <p></p>
+            <p>
+              LLM weights are valuable assets, and their usage should be strictly controlled under rules given by the providers, either in open- or closed-source models.
+              For instance, when a new model has came, the provider wants to know whether the model is based on their own LLMs or not.
+              To this end, we propose <strong>TRAP</strong>, a black-box LLM identification.
+              TRAP asks the model a very specific question (e.g., give a random 4 digit number) that only one company's machine will answer in a certain way. 
+            </p>
+          </td>
+        </tr>
+
+
+        <!-- acl'24 APRICOT -->
+        <tr>
+          <td style="padding:20px;width:25%;vertical-align:middle">
+            <img src="images/ulmer2024acl_apricot.png" alt="ulmer2024acl_apricot" width="160" >
+          </td>
+          <td style="padding:20px;width:75%;vertical-align:middle">
+            <a href="data/ulmer2024acl_apricot.pdf" id="ulmer2024acl_apricot">
+            <papertitle>Calibrating Large Language Models Using Their Generations Only</papertitle>
+            </a>
+            <br>
+            <a href="https://dennisulmer.eu/">Dennis Thomas Ulmer</a>,
+            <a href="https://gubri.eu/">Martin Gubri</a>,
+            <a href="https://hwaranlee.github.io/">Hwaran Lee</a>,
+            <strong>Sangdoo Yun</strong>,
+            <a href="https://coallaoh.github.io/">Seong Joon Oh</a>.
+            <br>
+            <em>ACL</em>, 2024
+            <br>
+            <a href="https://arxiv.org/abs/2403.05973">arXiv</a> /
+            <a href="">Bibtex</a> /
+            <a href="https://github.com/parameterlab/apricot">Code</a>
+            <p></p>
+            <p> 
+              Our goal is to calibrate the confidence of LLMs to increase the reliability of their outputs.
+              We propose <strong>APRICOT</strong>, a method to calibrate the confidence of LLMs via utilizing external lightweight model. 
+            </p>
+          </td>
+        </tr>
+
+
+        <!-- acl'24 TimeChara -->
+        <tr>
+          <td style="padding:20px;width:25%;vertical-align:middle">
+            <img src="images/ahn2024acl_timechara.png" alt="ahn2024acl_timechara" width="160" >
+            <p>
+              (generated by Dall-E)
+            </p>
+          </td>
+          <td style="padding:20px;width:75%;vertical-align:middle">
+            <a href="data/ahn2024acl_timechara.pdf" id="ahn2024acl_timechara">
+            <papertitle>TimeChara: Evaluating Point-in-Time Character Hallucination of Role-Playing Large Language Models</papertitle>
+            </a>
+            <br>
+            <a href="https://ahnjaewoo.github.io/">Jaewoo Ahn</a>,
+            <a href="https://vision.snu.ac.kr/people/taehyunlee.html/">Taehyun Lee</a>,
+            <a href="https://github.com/2018JunyoungLim/">Junyoung Lim</a>,
+            <a href="http://wityworks.com/">Jin-Hwa Kim</a>,
+            <strong>Sangdoo Yun</strong>,
+            <a href="https://hwaranlee.github.io/">Hwaran Lee</a>,
+            <a href="https://vision.snu.ac.kr/gunhee/">Gunhee Kim</a>.
+            <br>
+            <em>ACL Findings</em>, 2024
+            <br>
+            <a href="https://arxiv.org/abs/2405.18027">arXiv</a> /
+            <a href="">Bibtex</a> /
+            <a href="https://ahnjaewoo.github.io/timechara/">Code</a>
+            <p></p>
+            <p>
+              When interacting with LLM-based chatbot, especially in role-playing scenarios, users expect the model to act as a specific character at a specific time point.
+              We propose <strong>TimeChara</strong>, a method to evaluate the point-in-time character hallucination of role-playing large language models. 
+              TimeChara can evaluate the model's consistency and coherence in the role-playing task. 
+            </p>
+
+          </td>
+        </tr>
+
+
+        <!-- acl'24 SWEET -->
+         <!-- 
+        With the remarkable generation performance of large language models, ethical and legal concerns about using them have been raised, such as plagiarism and copyright issues. For such concerns, several approaches to watermark and detect LLM-generated text have been proposed very recently. However, we discover that the previous methods fail to function appropriately with code generation tasks because of the syntactic and semantic characteristics of code. Based on \citet{Kirchenbauer2023watermark}, we propose a new watermarking method, Selective WatErmarking via Entropy Thresholding (SWEET), that promotes "green" tokens only at the position with high entropy of the token distribution during generation, thereby preserving the correctness of the generated code. The watermarked code is detected by the statistical test and Z-score based on the entropy information. Our experiments on HumanEval and MBPP show that SWEET significantly improves the Pareto Frontier between the code correctness and watermark detection performance. We also show that notable post-hoc detection methods (e.g. DetectGPT) fail to work well in this task. Finally, we show that setting a reasonable entropy threshold is not much of a challenge.
+        -->
+
+        <tr>
+          <td style="padding:20px;width:25%;vertical-align:middle">
+            <img src="images/lee2024acl_sweet.png" alt="lee2024acl_sweet" width="160" >
+            <p>
+              (generated by Dall-E) 
+            </p>            
+          </td>
+          <td style="padding:20px;width:75%;vertical-align:middle">
+            <a href="data/lee2024acl_sweet.pdf" id="lee2024acl_sweet">
+            <papertitle>Who Wrote this Code? Watermarking for Code Generation</papertitle>
+            </a>
+            <br>
+            <a href="https://vision.snu.ac.kr/people/taehyunlee.html/">Taehyun Lee</a>*,
+            <a href="https://hongcheki.github.io/">Seokhee Hong</a>*,
+            <a href="https://ahnjaewoo.github.io/">Jaewoo Ahn</a>,
+            <a href="https://ilgeehong.github.io/">Ilgee Hong</a>,
+            <a href="https://hwaranlee.github.io/">Hwaran Lee</a>,
+            <strong>Sangdoo Yun</strong>,
+            <a href="https://www.jayshin.xyz/">Jamin Shin</a>,
+            <a href="https://vision.snu.ac.kr/gunhee/">Gunhee Kim</a>.
+            <br>
+            <em>ACL</em>, 2024
+            <br>
+            <a href="https://arxiv.org/abs/2305.15060">arXiv</a> /
+            <a href="">Bibtex</a> /
+            <a href="https://github.com/hongcheki/sweet-watermark">Code</a>
+            <p></p>
+            <p> 
+              We propose <strong>SWEET</strong>, a watermarking method for code generation LLMs. 
+              Previous <a href="https://arxiv.org/pdf/2301.10226">watermarking</a> methods fail to handle code generation scenarios due to syntactic and semantic characteristics of code.
+              SWEET leverages the entropy of token distribution, and shows strong watermarking performance in code generation.
+            </p>
+          </td>
+
+        <!-- naacl'24 Region VLM -->        
+        <tr>
+          <td style="padding:20px;width:25%;vertical-align:middle">
+            <img src="images/lee2024naacl_regionvlm.png" alt="lee2024naacl_regionvlm" width="160" >
+          </td>
+          <td style="padding:20px;width:75%;vertical-align:middle">
+            <a href="data/lee2024naacl_regionvlm.pdf" id="lee2024naacl_regionvlm">
+            <papertitle>Toward Interactive Regional Understanding in Vision-Large Language Models</papertitle>
+            </a>
+            <br>
+            <a href="https://jbeomlee93.github.io/">Jungbeom Lee</a>, 
+            <a href="https://sanghyukchun.github.io/home/">Sanghyuk Chun</a>*,
+            <strong>Sangdoo Yun</strong>*.
+            <br>
+            <em>NAACL</em>, 2024
+            <br>
+            <a href="https://arxiv.org/abs/2403.18260">arXiv</a> /
+            <a href="">Bibtex</a> /
+            <a href="">Code</a>
+            <p></p>
+            <p>
+              We propose <strong>RegionVLM</strong>, a vision-large language model that can interactively attend to regions of interest in images. 
+              Region-VLM simply handles the regional infomation (e.g., coordinates) as additional text inputs.
+              Training with <a href="https://google.github.io/localized-narratives/">Localized Narratives dataset</a>, RegionVLM shows improved performance in regional understanding tasks.
+            </p>
+          </td>
+        </tr>
+
+        <!-- cvpr'24 LinCIR -->
+        <tr>
+          <td style="padding:20px;width:25%;vertical-align:middle">
+            <img src="images/gu2024cvpr_lincir.png" alt="gu2024cvpr_lincir" width="160" >
+          </td>
+          <td style="padding:20px;width:75%;vertical-align:middle">
+            <a href="data/gu2024cvpr_lincir.pdf" id="gu2024cvpr_lincir">
+            <papertitle>Language-only Efficient Training of Zero-shot Composed Image Retrieval</papertitle>
+            </a>
+            <br>
+            <a href="https://geonm.github.io/">Geonmo Gu</a>*,
+            <a href="https://sanghyukchun.github.io/home/">Sanghyuk Chun</a>*,
+            <a href="https://wonjae.kim/">Wonjae Kim</a>, 
+            Yoohoon Kang,
+            <strong>Sangdoo Yun</strong>.
+            <br>
+            <em>CVPR</em>, 2024
+            <br>
+            <a href="https://arxiv.org/abs/2312.01998">arXiv</a> /
+            <a href="">Bibtex</a> /
+            <a href="https://github.com/navervision/lincir">Code</a> /
+            <a href="https://huggingface.co/spaces/navervision/LinCIR">Demo</a>
+            <p></p>
+            <p>
+               Do we really need images for training composed image retrieval (CIR) models? Our answer is NO. 
+               We propose <strong>LinCIR</strong>, a language-only training method for CIR. 
+               LinCIR shows strong performance with efficeint training cost (e.g., training LinCIR with a CLIP ViT-G backbone in 1 hour). 
+            </p>  
+          </td>
+        </tr>  
 
 
 
