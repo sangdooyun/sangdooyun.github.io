@@ -21,18 +21,18 @@
                 <name>Sangdoo Yun</name>
               </p>
               <p>
-                I'm a research director at <a href="https://clova.ai/en/research/publications.html">Naver AI Lab</a>,
+                I'm a research director at <a href="https://naver-career.gitbook.io/en/teams/clova-cic/ai-lab">Naver AI Lab</a>,
                 working on various machine learning models towards real-world applications.
               </p>
 
               <p>
                 At Naver, I've worked for network architectures (<a href="#han2021cvpr_rex">ReXNet</a>, <a href="#heo2021iccv_pit">PiT</a>),
                 training techniques (<a href="#yun2019cutmix">CutMix</a>, <a href="#yun2021relabel">ReLabel</a>, <a href="#heo2021iclr_adamp">AdamP</a>,
-                <a href="#heo2019iccv_od">KD</a>),
-                and robustness (<a href="#bahng2020rebias">ReBias</a>).
+                <a href="#heo2019iccv_od">KD</a>), and
+                robustness (<a href="#bahng2020rebias">ReBias</a>, <a href="">Shortcut learning</a>, <a href="">Model Stock</a>).
                 I've also participated on Naver's <a href="https://clova.ai/ocr">OCR</a>
                 (<em>e.g.</em>, <a href="#baek2019craft">CRAFT</a>, <a href="#baek2019STR">STR</a>, <a href="#kim2021donut">Donut</a>),
-                <a href="#yoo2019extd">face recognition</a>, and LLMs (<em>e.g.</em>, <a href="kim2024prom">Prometheus</a>, <a href="#kim2023cream">Cream</a>) products.
+                <a href="#yoo2019extd">face recognition</a>, and LLMs (<em>e.g.</em>, <a href="#kim2023cream">Cream</a>) products.
               </p>
 
               <p>
@@ -63,6 +63,17 @@
               <heading>News</heading>
               <ul>
                 <li>
+                  Oct 2024. I will serve as a mentor for <a href="https://eccv.ecva.net/Conferences/2024/CallForDoctoralConsortium">Doctoral Consortium at ECCV 2024</a>. 
+                </li>
+                <li>
+                  Sep 2024. I will teach a course on  <a href="https://naver-ai.github.io/202402-AI773/">Multimodal Deep Learning Theories and Applications</a> at SNU.
+                </li>
+                <li>
+                  Aug 2024. Three papers are accepted at ECCV 2024: <a href="#jang2024eccv_modelstock">Model Stock</a>, <a href="kim2024eccv_hype">HYPE</a>, <a href="heo2024eccv_ropevit">RoPE ViT</a>. 
+                </li>                
+                <li>
+                  Aug 2024. I give an oral talk at <a href="https://kcvs.kr/?act=info.workshop&pseq=7">KCCV 2024</a> on <a href="#han2023luab">Learning using Annotation Byproducts (ICCV'23)</a>. <a href="https://docs.google.com/presentation/d/1P2L6sTGw26KUYglriAVh5FMFKH-e61jzY-ylqtppEsQ/edit#slide=id.p">[slides]</a>
+                <li>
                   May 2024. four papers are accepted at ACL 2024: <a href="gubri2024acl_trap">TRAP</a>, <a href="ulmer2024acl_apricot">APRICOT</a>, <a href="ahn2024acl_timechara">TimeChara</a>, <a href="lee2024acl_sweet">SWEET</a>. 
                 </li>
                 <li>
@@ -74,24 +85,6 @@
                 <li>
                   Jan 2024. Two papers are accepted at ICLR 2024: <a href="kim2024ccm">Context compression for LLMs</a>, <a href="kim2024prom">Prometheus</a>. 
                 </li>
-                <!-- <li>                  
-                  Oct 2023. I gave <a href="https://docs.google.com/presentation/d/1us5RbpRrUCq4vUbX-eNhrfgwSgLNcmCNchSQCl7GOEw/edit?usp=sharing">a talk</a> at <a href="https://sites.google.com/view/rcv2023/home">RCV workshop</a> in ICCV 2023. 
-                </li>                 -->
-                <!-- <li>
-                  Oct 2023. One paper is accepted at EMNLP 2023: <a href="kim2023cream">Cream</a>. 
-                </li>                
-                <li>
-                  Sep 2023. Two papers are accepted at NeurIPS 2023: <a href="kim2023nrg">Relation graph</a> and <a href="kim2023propile">ProPILE</a> (spotlight). 
-                </li>
-                <li>
-                  Jul 2023. Two papers are accepted at ICCV 2023: <a href="han2023luab">Neglected free lunch</a> and <a href="park2023seit">SeiT</a>. 
-                </li>
-                <li>
-                  May 2023. One paper is accepted at ACL 2023: <a href="ahn2023mpchat">MPChat</a>. 
-                </li>
-                <li>
-                  Jan 2023. Two papers are accepted at ICLR 2023: <a href="#park2023vitssl">CL-vs-MIM</a> and <a href="#kim2023dynaaug">Video aug</a>. 
-                </li> -->
               </ul>
             </td>
           </tr>
@@ -110,10 +103,103 @@
           </tr>
         </tbody></table>
 
- 
-
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
           
+
+        <!-- ECCV'24 Model Stock -->        
+        <tr>
+          <td style="padding:20px;width:25%;vertical-align:middle">
+            <img src="images/jang2024eccv_modelstock.png" alt="jang2024eccv_modelstock" width="160" >
+          </td>
+          <td style="padding:20px;width:75%;vertical-align:middle">
+            <a href="data/jang2024eccv_modelstock.pdf" id="jang2024eccv_modelstock">
+            <papertitle>Model Stock: All we need is just a few fine-tuned models</papertitle>
+            </a>
+            <br>
+            <a href="https://donghwanjang.github.io/">Dong-Hwan Jang</a>,
+            <strong>Sangdoo Yun*</strong>,
+            <a href="https://sites.google.com/site/dyhan0920/">Dongyoon Han*</a>.
+            <br>
+            <em>ECCV</em>, 2024 <span style="color: red; "><strong>(Oral Presentation)</strong></span>
+            <br>
+            <a href="https://arxiv.org/abs/2403.19522">arXiv</a> /
+            <a href="">Bibtex</a> /
+            <a href="">Code</a> 
+            <p></p>
+            <p>
+               Averaging many models (e.g., 70 models for <a href="">Model soups</a>) improves in-distribution and out-of-distribution performance. 
+               Our method, <strong>Model Stock</strong> (an analogy for very efficient version of Model soup), can achieve comparative performance with just a few fine-tuned models. 
+               Our secret is in the weight space of fine-tuned models. We find that the models have special geometric characteristics 
+               and we derive an efficient way to achieve the effect of averaging many models.
+            </p>            
+        </tr>
+
+        <!-- ECCV'24 HYPE --> 
+         <!-- HYPE: Hyperbolic Entailment Filtering for Underspecified Images and Texts
+          Wonjae Kim, Sanghyuk Chun, Taekyung Kim, Dongyoon Han, Sangdoo Yun -->
+        <tr>
+          <td style="padding:20px;width:25%;vertical-align:middle">
+            <img src="images/kim2024eccv_hype.png" alt="kim2024eccv_hype" width="160" >
+          </td>
+          <td style="padding:20px;width:75%;vertical-align:middle">
+            <a href="data/kim2024eccv_hype.pdf" id="kim2024eccv_hype">
+            <papertitle>HYPE: Hyperbolic Entailment Filtering for Underspecified Images and Texts</papertitle>
+            </a>
+            <br>
+            <a href="https://wonjae.kim/">Wonjae Kim</a>,
+            <a href="https://sanghyukchun.github.io/home/">Sanghyuk Chun</a>,
+            <a href="https://scholar.google.es/citations?user=u-9bdkwAAAAJ">Taekyung Kim</a>,
+            <a href="https://sites.google.com/site/dyhan0920/">Dongyoon Han</a>,
+            <strong>Sangdoo Yun</strong>.
+            <br>
+            <em>ECCV</em>, 2024 <span style="color: red; "><strong>(Oral Presentation)</strong></span>
+            <br>
+            <a href="https://arxiv.org/abs/2404.17507">arXiv</a> /
+            <a href="">Bibtex</a> /
+            <a href="">Code</a> 
+            <p></p>
+            <p>
+               Data quality, especially specificity and clarity, is crucial for self-supervised model training. 
+               We introduce Hyperbolic Entailment Filtering (<strong>HYPE</strong>) for images and texts, with state-of-the-art performance in 
+               the <a href="https://www.datacomp.ai/dcclip/leaderboard.html">DataComp benchmark</a>. 
+            </p>
+
+        </tr>
+
+
+        <!-- ECCV'24 RoPE ViT -->
+         <!-- Rotary Position Embedding for Vision Transformer
+        Byeongho Heo, Song Park, Dongyoon Han, Sangdoo Yun -->
+        <tr>
+          <td style="padding:20px;width:25%;vertical-align:middle">
+            <img src="images/heo2024eccv_ropevit.png" alt="heo2024eccv_ropevit" width="160" >
+          </td>
+          <td style="padding:20px;width:75%;vertical-align:middle">
+            <a href="data/heo2024eccv_ropevit.pdf" id="heo2024eccv_ropevit">
+            <papertitle>Rotary Position Embedding for Vision Transformer</papertitle>
+            </a>
+            <br>
+            <a href="https://sites.google.com/view/byeongho-heo/home">Byeongho Heo</a>,
+            <a href="https://8uos.github.io/">Song Park</a>,
+            <a href="https://sites.google.com/site/dyhan0920/">Dongyoon Han</a>,
+            <strong>Sangdoo Yun</strong>.
+            <br>
+            <em>ECCV</em>, 2024
+            <br>
+            <a href="https://arxiv.org/abs/2404.17507">arXiv</a> /
+            <a href="">Bibtex</a> /
+            <a href="">Code</a> 
+            <p></p>
+            <p>
+              We study the impact of <a href="https://arxiv.org/abs/2104.09864">Rotary Position Embedding (RoPE)</a> on vision models, especially Vision Transformers (ViTs).
+              From the original 1D RoPE for text data, we search for practical implementation for 2D vision data. 
+              Our analysis shows that RoPE shows remarkable extrapolation performance (e.g., increasing image resolution).                
+            </p>
+          </td>
+        </tr>
+ 
+
+
         <!-- acl'24 TRAP -->
         <tr> 
           <td style="padding:20px;width:25%;vertical-align:middle">
@@ -499,7 +585,7 @@
             <br>
             <em>*Equal contribution</em>
             <br>
-            <em>arXiv</em>, 2023
+            <em>TMLR</em>, 2024
             <br>
             <a href="https://arxiv.org/abs/2303.11916">arXiv</a> /
             <a href="data/gu2023compodiff.txt">Bibtex</a> /
@@ -545,7 +631,8 @@
             <a href="https://openaccess.thecvf.com/content/ICCV2023/html/Han_Neglected_Free_Lunch_-_Learning_Image_Classifiers_Using_Annotation_Byproducts_ICCV_2023_paper.html"> cvf </a> /
             <a href="data/han2023luab.txt">Bibtex</a> /
             <a href="https://github.com/naver-ai/NeglectedFreeLunch">Code & Dataset</a> / 
-            <a href="https://youtu.be/9HEj3Km2TWo">Video</a>             
+            <a href="https://youtu.be/9HEj3Km2TWo">Video</a> /
+            <a href="https://docs.google.com/presentation/d/1P2L6sTGw26KUYglriAVh5FMFKH-e61jzY-ylqtppEsQ/edit?usp=sharing">slide (@KCCV2024)</a>
             <p></p>
             <p>
               When annotating data, annotators unintionally generate auxiliary information during the annotation task, 
@@ -569,7 +656,7 @@
             <papertitle>SeiT: Storage-Efficient Vision Training with Tokens Using 1% of Pixel Storage</papertitle>
             </a>
             <br>
-            <a href="">Song Park</a>*,
+            <a href="https://8uos.github.io/">Song Park</a>*,
             <a href="https://sanghyukchun.github.io/home/">Sanghyuk Chun</a>*,
             <a href="https://sites.google.com/view/byeongho-heo/home">Byeongho Heo</a>,
             <a href="https://wonjae.kim/">Wonjae Kim</a>, 
@@ -2005,6 +2092,28 @@
           </tr>
         </tbody></table>
 
+        <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20"><tbody>
+          <tr>
+            <td>
+              <heading>Lectures</heading>
+            </td>
+          </tr>
+        </tbody></table>
+
+        <table>
+          <tr>
+            <ul>              
+            </ul>
+            <td width="75%" valign="center">
+              <a href="https://naver-ai.github.io/202402-AI773/">
+              <papertitle>AI773: Topics in Artificial Intelligence - Multimodal Deep Learning Theories and Applications                
+              </papertitle>
+              </a>
+              <p>
+              </p>
+            </td>
+          </tr>
+        </table>
 
         <table width="100%" align="center" border="0" cellpadding="20"><tbody>
           <tr>
@@ -2012,14 +2121,14 @@
               <strong>Reviewing activities</strong>
               <p></p>
               <ul>
+                <li>Serve as an area chair at NeurIPS'23 D&B, NeurIPS'24 D&B, ECCV 2024.</li>
+                <li>Serve as a meta-reviewer at AAAI'22, AAAI'23, AAAI'24</li>                
                 <li>Serve as a reviewer at CVPR, ICCV, ECCV, ICML, NeurIPS, ICLR, AAAI, etc.</li>
                 <li>Outstanding reviewer awards at
                   <a href="https://cvpr2021.thecvf.com/node/184">CVPR'21</a>,
                   <a href="https://iccv2021.thecvf.com/outstanding-reviewers">ICCV'21</a>,
                   <a href="https://cvpr2022.thecvf.com/outstanding-reviewers">CVPR'22</a>.
                 </li>
-                <li>Serve as a meta-reviewer at AAAI'22, AAAI'23, AAAI'24</li>
-                <li>Serve as an area chair at NeurIPS'23 D&B Track</li>
               </ul>
             </td>
           </tr>

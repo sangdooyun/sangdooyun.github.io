@@ -1,0 +1,106 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Sangdoo Yun</title>
+    <meta name="author" content="Sangdoo Yun">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="stylesheet.css">
+    <link rel="icon" type="image/png" href="images/my_image_icon.png">
+    <style>
+        .section {
+            display: none;
+        }
+        .section.active {
+            display: block;
+        }
+        .toggle-button {
+            cursor: pointer;
+            color: blue;
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <table style="width:100%;max-width:800px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+        <tbody>
+            <tr style="padding:0">
+                <td style="padding:0px">
+                    <!-- Your existing content here -->
+
+                    <div style="text-align:center">
+                        <span class="toggle-button" onclick="showSection('recent')">Recent Publications</span> |
+                        <span class="toggle-button" onclick="showSection('all')">All Publications</span>
+                    </div>
+
+                    <div id="recent" class="section active">
+                        <!-- Recent publications here -->
+                        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+                            <tbody>
+                                <!-- Replace this section with actual recent publications -->
+                                <tr>
+                                    <td style="padding:20px;width:25%;vertical-align:middle">
+                                        <img src="images/recent_publication_image.png" alt="recent publication" width="160">
+                                    </td>
+                                    <td style="padding:20px;width:75%;vertical-align:middle">
+                                        <a href="data/recent_publication.pdf">
+                                            <papertitle>Recent Publication Title</papertitle>
+                                        </a>
+                                        <br>
+                                        Authors, <strong>Sangdoo Yun</strong>, etc.
+                                        <br>
+                                        <em>Journal/Conference</em>, Year
+                                        <br>
+                                        <a href="https://arxiv.org/abs/recent_publication">arXiv</a> /
+                                        <a href="https://github.com/recent_publication">Code</a>
+                                        <p>Short description of the recent publication.</p>
+                                    </td>
+                                </tr>
+                                <!-- Add more recent publications here -->
+                            </tbody>
+                        </table>
+                    </div>
+
+                    <div id="all" class="section">
+                        <!-- All publications here -->
+                        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+                            <tbody>
+                                <!-- Replace this section with actual all publications -->
+                                <tr>
+                                    <td style="padding:20px;width:25%;vertical-align:middle">
+                                        <img src="images/all_publication_image.png" alt="all publication" width="160">
+                                    </td>
+                                    <td style="padding:20px;width:75%;vertical-align:middle">
+                                        <a href="data/all_publication.pdf">
+                                            <papertitle>All Publication Title</papertitle>
+                                        </a>
+                                        <br>
+                                        Authors, <strong>Sangdoo Yun</strong>, etc.
+                                        <br>
+                                        <em>Journal/Conference</em>, Year
+                                        <br>
+                                        <a href="https://arxiv.org/abs/all_publication">arXiv</a> /
+                                        <a href="https://github.com/all_publication">Code</a>
+                                        <p>Short description of the all publication.</p>
+                                    </td>
+                                </tr>
+                                <!-- Add more all publications here -->
+                            </tbody>
+                        </table>
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+
+    <script>
+        function showSection(sectionId) {
+            var sections = document.getElementsByClassName('section');
+            for (var i = 0; i < sections.length; i++) {
+                sections[i].classList.remove('active');
+            }
+            document.getElementById(sectionId).classList.add('active');
+        }
+    </script>
+</body>
+</html>
