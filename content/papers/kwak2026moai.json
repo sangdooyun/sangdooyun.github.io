@@ -1,0 +1,22 @@
+{
+  "id": "kwak2026moai",
+  "image": "images/kwak2026moai.png",
+  "title": "Aligned Novel View Image and Geometry Synthesis via Cross-modal Attention Instillation",
+  "url": "https://arxiv.org/abs/2506.11924",
+  "authors": [
+    {"name": "Min-Seop Kwak"},
+    {"name": "Junho Kim"},
+    {"name": "Sangdoo Yun", "highlight": true},
+    {"name": "Dongyoon Han", "url": "https://sites.google.com/site/dyhan0920/"},
+    {"name": "Taekyung Kim", "url": "https://scholar.google.co.kr/citations?user=u-9bdkwAAAAJ&hl=en"},
+    {"name": "Seungryong Kim*"},
+    {"name": "Jin-Hwa Kim*", "url": "http://wityworks.com/"}
+  ],
+  "venue": "ICLR",
+  "year": 2026,
+  "links": [
+    {"label": "arXiv", "url": "https://arxiv.org/abs/2506.11924"},
+    {"label": "Project page", "url": "https://cvlab-kaist.github.io/MoAI/"}
+  ],
+  "description": ""
+}

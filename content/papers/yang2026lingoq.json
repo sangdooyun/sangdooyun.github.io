@@ -1,0 +1,20 @@
+{
+  "id": "yang2026lingoq",
+  "image": "images/yang2026lingoq.png",
+  "title": "LingoQ: Bridging the Gap between EFL Learning and Work through AI-Generated Work-Related Quizzes",
+  "url": "https://arxiv.org/abs/2509.17477",
+  "authors": [
+    {"name": "Yeonsun Yang"},
+    {"name": "Sang Won Lee"},
+    {"name": "Jean Y. Song"},
+    {"name": "Sangdoo Yun", "highlight": true},
+    {"name": "Young-Ho Kim", "url": "https://younghokim.net/"}
+  ],
+  "venue": "CHI",
+  "year": 2026,
+  "links": [
+    {"label": "arXiv", "url": "https://arxiv.org/abs/2509.17477"},
+    {"label": "ACM DL", "url": "https://doi.org/10.1145/3772318.3791342"}
+  ],
+  "description": ""
+}

@@ -1,0 +1,20 @@
+{
+  "id": "son2026clearfairy",
+  "image": "images/son2026clearfairy.png",
+  "title": "ClearFairy: Capturing Creative Workflows through Decision Structuring, In-Situ Questioning, and Rationale Inference",
+  "url": "https://arxiv.org/abs/2509.14537",
+  "authors": [
+    {"name": "Kihoon Son", "url": "https://kihoon-son.github.io/"},
+    {"name": "DaEun Choi"},
+    {"name": "Tae Soo Kim"},
+    {"name": "Young-Ho Kim", "url": "https://younghokim.net/"},
+    {"name": "Sangdoo Yun", "highlight": true},
+    {"name": "Juho Kim"}
+  ],
+  "venue": "CHI",
+  "year": 2026,
+  "links": [
+    {"label": "arXiv", "url": "https://arxiv.org/abs/2509.14537"}
+  ],
+  "description": ""
+}
