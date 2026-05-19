@@ -1,0 +1,33 @@
+{
+  "id": "kim2026fastkvzip",
+  "image": "images/kim2026fastkvzip.png",
+  "title": "Fast KVzip: Efficient and Accurate LLM Inference with Gated KV Eviction",
+  "url": "https://arxiv.org/abs/2601.17668",
+  "authors": [
+    {
+      "name": "Jang-Hyun Kim",
+      "url": "https://janghyun1230.github.io/"
+    },
+    {
+      "name": "Dongyoon Han",
+      "url": "https://sites.google.com/site/dyhan0920/"
+    },
+    {
+      "name": "Sangdoo Yun",
+      "highlight": true
+    }
+  ],
+  "venue": "arXiv",
+  "year": 2026,
+  "links": [
+    {
+      "label": "arXiv",
+      "url": "https://arxiv.org/abs/2601.17668"
+    },
+    {
+      "label": "Code",
+      "url": "https://github.com/Janghyun1230/FastKVzip"
+    }
+  ],
+  "description": ""
+}

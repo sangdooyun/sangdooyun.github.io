@@ -1,0 +1,45 @@
+{
+  "id": "gubri2024acl_trap",
+  "image": "images/gubri2024acl_trap.png",
+  "title": "TRAP: Targeted Random Adversarial Prompt Honeypot for Black-Box Identification",
+  "url": "data/gubri2024acl_trap.pdf",
+  "authors": [
+    {
+      "name": "Martin Gubri",
+      "url": "https://gubri.eu/"
+    },
+    {
+      "name": "Dennis Thomas Ulmer",
+      "url": "https://dennisulmer.eu/"
+    },
+    {
+      "name": "Hwaran Lee",
+      "url": "https://hwaranlee.github.io/"
+    },
+    {
+      "name": "Sangdoo Yun",
+      "highlight": true
+    },
+    {
+      "name": "Seong Joon Oh",
+      "url": "https://coallaoh.github.io/"
+    }
+  ],
+  "venue": "ACL Findings",
+  "year": 2024,
+  "links": [
+    {
+      "label": "arXiv",
+      "url": "https://arxiv.org/abs/2402.12991"
+    },
+    {
+      "label": "Bibtex",
+      "url": ""
+    },
+    {
+      "label": "Code",
+      "url": "https://github.com/parameterlab/trap"
+    }
+  ],
+  "description": "LLM weights are valuable assets, and their usage should be strictly controlled under rules given by the providers, either in open- or closed-source models.\n              For instance, when a new model has came, the provider wants to know whether the model is based on their own LLMs or not.\n              To this end, we propose <strong>TRAP</strong>, a black-box LLM identification.\n              TRAP asks the model a very specific question (e.g., give a random 4 digit number) that only one company's machine will answer in a certain way."
+}

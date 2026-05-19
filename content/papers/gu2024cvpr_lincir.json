@@ -1,0 +1,48 @@
+{
+  "id": "gu2024cvpr_lincir",
+  "image": "images/gu2024cvpr_lincir.png",
+  "title": "Language-only Efficient Training of Zero-shot Composed Image Retrieval",
+  "url": "data/gu2024cvpr_lincir.pdf",
+  "authors": [
+    {
+      "name": "Geonmo Gu*",
+      "url": "https://geonm.github.io/"
+    },
+    {
+      "name": "Sanghyuk Chun*",
+      "url": "https://sanghyukchun.github.io/home/"
+    },
+    {
+      "name": "Wonjae Kim",
+      "url": "https://wonjae.kim/"
+    },
+    {
+      "name": "Yoohoon Kang"
+    },
+    {
+      "name": "Sangdoo Yun",
+      "highlight": true
+    }
+  ],
+  "venue": "CVPR",
+  "year": 2024,
+  "links": [
+    {
+      "label": "arXiv",
+      "url": "https://arxiv.org/abs/2312.01998"
+    },
+    {
+      "label": "Bibtex",
+      "url": ""
+    },
+    {
+      "label": "Code",
+      "url": "https://github.com/navervision/lincir"
+    },
+    {
+      "label": "Demo",
+      "url": "https://huggingface.co/spaces/navervision/LinCIR"
+    }
+  ],
+  "description": "Do we really need images for training composed image retrieval (CIR) models? Our answer is NO. \n               We propose <strong>LinCIR</strong>, a language-only training method for CIR. \n               LinCIR shows strong performance with efficeint training cost (e.g., training LinCIR with a CLIP ViT-G backbone in 1 hour)."
+}

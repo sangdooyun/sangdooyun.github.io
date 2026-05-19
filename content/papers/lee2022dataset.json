@@ -1,0 +1,37 @@
+{
+  "id": "lee2022dataset",
+  "image": "images/lee2022dataset.jpg",
+  "title": "Dataset Condensation with Contrastive Signals",
+  "url": "data/lee2022dataset.pdf",
+  "authors": [
+    {
+      "name": "Saehyung Lee",
+      "url": "https://scholar.google.com/citations?user=nS24h74AAAAJ&hl=en"
+    },
+    {
+      "name": "Sanghyuk Chun",
+      "url": "https://sanghyukchun.github.io/home/"
+    },
+    {
+      "name": "Sangwon Jung",
+      "url": "https://sites.google.com/view/sangwon-jung"
+    },
+    {
+      "name": "Sangdoo Yun",
+      "highlight": true
+    },
+    {
+      "name": "Sungroh Yoon",
+      "url": "http://data.snu.ac.kr/index.php/people/"
+    }
+  ],
+  "venue": "ICML",
+  "year": 2022,
+  "links": [
+    {
+      "label": "Bibtex",
+      "url": "data/lee2022dataset.txt"
+    }
+  ],
+  "description": "Existing data condensation methods deal with class-wise gradients and ignore the inter-class information. \n              We show it would degrade performance in practical scenarios like fine-grained classification. \n              Our simple remedy is modifying the loss function to integrate contrastive signals, which shows effectiveness in several practical scenarios."
+}

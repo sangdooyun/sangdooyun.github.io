@@ -1,0 +1,35 @@
+{
+  "id": "song2026pivot",
+  "image": "images/song2026pivot.png",
+  "title": "RL makes MLLMs see better than SFT",
+  "url": "https://arxiv.org/abs/2510.16333",
+  "authors": [
+    {
+      "name": "Junha Song"
+    },
+    {
+      "name": "Sangdoo Yun",
+      "highlight": true
+    },
+    {
+      "name": "Dongyoon Han",
+      "url": "https://sites.google.com/site/dyhan0920/"
+    },
+    {
+      "name": "Jaegul Choo"
+    },
+    {
+      "name": "Byeongho Heo",
+      "url": "https://sites.google.com/view/byeongho-heo/home"
+    }
+  ],
+  "venue": "ICLR",
+  "year": 2026,
+  "links": [
+    {
+      "label": "arXiv",
+      "url": "https://arxiv.org/abs/2510.16333"
+    }
+  ],
+  "description": ""
+}

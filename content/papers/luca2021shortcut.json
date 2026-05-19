@@ -1,0 +1,42 @@
+{
+  "id": "luca2021shortcut",
+  "image": "images/luca2021shortcut.png",
+  "title": "Which shortcut cues will dnns choose? a study from the parameter-space perspective",
+  "url": "data/luca2021shortcut.pdf",
+  "authors": [
+    {
+      "name": "Luca Scimeca*",
+      "url": "https://lucascimeca.com/"
+    },
+    {
+      "name": "Seong Joon Oh*",
+      "url": "https://coallaoh.github.io/"
+    },
+    {
+      "name": "Sanghyuk Chun",
+      "url": "https://sanghyukchun.github.io/home/"
+    },
+    {
+      "name": "Michael Poli",
+      "url": "https://scholar.google.com/citations?user=RgIBwboAAAAJ&hl=en"
+    },
+    {
+      "name": "Sangdoo Yun",
+      "highlight": true
+    }
+  ],
+  "venue": "ICLR",
+  "year": 2022,
+  "pre_venue_html": "<em>*Equal contribution</em>",
+  "links": [
+    {
+      "label": "Bibtex",
+      "url": "data/luca2021shortcut.txt"
+    },
+    {
+      "label": "OpenReview",
+      "url": "https://openreview.net/forum?id=qRDQi3ocgR3"
+    }
+  ],
+  "description": "What causes <a href=\"https://arxiv.org/abs/2004.07780\">shortcut learning</a> problem?\n              We observe the model's behaviors when we provide equal chance of being fit to multiple cues (<em>e.g.</em>, color and shape with equal chance).\n              Interestingly, the model would like to fit into a certain cue (<em>e.g.</em>, color than shape) in such even situation.\n              This paper explains the reason in terms of parameter-space perspective."
+}

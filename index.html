@@ -82,23 +82,86 @@
   </table>
 
   <script>
-    async function loadSection(file, targetId) {
-      try {
-        const res = await fetch(file);
-        if (!res.ok) throw new Error(res.status + ' ' + res.statusText);
-        const html = await res.text();
-        document.getElementById(targetId).innerHTML = html;
-      } catch (e) {
-        console.error('Failed to load', file, e);
-        document.getElementById(targetId).innerHTML =
-          '<p style="color:red">Failed to load ' + file + ': ' + e.message + '</p>';
-      }
+    function esc(s) {
+      return String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
     }
-    document.addEventListener('DOMContentLoaded', () => {
-      loadSection('content/news.html',              'section-news');
-      loadSection('content/research.html',          'section-research');
-      loadSection('content/academic_service.html',  'section-academic-service');
-      loadSection('content/lectures.html',          'section-lectures');
+    function escAttr(s) {
+      return String(s).replace(/&/g, '&amp;').replace(/"/g, '&quot;');
+    }
+    function renderAuthor(a) {
+      if (a.highlight) return `<strong>${esc(a.name)}</strong>`;
+      return `<a href="${escAttr(a.url || '')}">${esc(a.name)}</a>`;
+    }
+    function renderPaperRow(p) {
+      const authors = p.authors.map((a, i) => {
+        const sep = (i === p.authors.length - 1) ? '.' : ',';
+        return `              ${renderAuthor(a)}${sep}`;
+      }).join('\n');
+      const linkParts = (p.links || []).map(l =>
+        `<a href="${escAttr(l.url)}">${esc(l.label)}</a>`
+      );
+      if (p.links_extras_html) linkParts.push(p.links_extras_html);
+      const links = linkParts.join(' /\n              ');
+      const preVenue = p.pre_venue_html
+        ? `              ${p.pre_venue_html}\n              <br>\n`
+        : '';
+      const venueNote = p.venue_note_html ? ' ' + p.venue_note_html : '';
+      const desc = p.description
+        ? `              <p>${p.description}</p>\n`
+        : '';
+      return `
+          <!-- ${esc(p.id)} -->
+          <tr>
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <img src="${escAttr(p.image)}" alt="${escAttr(p.id)}" width="160">
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a href="${escAttr(p.url)}" id="${escAttr(p.id)}">
+                <papertitle>${esc(p.title)}</papertitle>
+              </a>
+              <br>
+${authors}
+              <br>
+${preVenue}              <em>${esc(p.venue)}</em>, ${esc(p.year)}${venueNote}
+              <br>
+              ${links}
+              <p></p>
+${desc}          </tr>`;
+    }
+    async function loadSection(file, targetId) {
+      const res = await fetch(file);
+      if (!res.ok) throw new Error(res.status + ' ' + res.statusText);
+      const html = await res.text();
+      document.getElementById(targetId).innerHTML = html;
+    }
+    async function fetchJson(url) {
+      const res = await fetch(url);
+      if (!res.ok) throw new Error(url + ': ' + res.status + ' ' + res.statusText);
+      return res.json();
+    }
+    async function loadPapersDir(dirPath, containerId) {
+      const ids = await fetchJson(dirPath + '/index.json');
+      const papers = await Promise.all(
+        ids.map(id => fetchJson(dirPath + '/' + id + '.json'))
+      );
+      const html = papers.map(renderPaperRow).join('\n');
+      const container = document.getElementById(containerId);
+      if (!container) throw new Error('container #' + containerId + ' not found');
+      container.insertAdjacentHTML('afterbegin', html);
+    }
+    async function safeRun(label, fn) {
+      try { await fn(); }
+      catch (e) { console.error('Failed:', label, e); }
+    }
+    document.addEventListener('DOMContentLoaded', async () => {
+      safeRun('news',     () => loadSection('content/news.html',             'section-news'));
+      safeRun('academic', () => loadSection('content/academic_service.html', 'section-academic-service'));
+      safeRun('lectures', () => loadSection('content/lectures.html',         'section-lectures'));
+      // research.html must load before per-paper JSON files can find #recent-papers tbody
+      await safeRun('research', async () => {
+        await loadSection('content/research.html', 'section-research');
+        await loadPapersDir('content/papers', 'recent-papers');
+      });
     });
   </script>
 

@@ -1,0 +1,54 @@
+{
+  "id": "baek2019STR",
+  "image": "images/baek2019STR.png",
+  "title": "What Is Wrong with Scene Text Recognition Model Comparisons? Dataset and Model Analysis",
+  "url": "data/baek2019str.pdf",
+  "authors": [
+    {
+      "name": "Jeonghun Baek",
+      "url": "http://jeonghunbaek.net/"
+    },
+    {
+      "name": "Geewook Kim",
+      "url": "http://geewook.kim/"
+    },
+    {
+      "name": "Junyeop Lee",
+      "url": "https://scholar.google.com/citations?user=syo1R9UAAAAJ&hl=en"
+    },
+    {
+      "name": "Sungrae Park",
+      "url": "https://sites.google.com/view/sungraepark"
+    },
+    {
+      "name": "Dongyoon Han",
+      "url": "https://sites.google.com/site/dyhan0920/"
+    },
+    {
+      "name": "Sangdoo Yun",
+      "highlight": true
+    },
+    {
+      "name": "Seong Joon Oh",
+      "url": "https://coallaoh.github.io/"
+    },
+    {
+      "name": "Hwalsuk Lee",
+      "url": "https://github.com/hwalsuklee"
+    }
+  ],
+  "venue": "ICCV",
+  "year": 2019,
+  "venue_note_html": "<span style=\"color: red; \"><strong>(Oral Presentation)</strong></span>",
+  "links": [
+    {
+      "label": "Bibtex",
+      "url": "data/baek2019STR.txt"
+    },
+    {
+      "label": "Code",
+      "url": "https://github.com/clovaai/deep-text-recognition-benchmark"
+    }
+  ],
+  "description": "Scene text recognition evaluation has been somewhat wrong because the model and dataset were not controlled.\n                We provide unified benchmark protocol and fairly reproduced results. We also found a new architecture from those unified experiments."
+}

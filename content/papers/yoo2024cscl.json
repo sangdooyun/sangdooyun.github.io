@@ -1,0 +1,37 @@
+{
+  "id": "yoo2024cscl",
+  "image": "images/yoo2024cscl.png",
+  "title": "Code-Switching Curriculum Learning for Multilingual Transfer in LLMs",
+  "url": "https://arxiv.org/abs/2411.02460",
+  "authors": [
+    {
+      "name": "Haneul Yoo",
+      "url": "https://haneul-yoo.github.io/"
+    },
+    {
+      "name": "Cheonbok Park",
+      "url": "https://cbokpark.github.io/"
+    },
+    {
+      "name": "Sangdoo Yun",
+      "highlight": true
+    },
+    {
+      "name": "Alice Oh",
+      "url": "https://aliceoh9.github.io/"
+    },
+    {
+      "name": "Hwaran Lee",
+      "url": "https://hwaranlee.github.io/"
+    }
+  ],
+  "venue": "ACL",
+  "year": 2025,
+  "links": [
+    {
+      "label": "arXiv",
+      "url": "https://arxiv.org/abs/2411.02460"
+    }
+  ],
+  "description": "Humans mix languages (i.e., code-switching) naturally when learning second languages; \n                inspied by this, we teach LLMs new languages through code-switching data. \n                Our Code-Switching Curriculum Learning (CSCL) boosts cross-lingual skills efficiently, even when training data is scarce."
+}

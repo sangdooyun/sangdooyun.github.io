@@ -1,0 +1,41 @@
+{
+  "id": "ahn2023mpchat",
+  "image": "images/ahn2023mpchat.png",
+  "title": "MPChat: Towards Multimodal Persona-Grounded Conversation",
+  "url": "data/ahn2023mpchat.pdf",
+  "authors": [
+    {
+      "name": "Jaewoo Ahn",
+      "url": "https://ahnjaewoo.github.io/"
+    },
+    {
+      "name": "Yeda Song",
+      "url": "https://vision.snu.ac.kr/people/yedasong.html"
+    },
+    {
+      "name": "Sangdoo Yun",
+      "highlight": true
+    },
+    {
+      "name": "Gunhee Kim",
+      "url": "https://vision.snu.ac.kr/gunhee/"
+    }
+  ],
+  "venue": "ACL",
+  "year": 2023,
+  "links": [
+    {
+      "label": "arXiv",
+      "url": "https://arxiv.org/abs/2305.17388"
+    },
+    {
+      "label": "Bibtex",
+      "url": "data/ahn2023mpchat.txt"
+    },
+    {
+      "label": "Code",
+      "url": "https://vision.snu.ac.kr/projects/mpchat/"
+    }
+  ],
+  "description": "Building persona is crucial for personalized dialog sistem. \n              We explore additional vision modality beyond text-based persona.  \n              To this end, we collect multimodal persona dialog dataset (<em>MPChat</em>) and demonstrate how vision modality help the conversation."
+}

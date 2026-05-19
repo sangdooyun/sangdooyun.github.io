@@ -1,0 +1,64 @@
+{
+  "id": "seo2026swm",
+  "image": "images/seo2026swm.png",
+  "title": "Grounding World Simulation Models in a Real-World Metropolis",
+  "url": "https://arxiv.org/abs/2603.15583",
+  "authors": [
+    {
+      "name": "Junyoung Seo"
+    },
+    {
+      "name": "Hyunwook Choi"
+    },
+    {
+      "name": "Minkyung Kwon"
+    },
+    {
+      "name": "Jinhyeok Choi"
+    },
+    {
+      "name": "Siyoon Jin"
+    },
+    {
+      "name": "Gayoung Lee"
+    },
+    {
+      "name": "Junho Kim"
+    },
+    {
+      "name": "JoungBin Lee"
+    },
+    {
+      "name": "Geonmo Gu",
+      "url": "https://geonm.github.io/"
+    },
+    {
+      "name": "Dongyoon Han",
+      "url": "https://sites.google.com/site/dyhan0920/"
+    },
+    {
+      "name": "Sangdoo Yun",
+      "highlight": true
+    },
+    {
+      "name": "Seungryong Kim"
+    },
+    {
+      "name": "Jin-Hwa Kim",
+      "url": "http://wityworks.com/"
+    }
+  ],
+  "venue": "arXiv",
+  "year": 2026,
+  "links": [
+    {
+      "label": "arXiv",
+      "url": "https://arxiv.org/abs/2603.15583"
+    },
+    {
+      "label": "Project page",
+      "url": "https://seoul-world-model.github.io/"
+    }
+  ],
+  "description": ""
+}

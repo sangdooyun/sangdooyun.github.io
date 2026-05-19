@@ -1,0 +1,37 @@
+{
+  "id": "haritz2025naacl",
+  "image": "images/haritz2025naacl.png",
+  "title": "Scaling Up Membership Inference: When and How Attacks Succeed on Large Language Models",
+  "url": "https://arxiv.org/abs/2411.00154",
+  "authors": [
+    {
+      "name": "Haritz Puerto",
+      "url": "https://haritzpuerto.github.io/"
+    },
+    {
+      "name": "Martin Gubri",
+      "url": "https://gubri.eu/"
+    },
+    {
+      "name": "Sangdoo Yun",
+      "highlight": true
+    },
+    {
+      "name": "Seong Joon Oh",
+      "url": "https://coallaoh.github.io/"
+    }
+  ],
+  "venue": "NAACL Findings",
+  "year": 2025,
+  "links": [
+    {
+      "label": "arXiv",
+      "url": "https://arxiv.org/abs/2411.00154"
+    },
+    {
+      "label": "Code",
+      "url": "https://github.com/parameterlab/mia-scaling"
+    }
+  ],
+  "description": "We show that membership inference attacks (MIA) can work on LLMs, \n              but only when applied at scale, specifically at the document level or more."
+}

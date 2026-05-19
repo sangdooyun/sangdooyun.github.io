@@ -1,0 +1,45 @@
+{
+  "id": "haritz2025cseo",
+  "image": "images/haritz2025cseo.png",
+  "title": "C-SEO Bench: Does Conversational SEO Work?",
+  "url": "https://arxiv.org/abs/2506.11097",
+  "authors": [
+    {
+      "name": "Haritz Puerto",
+      "url": "https://haritzpuerto.github.io/"
+    },
+    {
+      "name": "Martin Gubri",
+      "url": "https://gubri.eu/"
+    },
+    {
+      "name": "Tommaso Green",
+      "url": "https://green-t.io/"
+    },
+    {
+      "name": "Seong Joon Oh*",
+      "url": "https://coallaoh.github.io/"
+    },
+    {
+      "name": "Sangdoo Yun*",
+      "highlight": true
+    }
+  ],
+  "venue": "NeurIPS Dataset and Benchmark Track",
+  "year": 2025,
+  "links": [
+    {
+      "label": "arXiv",
+      "url": "https://arxiv.org/abs/2506.11097"
+    },
+    {
+      "label": "Code",
+      "url": "https://github.com/parameterlab/c-seo-bench"
+    },
+    {
+      "label": "Dataset (HF)",
+      "url": "https://huggingface.co/datasets/parameterlab/c-seo-bench"
+    }
+  ],
+  "description": "With conversational search systems like Perplexity and ChatGPT-Search becoming mainstream, new C-SEO strategies are emerging. \n                To evaluate these systematically, we propose <strong>C-SEO Bench</strong>, a benchmark spanning diverse tasks and domains. \n                Our results show that previous text-modification methods are largely ineffective, \n                while traditional SEO techniques that improve contextual ranking order are significantly more impactful,\n                indicating the need for further advances in C-SEO methods."
+}

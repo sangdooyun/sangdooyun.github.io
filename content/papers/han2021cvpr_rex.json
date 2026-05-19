@@ -1,0 +1,37 @@
+{
+  "id": "han2021cvpr_rex",
+  "image": "images/han2021cvpr_rex.png",
+  "title": "Rethinking Channel Dimensions for Efficient Model Design",
+  "url": "data/han2021cvpr_rex.pdf",
+  "authors": [
+    {
+      "name": "Dongyoon Han",
+      "url": "https://sites.google.com/site/dyhan0920/"
+    },
+    {
+      "name": "Sangdoo Yun",
+      "highlight": true
+    },
+    {
+      "name": "Byeongho Heo",
+      "url": "https://sites.google.com/view/byeongho-heo/home"
+    },
+    {
+      "name": "Youngjoon Yoo",
+      "url": "https://yjyoo3312.github.io/"
+    }
+  ],
+  "venue": "CVPR",
+  "year": 2021,
+  "links": [
+    {
+      "label": "Bibtex",
+      "url": "data/han2021cvpr_rex.txt"
+    },
+    {
+      "label": "Code",
+      "url": "https://github.com/clovaai/rexnet"
+    }
+  ],
+  "description": "CNN architectures (<em>e.g.,</em> ResNet, MobileNet, etc.) usually follows the same feature-map down-sampling policy.\n                We conjecture such design policy would harm the representation ability of intermediate layers.\n                We analyze the feature-map's rank (inspired by softmax-bottleneck) and suggests a new network architecture,\n                namely, Rank eXpanded Network (ReXNet)."
+}

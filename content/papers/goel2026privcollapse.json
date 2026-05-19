@@ -1,0 +1,43 @@
+{
+  "id": "goel2026privcollapse",
+  "image": "images/goel2026privcollapse.png",
+  "title": "Privacy Collapse: Benign Fine-Tuning Can Break Contextual Privacy in Language Models",
+  "url": "https://arxiv.org/abs/2601.15220",
+  "authors": [
+    {
+      "name": "Anmol Goel"
+    },
+    {
+      "name": "Cornelius Emde"
+    },
+    {
+      "name": "Sangdoo Yun",
+      "highlight": true
+    },
+    {
+      "name": "Seong Joon Oh",
+      "url": "https://coallaoh.github.io/"
+    },
+    {
+      "name": "Martin Gubri",
+      "url": "https://gubri.eu/"
+    }
+  ],
+  "venue": "ACL",
+  "year": 2026,
+  "links": [
+    {
+      "label": "arXiv",
+      "url": "https://arxiv.org/abs/2601.15220"
+    },
+    {
+      "label": "Code",
+      "url": "https://github.com/parameterlab/privacy-collapse"
+    },
+    {
+      "label": "Project page",
+      "url": "https://parameterlab.github.io/privacy-collapse/"
+    }
+  ],
+  "description": ""
+}

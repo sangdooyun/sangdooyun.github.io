@@ -1,0 +1,45 @@
+{
+  "id": "kim2025tobo",
+  "image": "images/kim2025tobo.png",
+  "title": "Token Bottleneck: One Token to Remember Dynamics",
+  "url": "https://arxiv.org/abs/2507.06543",
+  "authors": [
+    {
+      "name": "Taekyung Kim",
+      "url": "https://scholar.google.co.kr/citations?user=u-9bdkwAAAAJ&hl=en"
+    },
+    {
+      "name": "Dongyoon Han",
+      "url": "https://sites.google.com/site/dyhan0920/"
+    },
+    {
+      "name": "Byeongho Heo",
+      "url": "https://sites.google.com/view/byeongho-heo/home"
+    },
+    {
+      "name": "Jeongeun Park",
+      "url": "https://jeongeun-park-page.github.io/"
+    },
+    {
+      "name": "Sangdoo Yun",
+      "highlight": true
+    }
+  ],
+  "venue": "NeurIPS",
+  "year": 2025,
+  "links": [
+    {
+      "label": "arXiv",
+      "url": "https://arxiv.org/abs/2506.15674"
+    },
+    {
+      "label": "Code",
+      "url": "https://github.com/naver-ai/tobo"
+    },
+    {
+      "label": "Project",
+      "url": "https://token-bottleneck.github.io/"
+    }
+  ],
+  "description": "Token bottleneck is a simple yet effective self-supervised learning method for training strong vision backbones for robot policy learning."
+}

@@ -1,0 +1,68 @@
+{
+  "id": "kim2024prom",
+  "image": "images/kim2024prom.png",
+  "title": "Prometheus: Inducing Fine-grained Evaluation Capability in Language Models",
+  "url": "data/kim2024prom.pdf",
+  "authors": [
+    {
+      "name": "Seungone Kim*",
+      "url": "https://seungonekim.github.io/"
+    },
+    {
+      "name": "Jamin Shin*",
+      "url": "https://www.jayshin.xyz/"
+    },
+    {
+      "name": "Yejin Cho*"
+    },
+    {
+      "name": "Joel Jang",
+      "url": "https://joeljang.github.io/"
+    },
+    {
+      "name": "Shayne Longpre",
+      "url": "https://www.shaynelongpre.com/"
+    },
+    {
+      "name": "Hwaran Lee",
+      "url": "https://hwaranlee.github.io/"
+    },
+    {
+      "name": "Sangdoo Yun",
+      "highlight": true
+    },
+    {
+      "name": "Seongjin Shin",
+      "url": "https://scholar.google.com/citations?user=hF3NWVcAAAAJ&hl=en"
+    },
+    {
+      "name": "Sungdong Kim",
+      "url": "https://scholar.google.com/citations?user=xKrSnDoAAAAJ&hl=ko"
+    },
+    {
+      "name": "James Thorne",
+      "url": "https://jamesthorne.com/"
+    },
+    {
+      "name": "Minjoon Seo",
+      "url": "https://seominjoon.github.io/"
+    }
+  ],
+  "venue": "ICLR",
+  "year": 2024,
+  "links": [
+    {
+      "label": "arXiv",
+      "url": "https://arxiv.org/abs/2310.08491"
+    },
+    {
+      "label": "Bibtex",
+      "url": ""
+    },
+    {
+      "label": "Code",
+      "url": "https://github.com/kaistAI/Prometheus"
+    }
+  ],
+  "description": "We introduce <strong>Prometheus</strong>, a fully open-sourced LLMs with GPT-4 compatible evaluation performance.  \n                We built the Feedback Collection dataset, which is also open-sourced, including more than 20K instructions and 100K responses."
+}

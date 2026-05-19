@@ -1,0 +1,54 @@
+{
+  "id": "kim2023dynaaug",
+  "image": "images/kim2023dynaaug.png",
+  "title": "Exploring Temporally Dynamic Data Augmentation for Video Recognition",
+  "url": "data/kim2023dynaaug.pdf",
+  "authors": [
+    {
+      "name": "Taeoh Kim",
+      "url": "https://taeoh-kim.github.io/"
+    },
+    {
+      "name": "Jinhyung Kim",
+      "url": "https://scholar.google.com/citations?user=HPd_1LMAAAAJ&hl=en"
+    },
+    {
+      "name": "Minho Shim",
+      "url": "https://scholar.google.co.kr/citations?user=42dUnrgAAAAJ&hl=ko"
+    },
+    {
+      "name": "Sangdoo Yun",
+      "highlight": true
+    },
+    {
+      "name": "Myunggu Kang",
+      "url": "https://scholar.google.co.kr/citations?user=QyoxwbUAAAAJ&hl=ko"
+    },
+    {
+      "name": "Dongyoon Wee",
+      "url": "https://scholar.google.com/citations?user=oEKX8h0AAAAJ&hl=ko"
+    },
+    {
+      "name": "Sangyoun Lee",
+      "url": "http://mvp.yonsei.ac.kr/"
+    }
+  ],
+  "venue": "ICLR",
+  "year": 2023,
+  "venue_note_html": "(Notable Top 25%)",
+  "links": [
+    {
+      "label": "OpenReview",
+      "url": "https://openreview.net/pdf?id=fxjzKOdw9wb"
+    },
+    {
+      "label": "arXiv",
+      "url": "https://arxiv.org/abs/2206.15015"
+    },
+    {
+      "label": "Bibtex",
+      "url": "data/kim2023dynaaug.txt"
+    }
+  ],
+  "description": "We introduce <em>DynaAugment</em>, a new video data augmentation to capture the temporal dynamics in videos. \n              DynaAugment changes the magnitude of augmentation operation over time to emulate temporal dynamics found in real-world videos."
+}

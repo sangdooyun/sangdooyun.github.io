@@ -1,0 +1,70 @@
+{
+  "id": "han2023luab",
+  "image": "images/han2023luab.png",
+  "title": "Neglected Free Lunch -- Learning Image Classifiers Using Annotation Byproducts",
+  "url": "data/han2023luab.pdf",
+  "authors": [
+    {
+      "name": "Dongyoon Han*",
+      "url": "https://sites.google.com/site/dyhan0920/"
+    },
+    {
+      "name": "Junsuk Choe*",
+      "url": "https://sites.google.com/site/junsukchoe/"
+    },
+    {
+      "name": "Dante Chun",
+      "url": "https://github.com/1000ship"
+    },
+    {
+      "name": "John Joon Young Chung",
+      "url": "https://johnr0.github.io/"
+    },
+    {
+      "name": "Minsuk Chang",
+      "url": "https://minsukchang.com/"
+    },
+    {
+      "name": "Sangdoo Yun",
+      "highlight": true
+    },
+    {
+      "name": "Jean Y. Song",
+      "url": "https://jyskwon.github.io/"
+    },
+    {
+      "name": "Seong Joon Oh",
+      "url": "https://coallaoh.github.io/"
+    }
+  ],
+  "venue": "ICCV",
+  "year": 2023,
+  "pre_venue_html": "<em>*Equal contribution</em>",
+  "links": [
+    {
+      "label": "arXiv",
+      "url": "https://arxiv.org/abs/2303.17595"
+    },
+    {
+      "label": "cvf",
+      "url": "https://openaccess.thecvf.com/content/ICCV2023/html/Han_Neglected_Free_Lunch_-_Learning_Image_Classifiers_Using_Annotation_Byproducts_ICCV_2023_paper.html"
+    },
+    {
+      "label": "Bibtex",
+      "url": "data/han2023luab.txt"
+    },
+    {
+      "label": "Code & Dataset",
+      "url": "https://github.com/naver-ai/NeglectedFreeLunch"
+    },
+    {
+      "label": "Video",
+      "url": "https://youtu.be/9HEj3Km2TWo"
+    },
+    {
+      "label": "slide (@KCCV2024)",
+      "url": "https://docs.google.com/presentation/d/1P2L6sTGw26KUYglriAVh5FMFKH-e61jzY-ylqtppEsQ/edit?usp=sharing"
+    }
+  ],
+  "description": "When annotating data, annotators unintionally generate auxiliary information during the annotation task, \n              such as mouse traces, mouse clicks, time durations.\n              We call them <em>annotation byproducts (AB)</em>.\n              We propose the new paradigm of <em>learning using annotation byproducts (LUAB)</em> which can enhance robustness of image classifiers by aligning them with human recognition mechanisms."
+}

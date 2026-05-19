@@ -1,0 +1,57 @@
+{
+  "id": "lee2024acl_sweet",
+  "image": "images/lee2024acl_sweet.png",
+  "title": "Who Wrote this Code? Watermarking for Code Generation",
+  "url": "data/lee2024acl_sweet.pdf",
+  "authors": [
+    {
+      "name": "Taehyun Lee*",
+      "url": "https://vision.snu.ac.kr/people/taehyunlee.html/"
+    },
+    {
+      "name": "Seokhee Hong*",
+      "url": "https://hongcheki.github.io/"
+    },
+    {
+      "name": "Jaewoo Ahn",
+      "url": "https://ahnjaewoo.github.io/"
+    },
+    {
+      "name": "Ilgee Hong",
+      "url": "https://ilgeehong.github.io/"
+    },
+    {
+      "name": "Hwaran Lee",
+      "url": "https://hwaranlee.github.io/"
+    },
+    {
+      "name": "Sangdoo Yun",
+      "highlight": true
+    },
+    {
+      "name": "Jamin Shin",
+      "url": "https://www.jayshin.xyz/"
+    },
+    {
+      "name": "Gunhee Kim",
+      "url": "https://vision.snu.ac.kr/gunhee/"
+    }
+  ],
+  "venue": "ACL",
+  "year": 2024,
+  "links": [
+    {
+      "label": "arXiv",
+      "url": "https://arxiv.org/abs/2305.15060"
+    },
+    {
+      "label": "Bibtex",
+      "url": ""
+    },
+    {
+      "label": "Code",
+      "url": "https://github.com/hongcheki/sweet-watermark"
+    }
+  ],
+  "description": "We propose <strong>SWEET</strong>, a watermarking method for code generation LLMs. \n              Previous <a href=\"https://arxiv.org/pdf/2301.10226\">watermarking</a> methods fail to handle code generation scenarios due to syntactic and semantic characteristics of code.\n              SWEET leverages the entropy of token distribution, and shows strong watermarking performance in code generation."
+}

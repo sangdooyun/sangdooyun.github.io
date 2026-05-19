@@ -1,0 +1,41 @@
+{
+  "id": "heo2024eccv_ropevit",
+  "image": "images/heo2024eccv_ropevit.png",
+  "title": "Rotary Position Embedding for Vision Transformer",
+  "url": "data/heo2024eccv_ropevit.pdf",
+  "authors": [
+    {
+      "name": "Byeongho Heo",
+      "url": "https://sites.google.com/view/byeongho-heo/home"
+    },
+    {
+      "name": "Song Park",
+      "url": "https://8uos.github.io/"
+    },
+    {
+      "name": "Dongyoon Han",
+      "url": "https://sites.google.com/site/dyhan0920/"
+    },
+    {
+      "name": "Sangdoo Yun",
+      "highlight": true
+    }
+  ],
+  "venue": "ECCV",
+  "year": 2024,
+  "links": [
+    {
+      "label": "arXiv",
+      "url": "https://arxiv.org/abs/2403.13298"
+    },
+    {
+      "label": "Bibtex",
+      "url": ""
+    },
+    {
+      "label": "Code",
+      "url": ""
+    }
+  ],
+  "description": "We study the impact of <a href=\"https://arxiv.org/abs/2104.09864\">Rotary Position Embedding (RoPE)</a> on vision models, especially Vision Transformers (ViTs).\n              From the original 1D RoPE for text data, we search for practical implementation for 2D vision data. \n              Our analysis shows that RoPE shows remarkable extrapolation performance (e.g., increasing image resolution)."
+}

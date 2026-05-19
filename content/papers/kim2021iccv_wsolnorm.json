@@ -1,0 +1,37 @@
+{
+  "id": "kim2021iccv_wsolnorm",
+  "image": "images/kim2021iccv_wsol.png",
+  "title": "Normalization Matters in Weakly Supervised Object Localization",
+  "url": "https://openaccess.thecvf.com/content/ICCV2021/papers/Kim_Normalization_Matters_in_Weakly_Supervised_Object_Localization_ICCV_2021_paper.pdf",
+  "authors": [
+    {
+      "name": "Jeesoo Kim",
+      "url": "https://sites.google.com/site/jeesookim0305"
+    },
+    {
+      "name": "Junsuk Choe",
+      "url": "https://sites.google.com/site/junsukchoe/"
+    },
+    {
+      "name": "Sangdoo Yun",
+      "highlight": true
+    },
+    {
+      "name": "Nojun Kwak",
+      "url": "http://mipal.snu.ac.kr/index.php/Nojun_Kwak"
+    }
+  ],
+  "venue": "ICCV",
+  "year": 2021,
+  "links": [
+    {
+      "label": "Bibtex",
+      "url": "data/kim2021iccv_wsol.txt"
+    },
+    {
+      "label": "Code",
+      "url": "https://github.com/GenDisc/IVR"
+    }
+  ],
+  "description": "We investigates the effect of <a href=\"http://cnnlocalization.csail.mit.edu/Zhou_Learning_Deep_Features_CVPR_2016_paper.pdf\">CAM (CVPR'16)</a> normalization on WSOL,\n                and suggest a new normalization method."
+}

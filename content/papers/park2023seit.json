@@ -1,0 +1,50 @@
+{
+  "id": "park2023seit",
+  "image": "images/park2023seit.png",
+  "title": "SeiT: Storage-Efficient Vision Training with Tokens Using 1% of Pixel Storage",
+  "url": "data/park2023seit.pdf",
+  "authors": [
+    {
+      "name": "Song Park*",
+      "url": "https://8uos.github.io/"
+    },
+    {
+      "name": "Sanghyuk Chun*",
+      "url": "https://sanghyukchun.github.io/home/"
+    },
+    {
+      "name": "Byeongho Heo",
+      "url": "https://sites.google.com/view/byeongho-heo/home"
+    },
+    {
+      "name": "Wonjae Kim",
+      "url": "https://wonjae.kim/"
+    },
+    {
+      "name": "Sangdoo Yun",
+      "highlight": true
+    }
+  ],
+  "venue": "ICCV",
+  "year": 2023,
+  "pre_venue_html": "<em>*Equal contribution</em>",
+  "links": [
+    {
+      "label": "arXiv",
+      "url": "https://arxiv.org/abs/2303.11114"
+    },
+    {
+      "label": "cvf",
+      "url": "https://openaccess.thecvf.com/content/ICCV2023/html/Park_SeiT_Storage-Efficient_Vision_Training_with_Tokens_Using_1_of_Pixel_ICCV_2023_paper.html"
+    },
+    {
+      "label": "Bibtex",
+      "url": "data/park2023seit.txt"
+    },
+    {
+      "label": "Code",
+      "url": "https://github.com/naver-ai/seit"
+    }
+  ],
+  "description": "Vision deep models are image data hungry, but image storage has become a bottleneck (e.g., LAION-5B images require 240 TB).\n              We propose a storage-efficient training method, <em>SeiT</em>, that utilizes only 1% of standard pixel storage without sacrificing accuracy."
+}

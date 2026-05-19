@@ -1,0 +1,58 @@
+{
+  "id": "kim2023propile",
+  "image": "images/kim2023propile.png",
+  "title": "ProPILE: Probing Privacy Leakage in Large Language Models",
+  "url": "data/kim2023propile.pdf",
+  "authors": [
+    {
+      "name": "Siwon Kim",
+      "url": "https://sites.google.com/view/siwonkim"
+    },
+    {
+      "name": "Sangdoo Yun",
+      "highlight": true
+    },
+    {
+      "name": "Hwaran Lee",
+      "url": "https://hwaranlee.github.io/"
+    },
+    {
+      "name": "Martin Gubri",
+      "url": "https://gubri.eu/"
+    },
+    {
+      "name": "Sungroh Yoon",
+      "url": "http://data.snu.ac.kr/index.php/people/"
+    },
+    {
+      "name": "Seong Joon Oh",
+      "url": "https://coallaoh.github.io/"
+    }
+  ],
+  "venue": "NeurIPS",
+  "year": 2023,
+  "venue_note_html": "(Spotlight)",
+  "links": [
+    {
+      "label": "arXiv",
+      "url": "https://arxiv.org/abs/2307.01881"
+    },
+    {
+      "label": "Bibtex",
+      "url": "data/kim2023propile.txt"
+    },
+    {
+      "label": "tweet",
+      "url": "https://twitter.com/parameterlab/status/1706235969488208172"
+    },
+    {
+      "label": "Code",
+      "url": ""
+    },
+    {
+      "label": "Demo",
+      "url": ""
+    }
+  ],
+  "description": "Perhaps, Large language models (LLMs) can answer just about anything, with their hyper-scale parameters and data. \n              However, they may answer your private information (i.e., personally identifiable information (PII)), then it could be problematic. \n              With our probing tool, ProPILE, we can investigate whether the model reveals our personal information or not."
+}

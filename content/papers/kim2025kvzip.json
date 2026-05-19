@@ -1,0 +1,51 @@
+{
+  "id": "kim2025kvzip",
+  "image": "images/kim2025kvzip.png",
+  "title": "KVzip: Query-Agnostic KV Cache Compression with Context Reconstruction",
+  "url": "https://arxiv.org/abs/2505.23416",
+  "authors": [
+    {
+      "name": "Jang-Hyun Kim",
+      "url": "https://janghyun1230.github.io/"
+    },
+    {
+      "name": "Jinuk Kim",
+      "url": "https://jinukkim.me/"
+    },
+    {
+      "name": "Sangwoo Kwon",
+      "url": "https://openreview.net/profile?id=%7ESangwoo_Kwon1"
+    },
+    {
+      "name": "Jae W. Lee",
+      "url": "https://iamjaelee.github.io/www/"
+    },
+    {
+      "name": "Sangdoo Yun",
+      "highlight": true
+    },
+    {
+      "name": "Hyun Oh Song",
+      "url": "https://mllab.snu.ac.kr/hyunoh/"
+    }
+  ],
+  "venue": "NeurIPS",
+  "year": 2025,
+  "venue_note_html": "<span style=\"color: red; \"><strong>(Oral Presentation)</strong></span>",
+  "links": [
+    {
+      "label": "arXiv",
+      "url": "https://arxiv.org/abs/2505.23416"
+    },
+    {
+      "label": "Code",
+      "url": "https://github.com/snu-mllab/KVzip"
+    },
+    {
+      "label": "Project",
+      "url": "https://janghyun1230.github.io/kvzip/"
+    }
+  ],
+  "links_extras_html": "<strong>Rank #1</strong> @ <a href=\"https://huggingface.co/spaces/nvidia/kvpress-leaderboard\">KV Press Leaderboard</a> (Sep. 25)",
+  "description": "KVzip is a query-agnostic KV cache compression method that evicts up to 70% of cached context KV pairs with negligible performance loss across tasks such as question answering, reasoning, coding comprehension, etc."
+}

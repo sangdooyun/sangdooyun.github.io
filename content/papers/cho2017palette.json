@@ -1,0 +1,33 @@
+{
+  "id": "cho2017palette",
+  "image": "images/cho2017palette.png",
+  "title": "PaletteNet: Image Recolorization with Given Color Palette",
+  "url": "http://openaccess.thecvf.com/content_cvpr_2017_workshops/w12/papers/Cho_PaletteNet_Image_Recolorization_CVPR_2017_paper.pdf",
+  "authors": [
+    {
+      "name": "Junho Cho",
+      "url": "http://pil.snu.ac.kr/member/view.do?idx=9"
+    },
+    {
+      "name": "Sangdoo Yun",
+      "highlight": true
+    },
+    {
+      "name": "Kyoung Mu Lee",
+      "url": "https://cv.snu.ac.kr/index.php/~kmlee/"
+    },
+    {
+      "name": "Jin Young Choi",
+      "url": "http://pil.snu.ac.kr/about/view.do?idx=1"
+    }
+  ],
+  "venue": "CVPR Workshop",
+  "year": 2017,
+  "links": [
+    {
+      "label": "Bibtex",
+      "url": "data/cho2017palette.txt"
+    }
+  ],
+  "description": "We propose a image colorization method from the given palette."
+}

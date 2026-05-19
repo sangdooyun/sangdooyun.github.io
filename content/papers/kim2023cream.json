@@ -1,0 +1,62 @@
+{
+  "id": "kim2023cream",
+  "image": "images/kim2023cream.png",
+  "title": "Cream: Visually-Situated Natural Language Understanding with Contrastive Reading Model and Frozen Large Language Models",
+  "url": "data/kim2023cream.pdf",
+  "authors": [
+    {
+      "name": "Geewook Kim",
+      "url": "http://geewook.kim/"
+    },
+    {
+      "name": "Hodong Lee"
+    },
+    {
+      "name": "Daehee Kim"
+    },
+    {
+      "name": "Haeji Jung"
+    },
+    {
+      "name": "Sanghee Park"
+    },
+    {
+      "name": "Yoonsik Kim"
+    },
+    {
+      "name": "Sangdoo Yun",
+      "highlight": true
+    },
+    {
+      "name": "Taeho Kil"
+    },
+    {
+      "name": "Bado Lee"
+    },
+    {
+      "name": "Seunghyun Park",
+      "url": "https://scholar.google.co.kr/citations?user=iowjmTwAAAAJ&hl=en"
+    }
+  ],
+  "venue": "EMNLP",
+  "year": 2023,
+  "links": [
+    {
+      "label": "arXiv",
+      "url": "https://arxiv.org/abs/2305.15080"
+    },
+    {
+      "label": "Bibtex",
+      "url": "data/kim2023cream.txt"
+    },
+    {
+      "label": "Code",
+      "url": ""
+    },
+    {
+      "label": "Demo",
+      "url": ""
+    }
+  ],
+  "description": "After introducing <a href=\"#kim2021donut\">Donut</a>, we build Cream🍦 which leverages large language models (LLMs).\n               To mitigate the gap between vision encoders and LMs, we propose auxiliary encoders and contrastive learning scheme. \n               Cream demonstrates robust and impressive document understanding performance."
+}

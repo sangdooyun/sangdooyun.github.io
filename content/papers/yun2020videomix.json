@@ -1,0 +1,37 @@
+{
+  "id": "yun2020videomix",
+  "image": "images/yun2020videomix.png",
+  "title": "VideoMix: Rethinking Data Augmentation for Video Classification",
+  "url": "data/yun2020videomix.pdf",
+  "authors": [
+    {
+      "name": "Sangdoo Yun",
+      "highlight": true
+    },
+    {
+      "name": "Seong Joon Oh",
+      "url": "https://coallaoh.github.io/"
+    },
+    {
+      "name": "Byeongho Heo",
+      "url": "https://sites.google.com/view/byeongho-heo/home"
+    },
+    {
+      "name": "Dongyoon Han",
+      "url": "https://sites.google.com/site/dyhan0920/"
+    },
+    {
+      "name": "Jinhyung Kim",
+      "url": "https://scholar.google.com/citations?user=HPd_1LMAAAAJ&hl=en"
+    }
+  ],
+  "venue": "arXiv",
+  "year": 2020,
+  "links": [
+    {
+      "label": "Bibtex",
+      "url": "data/yun2020videomix.txt"
+    }
+  ],
+  "description": "Extension of <a href=\"#yun2019cutmix\">CutMix</a> to video recognition.\n                We search for the best mixing strategy for video tasks."
+}

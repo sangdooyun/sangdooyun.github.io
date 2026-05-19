@@ -1,0 +1,42 @@
+{
+  "id": "yun2017_adnet",
+  "image": "images/yun2017adnet.png",
+  "title": "Action-Decision Networks for Visual Tracking with Deep Reinforcement Learning",
+  "url": "http://openaccess.thecvf.com/content_cvpr_2017/papers/Yun_Action-Decision_Networks_for_CVPR_2017_paper.pdf",
+  "authors": [
+    {
+      "name": "Sangdoo Yun",
+      "highlight": true
+    },
+    {
+      "name": "Jongwon Choi",
+      "url": "https://sites.google.com/site/jwchoivision/"
+    },
+    {
+      "name": "Youngjoon Yoo",
+      "url": "https://yjyoo3312.github.io/"
+    },
+    {
+      "name": "Kimin Yun",
+      "url": "https://sites.google.com/view/kiminyun/profile"
+    },
+    {
+      "name": "Jin Young Choi",
+      "url": "http://pil.snu.ac.kr/about/view.do?idx=1"
+    }
+  ],
+  "venue": "CVPR",
+  "year": 2017,
+  "venue_note_html": "<span style=\"color: red; \"><strong>(Spotlight Presentation)</strong></span>",
+  "links": [
+    {
+      "label": "Bibtex",
+      "url": "data/yun2017adnet.txt"
+    },
+    {
+      "label": "Code",
+      "url": "https://github.com/hellbell/ADNet"
+    }
+  ],
+  "description": "We fomulate visual tracking as a decision making process and propose a reinforcement learning method to train visual trackers.\n                Our RL-based tracker shows state-of-the-art level performance and especially it shows high efficiency with semi-supervised scenario."
+}

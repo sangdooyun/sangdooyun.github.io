@@ -1,0 +1,52 @@
+{
+  "id": "gu2026muco",
+  "image": "images/gu2026muco.png",
+  "title": "MuCo: Multi-turn Contrastive Learning for Multimodal Embedding Model",
+  "url": "https://arxiv.org/abs/2602.06393",
+  "authors": [
+    {
+      "name": "Geonmo Gu",
+      "url": "https://geonm.github.io/"
+    },
+    {
+      "name": "Byeongho Heo",
+      "url": "https://sites.google.com/view/byeongho-heo/home"
+    },
+    {
+      "name": "Jaemyung Yu"
+    },
+    {
+      "name": "Jaehui Hwang"
+    },
+    {
+      "name": "Taekyung Kim",
+      "url": "https://scholar.google.co.kr/citations?user=u-9bdkwAAAAJ&hl=en"
+    },
+    {
+      "name": "Sangmin Lee"
+    },
+    {
+      "name": "HeeJae Jun"
+    },
+    {
+      "name": "Yoohoon Kang"
+    },
+    {
+      "name": "Sangdoo Yun*",
+      "highlight": true
+    },
+    {
+      "name": "Dongyoon Han*",
+      "url": "https://sites.google.com/site/dyhan0920/"
+    }
+  ],
+  "venue": "CVPR",
+  "year": 2026,
+  "links": [
+    {
+      "label": "arXiv",
+      "url": "https://arxiv.org/abs/2602.06393"
+    }
+  ],
+  "description": ""
+}

@@ -1,0 +1,45 @@
+{
+  "id": "ulmer2024acl_apricot",
+  "image": "images/ulmer2024acl_apricot.png",
+  "title": "Calibrating Large Language Models Using Their Generations Only",
+  "url": "data/ulmer2024acl_apricot.pdf",
+  "authors": [
+    {
+      "name": "Dennis Thomas Ulmer",
+      "url": "https://dennisulmer.eu/"
+    },
+    {
+      "name": "Martin Gubri",
+      "url": "https://gubri.eu/"
+    },
+    {
+      "name": "Hwaran Lee",
+      "url": "https://hwaranlee.github.io/"
+    },
+    {
+      "name": "Sangdoo Yun",
+      "highlight": true
+    },
+    {
+      "name": "Seong Joon Oh",
+      "url": "https://coallaoh.github.io/"
+    }
+  ],
+  "venue": "ACL",
+  "year": 2024,
+  "links": [
+    {
+      "label": "arXiv",
+      "url": "https://arxiv.org/abs/2403.05973"
+    },
+    {
+      "label": "Bibtex",
+      "url": ""
+    },
+    {
+      "label": "Code",
+      "url": "https://github.com/parameterlab/apricot"
+    }
+  ],
+  "description": "Our goal is to calibrate the confidence of LLMs to increase the reliability of their outputs.\n              We propose <strong>APRICOT</strong>, a method to calibrate the confidence of LLMs via utilizing external lightweight model."
+}

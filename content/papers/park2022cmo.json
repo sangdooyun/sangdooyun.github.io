@@ -1,0 +1,41 @@
+{
+  "id": "park2022cmo",
+  "image": "images/park2021cmo.png",
+  "title": "The Majority Can Help The Minority: Context-rich Minority Oversampling for Long-tailed Classification",
+  "url": "data/park2021cmo.pdf",
+  "authors": [
+    {
+      "name": "Seulki Park",
+      "url": "https://www.linkedin.com/in/seulki-park-49a775147?originalSubdomain=kr"
+    },
+    {
+      "name": "Youngkyu Hong",
+      "url": "https://grayhong.github.io/"
+    },
+    {
+      "name": "Byeongho Heo",
+      "url": "https://sites.google.com/view/byeongho-heo/home"
+    },
+    {
+      "name": "Sangdoo Yun",
+      "highlight": true
+    },
+    {
+      "name": "Jin Young Choi",
+      "url": "http://pil.snu.ac.kr/about/view.do?idx=1"
+    }
+  ],
+  "venue": "CVPR",
+  "year": 2022,
+  "links": [
+    {
+      "label": "Bibtex",
+      "url": "data/park2021cmo.txt"
+    },
+    {
+      "label": "Code",
+      "url": "https://github.com/naver-ai/cmo"
+    }
+  ],
+  "description": "Data oversampling is a simple solution for long-tailed classification, but it may exacerbate overfitting with limited context information.\n              Motivated from <a href=\"#yun2019cutmix\">CutMix</a>, we introduce a simple context-rich oversampling method.\n              Interestingly, majority classes play a key role for boosting classification accuracy of minority classes!"
+}

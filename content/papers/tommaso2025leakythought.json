@@ -1,0 +1,45 @@
+{
+  "id": "tommaso2025leakythought",
+  "image": "images/tommaso2025leakythought.png",
+  "title": "Leaky Thoughts: Large Reasoning Models Are Not Private Thinkers",
+  "url": "https://arxiv.org/abs/2506.15674",
+  "authors": [
+    {
+      "name": "Tommaso Green",
+      "url": "https://green-t.io/"
+    },
+    {
+      "name": "Martin Gubri",
+      "url": "https://gubri.eu/"
+    },
+    {
+      "name": "Haritz Puerto",
+      "url": "https://haritzpuerto.github.io/"
+    },
+    {
+      "name": "Sangdoo Yun*",
+      "highlight": true
+    },
+    {
+      "name": "Seong Joon Oh*",
+      "url": "https://coallaoh.github.io/"
+    }
+  ],
+  "venue": "EMNLP",
+  "year": 2025,
+  "links": [
+    {
+      "label": "arXiv",
+      "url": "https://arxiv.org/abs/2506.15674"
+    },
+    {
+      "label": "Code",
+      "url": "https://github.com/parameterlab/leaky-thoughts"
+    },
+    {
+      "label": "Dataset (HF)",
+      "url": "https://huggingface.co/datasets/parameterlab/leaky_thoughts"
+    }
+  ],
+  "description": "Unlike final outputs, reasoning traces are often assumed to be internal and safe.\n                We show that they can leak sensitive information, which can be extracted or transferred to the output."
+}

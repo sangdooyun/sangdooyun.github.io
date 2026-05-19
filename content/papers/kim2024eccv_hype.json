@@ -1,0 +1,46 @@
+{
+  "id": "kim2024eccv_hype",
+  "image": "images/kim2024eccv_hype.png",
+  "title": "HYPE: Hyperbolic Entailment Filtering for Underspecified Images and Texts",
+  "url": "data/kim2024eccv_hype.pdf",
+  "authors": [
+    {
+      "name": "Wonjae Kim",
+      "url": "https://wonjae.kim/"
+    },
+    {
+      "name": "Sanghyuk Chun",
+      "url": "https://sanghyukchun.github.io/home/"
+    },
+    {
+      "name": "Taekyung Kim",
+      "url": "https://scholar.google.es/citations?user=u-9bdkwAAAAJ"
+    },
+    {
+      "name": "Dongyoon Han",
+      "url": "https://sites.google.com/site/dyhan0920/"
+    },
+    {
+      "name": "Sangdoo Yun",
+      "highlight": true
+    }
+  ],
+  "venue": "ECCV",
+  "year": 2024,
+  "venue_note_html": "<span style=\"color: red; \"><strong>(Oral Presentation)</strong></span>",
+  "links": [
+    {
+      "label": "arXiv",
+      "url": "https://arxiv.org/abs/2404.17507"
+    },
+    {
+      "label": "Bibtex",
+      "url": ""
+    },
+    {
+      "label": "Code",
+      "url": ""
+    }
+  ],
+  "description": "Data quality, especially specificity and clarity, is crucial for self-supervised model training. \n               We introduce Hyperbolic Entailment Filtering (<strong>HYPE</strong>) for images and texts, with state-of-the-art performance in \n               the <a href=\"https://www.datacomp.ai/dcclip/leaderboard.html\">DataComp benchmark</a>."
+}

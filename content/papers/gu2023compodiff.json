@@ -1,0 +1,52 @@
+{
+  "id": "gu2023compodiff",
+  "image": "images/gu2023compodiff.png",
+  "title": "CompoDiff: Versatile Composed Image Retrieval With Latent Diffusion",
+  "url": "data/gu2023compodiff.pdf",
+  "authors": [
+    {
+      "name": "Geonmo Gu*",
+      "url": "https://geonm.github.io/"
+    },
+    {
+      "name": "Sanghyuk Chun*",
+      "url": "https://sanghyukchun.github.io/home/"
+    },
+    {
+      "name": "Wonjae Kim",
+      "url": "https://wonjae.kim/"
+    },
+    {
+      "name": "HeeJae Jun"
+    },
+    {
+      "name": "Yoohoon Kang"
+    },
+    {
+      "name": "Sangdoo Yun",
+      "highlight": true
+    }
+  ],
+  "venue": "TMLR",
+  "year": 2024,
+  "pre_venue_html": "<em>*Equal contribution</em>",
+  "links": [
+    {
+      "label": "arXiv",
+      "url": "https://arxiv.org/abs/2303.11916"
+    },
+    {
+      "label": "Bibtex",
+      "url": "data/gu2023compodiff.txt"
+    },
+    {
+      "label": "Code",
+      "url": "https://github.com/navervision/CompoDiff"
+    },
+    {
+      "label": "Demo",
+      "url": "https://huggingface.co/spaces/navervision/CompoDiff-Aesthetic"
+    }
+  ],
+  "description": "We propose a diffusion-based model, <em>CompoDiff</em>, for Composed Image Retrieval (CIR) task. \n              To train the model, we created a new dataset comprising 18 million triplets of images and associated conditions. \n              <em>CompoDiff</em> shows state-of-the-art zero-shot CIR performance."
+}

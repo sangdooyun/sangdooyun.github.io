@@ -1,0 +1,36 @@
+{
+  "id": "yun2014dpm",
+  "image": "images/yun2014dpm.png",
+  "title": "Self-organizing Cascaded Structure of Deformable Part Models for Fast Object Detection",
+  "url": "https://ieeexplore.ieee.org/document/6977440/",
+  "authors": [
+    {
+      "name": "Sangdoo Yun",
+      "highlight": true
+    },
+    {
+      "name": "Hawook Jeong",
+      "url": "https://www.linkedin.com/in/hawook-jeong-b7472b119/"
+    },
+    {
+      "name": "Woo-Sung Kang"
+    },
+    {
+      "name": "Byeongho Heo",
+      "url": "https://sites.google.com/view/byeongho-heo/home"
+    },
+    {
+      "name": "Jin Young Choi",
+      "url": "http://pil.snu.ac.kr/about/view.do?idx=1"
+    }
+  ],
+  "venue": "ICPR",
+  "year": 2014,
+  "links": [
+    {
+      "label": "Bibtex",
+      "url": "data/yun2014dpm.txt"
+    }
+  ],
+  "description": "We improve the computational efficiency of deformable part model (DPM) by re-organizing the order of part filters.\n                With a cascaded structure, we place more important part filter at first for early rejection."
+}

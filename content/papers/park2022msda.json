@@ -1,0 +1,46 @@
+{
+  "id": "park2022msda",
+  "image": "images/park2022msda.jpg",
+  "title": "A Unified Analysis of Mixed Sample Data Augmentation: A Loss Function Perspective",
+  "url": "data/park2022msda.pdf",
+  "authors": [
+    {
+      "name": "Chanwoo Park*",
+      "url": "https://chanwoo-park-official.github.io/"
+    },
+    {
+      "name": "Sangdoo Yun*",
+      "highlight": true
+    },
+    {
+      "name": "Sanghyuk Chun",
+      "url": "https://sanghyukchun.github.io/home/"
+    }
+  ],
+  "venue": "NeurIPS",
+  "year": 2022,
+  "pre_venue_html": "<em>*Equal contribution</em>",
+  "links": [
+    {
+      "label": "OpenReview",
+      "url": "https://openreview.net/forum?id=SLdfxFdIFeN"
+    },
+    {
+      "label": "arXiv",
+      "url": "https://arxiv.org/abs/2208.09913"
+    },
+    {
+      "label": "Poster",
+      "url": "https://nips.cc/media/PosterPDFs/NeurIPS%202022/459a4ddcb586f24efd9395aa7662bc7c.png?t=1667049606.3860223"
+    },
+    {
+      "label": "Bibtex",
+      "url": "data/park2022msda.txt"
+    },
+    {
+      "label": "Code",
+      "url": "https://github.com/naver-ai/hmix-gmix"
+    }
+  ],
+  "description": "Mixed sample data augmentation (MSDA), such as <a href=\"https://arxiv.org/abs/1710.09412\">mixup</a> and <a href=\"#yun2019cutmix\">CutMix</a>, has become a de facto strategy, \n              but its understanding is not studied deeply yet.\n              We introduce the first unified theoretical analysis for MSDAs and figure out what is the difference between mixup and CutMix. \n              Up on the analysis, we build a simple hybrid version of mixup and CutMix to leverage the advantages of mixup and CutMix."
+}

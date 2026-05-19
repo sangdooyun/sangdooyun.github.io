@@ -1,0 +1,45 @@
+{
+  "id": "lee2018keypatchgan",
+  "image": "images/lee2018keypatchgan.png",
+  "title": "Unsupervised Holistic Image Generation from Key Local Patches",
+  "url": "data/lee2018keypatchgan.pdf",
+  "authors": [
+    {
+      "name": "Donghoon Lee",
+      "url": "http://rllab.snu.ac.kr/people/alumni-folder/donghoon-lee/donghoon-lee"
+    },
+    {
+      "name": "Sangdoo Yun",
+      "highlight": true
+    },
+    {
+      "name": "Sungjoon Choi",
+      "url": "https://sites.google.com/view/sungjoon-choi/personal"
+    },
+    {
+      "name": "Hwiyeon Yoo",
+      "url": "http://rllab.snu.ac.kr/people/hwiyeon-yoo/hwiyeon-yoo"
+    },
+    {
+      "name": "Ming-Hsuan Yang",
+      "url": "https://faculty.ucmerced.edu/mhyang/"
+    },
+    {
+      "name": "Songhwai Oh",
+      "url": "http://rllab.snu.ac.kr/people/songhwai-oh"
+    }
+  ],
+  "venue": "ECCV",
+  "year": 2018,
+  "links": [
+    {
+      "label": "Bibtex",
+      "url": "data/lee2018keypatchgan.txt"
+    },
+    {
+      "label": "Code",
+      "url": "https://github.com/hellbell/KeyPatchGan"
+    }
+  ],
+  "description": "We train a GAN model that generates a holistic image from its small parts."
+}

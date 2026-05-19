@@ -1,0 +1,40 @@
+{
+  "id": "yoo2016lda",
+  "image": "images/yoo2016lda.png",
+  "title": "Visual Path Prediction in Complex Scenes with Crowded Moving Objects",
+  "url": "https://www.cv-foundation.org/openaccess/content_cvpr_2016/papers/Yoo_Visual_Path_Prediction_CVPR_2016_paper.pdf",
+  "authors": [
+    {
+      "name": "Youngjoon Yoo",
+      "url": "https://yjyoo3312.github.io/"
+    },
+    {
+      "name": "Kimin Yun",
+      "url": "https://sites.google.com/view/kiminyun/profile"
+    },
+    {
+      "name": "Sangdoo Yun",
+      "highlight": true
+    },
+    {
+      "name": "JongHee Hong"
+    },
+    {
+      "name": "Hawook Jeong",
+      "url": "https://www.linkedin.com/in/hawook-jeong-b7472b119/"
+    },
+    {
+      "name": "Jin Young Choi",
+      "url": "http://pil.snu.ac.kr/about/view.do?idx=1"
+    }
+  ],
+  "venue": "CVPR",
+  "year": 2016,
+  "links": [
+    {
+      "label": "Bibtex",
+      "url": "data/yoo2016lda.txt"
+    }
+  ],
+  "description": "Learn latent Dirichlet allocation model from the trajectory of people and predict future paths of people."
+}

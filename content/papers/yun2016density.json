@@ -1,0 +1,33 @@
+{
+  "id": "yun2016density",
+  "image": "images/yun2016density.png",
+  "title": "Density-aware Pedestrian Proposal Networks for Robust People Detection in Crowded Scenes",
+  "url": "https://openreview.net/forum?id=S1N49t-uZr",
+  "authors": [
+    {
+      "name": "Sangdoo Yun",
+      "highlight": true
+    },
+    {
+      "name": "Kimin Yun",
+      "url": "https://sites.google.com/view/kiminyun/profile"
+    },
+    {
+      "name": "Jongwon Choi",
+      "url": "https://sites.google.com/site/jwchoivision/"
+    },
+    {
+      "name": "Jin Young Choi",
+      "url": "http://pil.snu.ac.kr/about/view.do?idx=1"
+    }
+  ],
+  "venue": "ECCV Workshop",
+  "year": 2016,
+  "links": [
+    {
+      "label": "Bibtex",
+      "url": "data/yun2016density.txt"
+    }
+  ],
+  "description": "Detecting people in crowded scene by considering crowd density information.\n                Our intuition is more people should be detected in crowded region."
+}
