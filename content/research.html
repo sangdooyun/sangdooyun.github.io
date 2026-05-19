@@ -10,6 +10,30 @@
           </tr>
         </tbody></table>
 
-        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody id="recent-papers">
-          <!-- all paper entries injected from content/papers/ by index.html loader -->
-        </tbody></table>
+        <div id="selected-papers-section">
+          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+            <tr>
+              <td style="padding:20px;width:100%;vertical-align:middle">
+                <subheading>Selected and recent publications (<a href="#" id="toggle-all-papers" onclick="toggleAllPapers(event)">All Publications</a>)</subheading>
+              </td>
+            </tr>
+          </tbody></table>
+
+          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody id="selected-papers">
+            <!-- selected paper entries injected by index.html loader -->
+          </tbody></table>
+        </div>
+
+        <div id="all-papers-section" style="display:none">
+          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+            <tr>
+              <td style="padding:20px;width:100%;vertical-align:middle">
+                <subheading>All publications (<a href="#" onclick="toggleAllPapers(event)">See selected and recent publications</a>)</subheading>
+              </td>
+            </tr>
+          </tbody></table>
+
+          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody id="all-papers">
+            <!-- all paper entries injected by index.html loader -->
+          </tbody></table>
+        </div>

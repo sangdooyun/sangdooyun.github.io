@@ -139,15 +139,25 @@ ${desc}          </tr>`;
       if (!res.ok) throw new Error(url + ': ' + res.status + ' ' + res.statusText);
       return res.json();
     }
-    async function loadPapersDir(dirPath, containerId) {
-      const ids = await fetchJson(dirPath + '/index.json');
-      const papers = await Promise.all(
-        ids.map(id => fetchJson(dirPath + '/' + id + '.json'))
-      );
-      const html = papers.map(renderPaperRow).join('\n');
-      const container = document.getElementById(containerId);
-      if (!container) throw new Error('container #' + containerId + ' not found');
-      container.insertAdjacentHTML('afterbegin', html);
+    async function loadPapers(dirPath) {
+      const papers = await fetchJson(dirPath + '/all_papers.json');
+      const selected = papers.filter(p => p.selected);
+      const all = papers;
+
+      const selContainer = document.getElementById('selected-papers');
+      if (!selContainer) throw new Error('container #selected-papers not found');
+      selContainer.insertAdjacentHTML('afterbegin', selected.map(renderPaperRow).join('\n'));
+
+      const allContainer = document.getElementById('all-papers');
+      if (!allContainer) throw new Error('container #all-papers not found');
+      allContainer.insertAdjacentHTML('afterbegin', all.map(renderPaperRow).join('\n'));
+    }
+    let _showingAll = false;
+    function toggleAllPapers(e) {
+      e.preventDefault();
+      _showingAll = !_showingAll;
+      document.getElementById('selected-papers-section').style.display = _showingAll ? 'none' : 'block';
+      document.getElementById('all-papers-section').style.display = _showingAll ? 'block' : 'none';
     }
     async function safeRun(label, fn) {
       try { await fn(); }
@@ -160,7 +170,7 @@ ${desc}          </tr>`;
       // research.html must load before per-paper JSON files can find #recent-papers tbody
       await safeRun('research', async () => {
         await loadSection('content/research.html', 'section-research');
-        await loadPapersDir('content/papers', 'recent-papers');
+        await loadPapers('content/papers');
       });
     });
   </script>

@@ -1,0 +1,3651 @@
+[
+  {
+    "id": "seo2026swm",
+    "image": "images/page-teaser-2-thumb.gif",
+    "title": "Grounding World Simulation Models in a Real-World Metropolis",
+    "url": "https://arxiv.org/abs/2603.15583",
+    "authors": [
+      {
+        "name": "Junyoung Seo"
+      },
+      {
+        "name": "Hyunwook Choi"
+      },
+      {
+        "name": "Minkyung Kwon"
+      },
+      {
+        "name": "Jinhyeok Choi"
+      },
+      {
+        "name": "Siyoon Jin"
+      },
+      {
+        "name": "Gayoung Lee"
+      },
+      {
+        "name": "Junho Kim"
+      },
+      {
+        "name": "JoungBin Lee"
+      },
+      {
+        "name": "Geonmo Gu",
+        "url": "https://geonm.github.io/"
+      },
+      {
+        "name": "Dongyoon Han",
+        "url": "https://sites.google.com/site/dyhan0920/"
+      },
+      {
+        "name": "Sangdoo Yun",
+        "highlight": true
+      },
+      {
+        "name": "Seungryong Kim*"
+      },
+      {
+        "name": "Jin-Hwa Kim*",
+        "url": "http://wityworks.com/"
+      }
+    ],
+    "venue": "arXiv",
+    "year": 2026,
+    "links": [
+      {
+        "label": "arXiv",
+        "url": "https://arxiv.org/abs/2603.15583"
+      },
+      {
+        "label": "Project page",
+        "url": "https://seoul-world-model.github.io/"
+      }
+    ],
+    "description": "World simulation models trained on synthetic environments often fail in the real world. We ground them in <strong>Seoul</strong>, a real-world metropolis, providing large-scale urban data (<a href=\"https://map.naver.com/\">Naver Street-view</a>) to bridge the simulation-to-reality gap.",
+    "selected": true
+  },
+  {
+    "id": "kim2026fastkvzip",
+    "image": "images/kim2026fastkvzip.png",
+    "title": "Fast KVzip: Efficient and Accurate LLM Inference with Gated KV Eviction",
+    "url": "https://arxiv.org/abs/2601.17668",
+    "authors": [
+      {
+        "name": "Jang-Hyun Kim",
+        "url": "https://janghyun1230.github.io/"
+      },
+      {
+        "name": "Dongyoon Han",
+        "url": "https://sites.google.com/site/dyhan0920/"
+      },
+      {
+        "name": "Sangdoo Yun",
+        "highlight": true
+      }
+    ],
+    "venue": "arXiv",
+    "year": 2026,
+    "links": [
+      {
+        "label": "arXiv",
+        "url": "https://arxiv.org/abs/2601.17668"
+      },
+      {
+        "label": "Code",
+        "url": "https://github.com/Janghyun1230/FastKVzip"
+      },
+      {
+        "label": "Project page",
+        "url": "https://janghyun1230.github.io/fastkvzip/"
+      }
+    ],
+    "description": "Extending <a href=\"#kim2025kvzip\">KVzip</a>, we propose a <strong>gated KV eviction</strong> mechanism that identifies and drops less important KV cache entries on-the-fly, achieving faster and more accurate LLM inference.",
+    "selected": true
+  },
+  {
+    "id": "gu2026muco",
+    "image": "images/gu2026muco.png",
+    "title": "MuCo: Multi-turn Contrastive Learning for Multimodal Embedding Model",
+    "url": "data/gu2026muco.pdf",
+    "authors": [
+      {
+        "name": "Geonmo Gu",
+        "url": "https://geonm.github.io/"
+      },
+      {
+        "name": "Byeongho Heo",
+        "url": "https://sites.google.com/view/byeongho-heo/home"
+      },
+      {
+        "name": "Jaemyung Yu"
+      },
+      {
+        "name": "Jaehui Hwang"
+      },
+      {
+        "name": "Taekyung Kim",
+        "url": "https://scholar.google.co.kr/citations?user=u-9bdkwAAAAJ&hl=en"
+      },
+      {
+        "name": "Sangmin Lee"
+      },
+      {
+        "name": "HeeJae Jun"
+      },
+      {
+        "name": "Yoohoon Kang"
+      },
+      {
+        "name": "Sangdoo Yun*",
+        "highlight": true
+      },
+      {
+        "name": "Dongyoon Han*",
+        "url": "https://sites.google.com/site/dyhan0920/"
+      }
+    ],
+    "venue": "CVPR",
+    "year": 2026,
+    "links": [
+      {
+        "label": "arXiv",
+        "url": "https://arxiv.org/abs/2602.06393"
+      },
+      {
+        "label": "Dataset and Model",
+        "url": "https://huggingface.co/collections/naver-ai/muco"
+      }
+    ],
+    "description": "Multimodal embedding models are typically trained on single-turn data, limiting their understanding of conversational context. <strong>MuCo</strong> introduces multi-turn contrastive learning to capture cross-modal semantics across dialogue turns.",
+    "selected": true
+  },
+  {
+    "id": "kim2026chimeralora",
+    "image": "images/kim2026chimeralora.png",
+    "title": "ChimeraLoRA: Multi-Head LoRA-Guided Synthetic Datasets",
+    "url": "data/kim2026chimeralora.pdf",
+    "authors": [
+      {
+        "name": "Hoyoung Kim"
+      },
+      {
+        "name": "Minwoo Jang"
+      },
+      {
+        "name": "Jabin Koo"
+      },
+      {
+        "name": "Sangdoo Yun",
+        "highlight": true
+      },
+      {
+        "name": "Jungseul Ok"
+      }
+    ],
+    "venue": "CVPR",
+    "year": 2026,
+    "links": [
+      {
+        "label": "arXiv",
+        "url": "https://arxiv.org/abs/2602.19708"
+      },
+      {
+        "label": "Project page",
+        "url": "https://cskhy16.github.io/chimeralora"
+      }
+    ],
+    "description": "Training data diversity is critical but costly to curate. <strong>ChimeraLoRA</strong> uses multiple LoRA heads to guide synthetic dataset generation, producing diverse, high-quality training data at scale.",
+    "selected": false
+  },
+  {
+    "id": "goel2026privcollapse",
+    "image": "images/goel2026privcollapse.png",
+    "title": "Privacy Collapse: Benign Fine-Tuning Can Break Contextual Privacy in Language Models",
+    "url": "data/goel2026privcollapse.pdf",
+    "authors": [
+      {
+        "name": "Anmol Goel"
+      },
+      {
+        "name": "Cornelius Emde"
+      },
+      {
+        "name": "Sangdoo Yun",
+        "highlight": true
+      },
+      {
+        "name": "Seong Joon Oh",
+        "url": "https://coallaoh.github.io/"
+      },
+      {
+        "name": "Martin Gubri",
+        "url": "https://gubri.eu/"
+      }
+    ],
+    "venue": "ACL",
+    "year": 2026,
+    "links": [
+      {
+        "label": "arXiv",
+        "url": "https://arxiv.org/abs/2601.15220"
+      },
+      {
+        "label": "Code",
+        "url": "https://github.com/parameterlab/privacy-collapse"
+      },
+      {
+        "label": "Project page",
+        "url": "https://parameterlab.github.io/privacy-collapse/"
+      }
+    ],
+    "description": "Fine-tuning LLMs on seemingly harmless data can inadvertently break their contextual privacy protections. We reveal this <strong>privacy collapse</strong> as a critical, underexplored risk in LLM fine-tuning pipelines.",
+    "selected": false
+  },
+  {
+    "id": "emde2026maseval",
+    "image": "images/emde2026maseval.png",
+    "title": "MASEval: Extending Multi-Agent Evaluation from Models to Systems",
+    "url": "data/emde2026maseval.pdf",
+    "authors": [
+      {
+        "name": "Cornelius Emde"
+      },
+      {
+        "name": "Alexander Rubinstein*"
+      },
+      {
+        "name": "Anmol Goel*"
+      },
+      {
+        "name": "Ahmed Heakl*"
+      },
+      {
+        "name": "Sangdoo Yun",
+        "highlight": true
+      },
+      {
+        "name": "Seong Joon Oh",
+        "url": "https://coallaoh.github.io/"
+      },
+      {
+        "name": "Martin Gubri",
+        "url": "https://gubri.eu/"
+      }
+    ],
+    "venue": "ACL System Demo",
+    "year": 2026,
+    "links": [
+      {
+        "label": "arXiv",
+        "url": "https://arxiv.org/abs/2603.08835"
+      }
+    ],
+    "description": "Evaluating multi-agent systems is more than evaluating individual models. <strong>MASEval</strong> extends evaluation frameworks to measure system-level behaviors and interactions across multi-agent pipelines.",
+    "selected": false
+  },
+  {
+    "id": "kwak2026moai",
+    "image": "images/kwak2026moai.png",
+    "title": "Aligned Novel View Image and Geometry Synthesis via Cross-modal Attention Instillation",
+    "url": "data/kwak2026moai.pdf",
+    "authors": [
+      {
+        "name": "Min-Seop Kwak"
+      },
+      {
+        "name": "Junho Kim"
+      },
+      {
+        "name": "Sangdoo Yun",
+        "highlight": true
+      },
+      {
+        "name": "Dongyoon Han",
+        "url": "https://sites.google.com/site/dyhan0920/"
+      },
+      {
+        "name": "Taekyung Kim",
+        "url": "https://scholar.google.co.kr/citations?user=u-9bdkwAAAAJ&hl=en"
+      },
+      {
+        "name": "Seungryong Kim*"
+      },
+      {
+        "name": "Jin-Hwa Kim*",
+        "url": "http://wityworks.com/"
+      }
+    ],
+    "venue": "ICLR",
+    "year": 2026,
+    "links": [
+      {
+        "label": "arXiv",
+        "url": "https://arxiv.org/abs/2506.11924"
+      },
+      {
+        "label": "Project page",
+        "url": "https://cvlab-kaist.github.io/MoAI/"
+      }
+    ],
+    "description": "Novel view synthesis requires geometrically consistent image generation. We propose <strong>cross-modal attention instillation</strong> to align image and geometry synthesis, enabling accurate and coherent novel view generation.",
+    "selected": false
+  },
+  {
+    "id": "heakl2026drllm",
+    "image": "images/heakl2026drllm.png",
+    "title": "Dr.LLM: Dynamic Layer Routing in LLMs",
+    "url": "data/heakl2026drllm.pdf",
+    "authors": [
+      {
+        "name": "Ahmed Heakl"
+      },
+      {
+        "name": "Martin Gubri",
+        "url": "https://gubri.eu/"
+      },
+      {
+        "name": "Salman Khan"
+      },
+      {
+        "name": "Sangdoo Yun*",
+        "highlight": true
+      },
+      {
+        "name": "Seong Joon Oh*",
+        "url": "https://coallaoh.github.io/"
+      }
+    ],
+    "venue": "ICLR",
+    "year": 2026,
+    "links": [
+      {
+        "label": "arXiv",
+        "url": "https://arxiv.org/abs/2510.12773"
+      },
+      {
+        "label": "Code",
+        "url": "https://github.com/parameterlab/dr-llm"
+      }
+    ],
+    "description": "Not all layers of an LLM are equally useful for every token. <strong>Dr.LLM</strong> dynamically routes tokens through a selective subset of layers, reducing inference cost without meaningful accuracy loss.",
+    "selected": true
+  },
+  {
+    "id": "song2026pivot",
+    "image": "images/song2026pivot.jpg",
+    "title": "RL makes MLLMs see better than SFT",
+    "url": "data/song2026pivot.pdf",
+    "authors": [
+      {
+        "name": "Junha Song"
+      },
+      {
+        "name": "Sangdoo Yun",
+        "highlight": true
+      },
+      {
+        "name": "Dongyoon Han",
+        "url": "https://sites.google.com/site/dyhan0920/"
+      },
+      {
+        "name": "Jaegul Choo"
+      },
+      {
+        "name": "Byeongho Heo",
+        "url": "https://sites.google.com/view/byeongho-heo/home"
+      }
+    ],
+    "venue": "ICLR",
+    "year": 2026,
+    "links": [
+      {
+        "label": "arXiv",
+        "url": "https://arxiv.org/abs/2510.16333"
+      },
+      {
+        "label": "Project page",
+        "url": "https://june-page.github.io/pivot/"
+      }
+    ],
+    "description": "We show that <strong>RL training</strong> improves visual perception of MLLMs more effectively than SFT.",
+    "selected": true
+  },
+  {
+    "id": "son2026clearfairy",
+    "image": "images/son2026clearfairy.jpg",
+    "title": "ClearFairy: Capturing Creative Workflows through Decision Structuring, In-Situ Questioning, and Rationale Inference",
+    "url": "data/son2026clearfairy.pdf",
+    "authors": [
+      {
+        "name": "Kihoon Son",
+        "url": "https://kihoon-son.github.io/"
+      },
+      {
+        "name": "DaEun Choi"
+      },
+      {
+        "name": "Tae Soo Kim"
+      },
+      {
+        "name": "Young-Ho Kim",
+        "url": "https://younghokim.net/"
+      },
+      {
+        "name": "Sangdoo Yun",
+        "highlight": true
+      },
+      {
+        "name": "Juho Kim"
+      }
+    ],
+    "venue": "CHI",
+    "year": 2026,
+    "links": [
+      {
+        "label": "arXiv",
+        "url": "https://arxiv.org/abs/2509.14537"
+      }
+    ],
+    "description": "Creative workflows are inherently fluid and hard to document. <strong>ClearFairy</strong> captures them by structuring decisions, asking in-situ questions, and automatically inferring rationales throughout the creative process.",
+    "selected": false
+  },
+  {
+    "id": "yang2026lingoq",
+    "image": "images/yang2026lingoq.png",
+    "title": "LingoQ: Bridging the Gap between EFL Learning and Work through AI-Generated Work-Related Quizzes",
+    "url": "data/yang2026lingoq.pdf",
+    "authors": [
+      {
+        "name": "Yeonsun Yang"
+      },
+      {
+        "name": "Sang Won Lee"
+      },
+      {
+        "name": "Jean Y. Song"
+      },
+      {
+        "name": "Sangdoo Yun",
+        "highlight": true
+      },
+      {
+        "name": "Young-Ho Kim",
+        "url": "https://younghokim.net/"
+      }
+    ],
+    "venue": "CHI",
+    "year": 2026,
+    "links": [
+      {
+        "label": "arXiv",
+        "url": "https://arxiv.org/abs/2509.17477"
+      },
+      {
+        "label": "ACM DL",
+        "url": "https://doi.org/10.1145/3772318.3791342"
+      }
+    ],
+    "description": "General EFL learning rarely prepares learners for real workplace communication. <strong>LingoQ</strong> bridges this gap by generating AI-driven, work-related quizzes tailored to professional English contexts.",
+    "selected": false
+  },
+  {
+    "id": "haritz2025cseo",
+    "image": "images/haritz2025cseo.png",
+    "title": "C-SEO Bench: Does Conversational SEO Work?",
+    "url": "data/haritz2025cseo.pdf",
+    "authors": [
+      {
+        "name": "Haritz Puerto",
+        "url": "https://haritzpuerto.github.io/"
+      },
+      {
+        "name": "Martin Gubri",
+        "url": "https://gubri.eu/"
+      },
+      {
+        "name": "Tommaso Green",
+        "url": "https://green-t.io/"
+      },
+      {
+        "name": "Seong Joon Oh*",
+        "url": "https://coallaoh.github.io/"
+      },
+      {
+        "name": "Sangdoo Yun*",
+        "highlight": true
+      }
+    ],
+    "venue": "NeurIPS Dataset and Benchmark Track",
+    "year": 2025,
+    "links": [
+      {
+        "label": "arXiv",
+        "url": "https://arxiv.org/abs/2506.11097"
+      },
+      {
+        "label": "Code",
+        "url": "https://github.com/parameterlab/c-seo-bench"
+      },
+      {
+        "label": "Dataset (HF)",
+        "url": "https://huggingface.co/datasets/parameterlab/c-seo-bench"
+      }
+    ],
+    "description": "With conversational search systems like Perplexity and ChatGPT-Search becoming mainstream, new C-SEO strategies are emerging. \n                To evaluate these systematically, we propose <strong>C-SEO Bench</strong>, a benchmark spanning diverse tasks and domains. \n                Our results show that previous text-modification methods are largely ineffective, \n                while traditional SEO techniques that improve contextual ranking order are significantly more impactful,\n                indicating the need for further advances in C-SEO methods.",
+    "selected": true
+  },
+  {
+    "id": "kim2025kvzip",
+    "image": "images/kim2025kvzip.png",
+    "title": "KVzip: Query-Agnostic KV Cache Compression with Context Reconstruction",
+    "url": "data/kim2025kvzip.pdf",
+    "authors": [
+      {
+        "name": "Jang-Hyun Kim",
+        "url": "https://janghyun1230.github.io/"
+      },
+      {
+        "name": "Jinuk Kim",
+        "url": "https://jinukkim.me/"
+      },
+      {
+        "name": "Sangwoo Kwon",
+        "url": "https://openreview.net/profile?id=%7ESangwoo_Kwon1"
+      },
+      {
+        "name": "Jae W. Lee",
+        "url": "https://iamjaelee.github.io/www/"
+      },
+      {
+        "name": "Sangdoo Yun",
+        "highlight": true
+      },
+      {
+        "name": "Hyun Oh Song",
+        "url": "https://mllab.snu.ac.kr/hyunoh/"
+      }
+    ],
+    "venue": "NeurIPS",
+    "year": 2025,
+    "venue_note_html": "<span style=\"color: red; \"><strong>(Oral Presentation)</strong></span>",
+    "links": [
+      {
+        "label": "arXiv",
+        "url": "https://arxiv.org/abs/2505.23416"
+      },
+      {
+        "label": "Code",
+        "url": "https://github.com/snu-mllab/KVzip"
+      },
+      {
+        "label": "Project",
+        "url": "https://janghyun1230.github.io/kvzip/"
+      }
+    ],
+    "links_extras_html": "<strong>Rank #1</strong> @ <a href=\"https://huggingface.co/spaces/nvidia/kvpress-leaderboard\">KV Press Leaderboard</a> (Sep. 25)",
+    "description": "KVzip is a query-agnostic KV cache compression method that evicts up to 70% of cached context KV pairs with negligible performance loss across tasks such as question answering, reasoning, coding comprehension, etc.",
+    "selected": true
+  },
+  {
+    "id": "kim2025tobo",
+    "image": "images/kim2025tobo.png",
+    "title": "Token Bottleneck: One Token to Remember Dynamics",
+    "url": "data/kim2025tobo.pdf",
+    "authors": [
+      {
+        "name": "Taekyung Kim",
+        "url": "https://scholar.google.co.kr/citations?user=u-9bdkwAAAAJ&hl=en"
+      },
+      {
+        "name": "Dongyoon Han",
+        "url": "https://sites.google.com/site/dyhan0920/"
+      },
+      {
+        "name": "Byeongho Heo",
+        "url": "https://sites.google.com/view/byeongho-heo/home"
+      },
+      {
+        "name": "Jeongeun Park",
+        "url": "https://jeongeun-park-page.github.io/"
+      },
+      {
+        "name": "Sangdoo Yun",
+        "highlight": true
+      }
+    ],
+    "venue": "NeurIPS",
+    "year": 2025,
+    "links": [
+      {
+        "label": "arXiv",
+        "url": "https://arxiv.org/abs/2506.15674"
+      },
+      {
+        "label": "Code",
+        "url": "https://github.com/naver-ai/tobo"
+      },
+      {
+        "label": "Project",
+        "url": "https://token-bottleneck.github.io/"
+      }
+    ],
+    "description": "Token bottleneck is a simple yet effective self-supervised learning method for training strong vision backbones for robot policy learning.",
+    "selected": true
+  },
+  {
+    "id": "tommaso2025leakythought",
+    "image": "images/tommaso2025leakythought.png",
+    "title": "Leaky Thoughts: Large Reasoning Models Are Not Private Thinkers",
+    "url": "data/tommaso2025leakythought.pdf",
+    "authors": [
+      {
+        "name": "Tommaso Green",
+        "url": "https://green-t.io/"
+      },
+      {
+        "name": "Martin Gubri",
+        "url": "https://gubri.eu/"
+      },
+      {
+        "name": "Haritz Puerto",
+        "url": "https://haritzpuerto.github.io/"
+      },
+      {
+        "name": "Sangdoo Yun*",
+        "highlight": true
+      },
+      {
+        "name": "Seong Joon Oh*",
+        "url": "https://coallaoh.github.io/"
+      }
+    ],
+    "venue": "EMNLP",
+    "year": 2025,
+    "links": [
+      {
+        "label": "arXiv",
+        "url": "https://arxiv.org/abs/2506.15674"
+      },
+      {
+        "label": "Code",
+        "url": "https://github.com/parameterlab/leaky-thoughts"
+      },
+      {
+        "label": "Dataset (HF)",
+        "url": "https://huggingface.co/datasets/parameterlab/leaky_thoughts"
+      }
+    ],
+    "description": "Unlike final outputs, reasoning traces are often assumed to be internal and safe.\n                We show that they can leak sensitive information, which can be extracted or transferred to the output.",
+    "selected": true
+  },
+  {
+    "id": "park2024vim",
+    "image": "images/park2024vim.png",
+    "title": "A Unified Framework for Motion Reasoning and Generation in Human Interaction",
+    "url": "data/park2024vim.pdf",
+    "authors": [
+      {
+        "name": "Jeongeun Park"
+      },
+      {
+        "name": "Sungjoon Choi*"
+      },
+      {
+        "name": "Sangdoo Yun*",
+        "highlight": true
+      }
+    ],
+    "venue": "ICCV",
+    "year": 2025,
+    "links": [
+      {
+        "label": "arXiv",
+        "url": "https://arxiv.org/abs/2410.05628"
+      },
+      {
+        "label": "Project page",
+        "url": "https://vim-motion-language.github.io/"
+      }
+    ],
+    "description": "We introduce <strong>MoLaM</strong>, a unified model capable of understanding, generating, and controlling interactive human motions through multi-turn conversational contexts.\n                We also create a new dataset, <strong>Inter-MT2</strong>, a large-scale dataset containing diverse, interactive motion instructions, enabling MoLaM to effectively perform versatile tasks.",
+    "selected": true
+  },
+  {
+    "id": "yoo2024cscl",
+    "image": "images/yoo2024cscl.png",
+    "title": "Code-Switching Curriculum Learning for Multilingual Transfer in LLMs",
+    "url": "data/yoo2024cscl.pdf",
+    "authors": [
+      {
+        "name": "Haneul Yoo",
+        "url": "https://haneul-yoo.github.io/"
+      },
+      {
+        "name": "Cheonbok Park",
+        "url": "https://cbokpark.github.io/"
+      },
+      {
+        "name": "Sangdoo Yun",
+        "highlight": true
+      },
+      {
+        "name": "Alice Oh",
+        "url": "https://aliceoh9.github.io/"
+      },
+      {
+        "name": "Hwaran Lee",
+        "url": "https://hwaranlee.github.io/"
+      }
+    ],
+    "venue": "ACL",
+    "year": 2025,
+    "links": [
+      {
+        "label": "arXiv",
+        "url": "https://arxiv.org/abs/2411.02460"
+      }
+    ],
+    "description": "Humans mix languages (i.e., code-switching) naturally when learning second languages; \n                inspied by this, we teach LLMs new languages through code-switching data. \n                Our Code-Switching Curriculum Learning (CSCL) boosts cross-lingual skills efficiently, even when training data is scarce.",
+    "selected": true
+  },
+  {
+    "id": "haritz2025naacl",
+    "image": "images/haritz2025naacl.png",
+    "title": "Scaling Up Membership Inference: When and How Attacks Succeed on Large Language Models",
+    "url": "data/haritz2025naacl.pdf",
+    "authors": [
+      {
+        "name": "Haritz Puerto",
+        "url": "https://haritzpuerto.github.io/"
+      },
+      {
+        "name": "Martin Gubri",
+        "url": "https://gubri.eu/"
+      },
+      {
+        "name": "Sangdoo Yun",
+        "highlight": true
+      },
+      {
+        "name": "Seong Joon Oh",
+        "url": "https://coallaoh.github.io/"
+      }
+    ],
+    "venue": "NAACL Findings",
+    "year": 2025,
+    "links": [
+      {
+        "label": "arXiv",
+        "url": "https://arxiv.org/abs/2411.00154"
+      },
+      {
+        "label": "Code",
+        "url": "https://github.com/parameterlab/mia-scaling"
+      }
+    ],
+    "description": "We show that membership inference attacks (MIA) can work on LLMs, \n              but only when applied at scale, specifically at the document level or more.",
+    "selected": true
+  },
+  {
+    "id": "heo2025masksub",
+    "image": "images/heo2025masksub.png",
+    "title": "Masking meets Supervision: A Strong Learning Alliance",
+    "url": "data/heo2025masksub.pdf",
+    "authors": [
+      {
+        "name": "Byeongho Heo",
+        "url": "https://sites.google.com/view/byeongho-heo/home"
+      },
+      {
+        "name": "Taekyung Kim",
+        "url": "https://scholar.google.es/citations?user=u-9bdkwAAAAJ"
+      },
+      {
+        "name": "Sangdoo Yun",
+        "highlight": true
+      },
+      {
+        "name": "Dongyoon Han",
+        "url": "https://sites.google.com/site/dyhan0920/"
+      }
+    ],
+    "venue": "CVPR",
+    "year": 2025,
+    "links": [
+      {
+        "label": "arXiv",
+        "url": "https://arxiv.org/abs/2306.11339"
+      },
+      {
+        "label": "Code",
+        "url": "https://github.com/naver-ai/augsub"
+      }
+    ],
+    "description": "Maksking augmentation (e.g., dropping out 80% of image tokens) is proven to be effective for self-supervised learning (i.e., MAE), \n              but not in supervised learning due to its unstable training. \n              We introduce <strong>MaskSub</strong>, that integrates masking augmentation into supervised learning by introducing sub-branch that handles the signals from the masked images.",
+    "selected": true
+  },
+  {
+    "id": "chun2025prolip",
+    "image": "images/chun2025prolip.png",
+    "title": "Probabilistic Language-Image Pre-Training",
+    "url": "data/chun2025prolip.pdf",
+    "authors": [
+      {
+        "name": "Sanghyuk Chun",
+        "url": "https://sanghyukchun.github.io/home/"
+      },
+      {
+        "name": "Wonjae Kim",
+        "url": "https://wonjae.kim/"
+      },
+      {
+        "name": "Song Park",
+        "url": "https://8uos.github.io/"
+      },
+      {
+        "name": "Sangdoo Yun",
+        "highlight": true
+      }
+    ],
+    "venue": "ICLR",
+    "year": 2025,
+    "links": [
+      {
+        "label": "arXiv",
+        "url": "https://arxiv.org/abs/2410.18857"
+      }
+    ],
+    "description": "We propose <strong>ProLIP</strong>, a Probabilistic Language-Image Pre-Training method.",
+    "selected": true
+  },
+  {
+    "id": "oh2025dawin",
+    "image": "images/oh2025dawin.png",
+    "title": "DaWin: Training-free Dynamic Weight Interpolation for Robust Adaptation",
+    "url": "data/oh2025dawin.pdf",
+    "authors": [
+      {
+        "name": "changdae oh"
+      },
+      {
+        "name": "Changdae Oh",
+        "url": "https://changdaeoh.github.io/"
+      },
+      {
+        "name": "Yixuan Li",
+        "url": "https://pages.cs.wisc.edu/~sharonli/publications.html"
+      },
+      {
+        "name": "Kyungwoo Song*",
+        "url": "https://gtshs2.github.io/"
+      },
+      {
+        "name": "Sangdoo Yun*",
+        "highlight": true
+      },
+      {
+        "name": "Dongyoon Han*",
+        "url": "https://sites.google.com/site/dyhan0920/"
+      }
+    ],
+    "venue": "ICLR",
+    "year": 2025,
+    "links": [
+      {
+        "label": "arXiv",
+        "url": "https://arxiv.org/abs/2410.03782"
+      },
+      {
+        "label": "Code",
+        "url": "https://github.com/naver-ai/dawin"
+      }
+    ],
+    "description": "Weight averaging/interpolating works well for robust adaptation by combining multiple model's expertise.\n              In this work, we propose a dynamic weight interpolation that adaptively computes per-sample weights using model entropy, without additional training overhead.",
+    "selected": true
+  },
+  {
+    "id": "park2024duo",
+    "image": "images/park2024duo.png",
+    "title": "Direct Unlearning Optimization for Robust and Safe Text-to-Image Models",
+    "url": "data/park2024duo.pdf",
+    "authors": [
+      {
+        "name": "Yong-Hyun Park"
+      },
+      {
+        "name": "Sangdoo Yun"
+      },
+      {
+        "name": "Jin-Hwa Kim"
+      },
+      {
+        "name": "Junho Kim"
+      },
+      {
+        "name": "Geonhui Jang"
+      },
+      {
+        "name": "Yonghyun Jeong"
+      },
+      {
+        "name": "Junghyo Jo"
+      },
+      {
+        "name": "Gayoung Lee"
+      },
+      {
+        "name": "Yong-Hyun Park",
+        "url": "https://scholar.google.com/citations?user=H8N2tHgAAAAJ&hl=en"
+      },
+      {
+        "name": "Sangdoo Yun",
+        "highlight": true
+      },
+      {
+        "name": "Jin-Hwa Kim",
+        "url": "https://wityworks.com/"
+      },
+      {
+        "name": "Junho Kim",
+        "url": "https://github.com/taki0112"
+      },
+      {
+        "name": "Geonhui Jang"
+      },
+      {
+        "name": "Yonghyun Jeong"
+      },
+      {
+        "name": "Junghyo Jo"
+      },
+      {
+        "name": "Gayoung Lee",
+        "url": "https://sites.google.com/site/gylee1103"
+      }
+    ],
+    "venue": "NeurIPS",
+    "year": 2024,
+    "links": [
+      {
+        "label": "arXiv",
+        "url": "https://arxiv.org/abs/2407.21035"
+      },
+      {
+        "label": "Code",
+        "url": "https://github.com/naver-ai/DUO"
+      }
+    ],
+    "description": "Text-to-image models are good, but sometimes they are good at generating harmful images. \n              We introduce <strong>DUO</strong>, a clever method that safely teaches these models to <strong>forget</strong> inappropriate content without spoiling their creativity.",
+    "selected": false
+  },
+  {
+    "id": "jang2024eccv_modelstock",
+    "image": "images/jang2024eccv_modelstock.png",
+    "title": "Model Stock: All we need is just a few fine-tuned models",
+    "url": "data/jang2024eccv_modelstock.pdf",
+    "authors": [
+      {
+        "name": "Dong-Hwan Jang",
+        "url": "https://donghwanjang.github.io/"
+      },
+      {
+        "name": "Sangdoo Yun*",
+        "highlight": true
+      },
+      {
+        "name": "Dongyoon Han*",
+        "url": "https://sites.google.com/site/dyhan0920/"
+      }
+    ],
+    "venue": "ECCV",
+    "year": 2024,
+    "venue_note_html": "<span style=\"color: red; \"><strong>(Oral Presentation)</strong></span>",
+    "links": [
+      {
+        "label": "arXiv",
+        "url": "https://arxiv.org/abs/2403.19522"
+      },
+      {
+        "label": "Bibtex",
+        "url": ""
+      },
+      {
+        "label": "Code",
+        "url": ""
+      }
+    ],
+    "description": "Averaging many models (e.g., 70 models for <a href=\"\">Model soups</a>) improves in-distribution and out-of-distribution performance. \n               Our method, <strong>Model Stock</strong> (an analogy for very efficient version of Model soup), can achieve comparative performance with just a few fine-tuned models. \n               Our secret is in the weight space of fine-tuned models. We find that the models have special geometric characteristics \n               and we derive an efficient way to achieve the effect of averaging many models.",
+    "selected": true
+  },
+  {
+    "id": "kim2024eccv_hype",
+    "image": "images/kim2024eccv_hype.png",
+    "title": "HYPE: Hyperbolic Entailment Filtering for Underspecified Images and Texts",
+    "url": "data/kim2024eccv_hype.pdf",
+    "authors": [
+      {
+        "name": "Wonjae Kim",
+        "url": "https://wonjae.kim/"
+      },
+      {
+        "name": "Sanghyuk Chun",
+        "url": "https://sanghyukchun.github.io/home/"
+      },
+      {
+        "name": "Taekyung Kim",
+        "url": "https://scholar.google.es/citations?user=u-9bdkwAAAAJ"
+      },
+      {
+        "name": "Dongyoon Han",
+        "url": "https://sites.google.com/site/dyhan0920/"
+      },
+      {
+        "name": "Sangdoo Yun",
+        "highlight": true
+      }
+    ],
+    "venue": "ECCV",
+    "year": 2024,
+    "venue_note_html": "<span style=\"color: red; \"><strong>(Oral Presentation)</strong></span>",
+    "links": [
+      {
+        "label": "arXiv",
+        "url": "https://arxiv.org/abs/2404.17507"
+      },
+      {
+        "label": "Bibtex",
+        "url": ""
+      },
+      {
+        "label": "Code",
+        "url": ""
+      }
+    ],
+    "description": "Data quality, especially specificity and clarity, is crucial for self-supervised model training. \n               We introduce Hyperbolic Entailment Filtering (<strong>HYPE</strong>) for images and texts, with state-of-the-art performance in \n               the <a href=\"https://www.datacomp.ai/dcclip/leaderboard.html\">DataComp benchmark</a>.",
+    "selected": true
+  },
+  {
+    "id": "heo2024eccv_ropevit",
+    "image": "images/heo2024eccv_ropevit.png",
+    "title": "Rotary Position Embedding for Vision Transformer",
+    "url": "data/heo2024eccv_ropevit.pdf",
+    "authors": [
+      {
+        "name": "Byeongho Heo",
+        "url": "https://sites.google.com/view/byeongho-heo/home"
+      },
+      {
+        "name": "Song Park",
+        "url": "https://8uos.github.io/"
+      },
+      {
+        "name": "Dongyoon Han",
+        "url": "https://sites.google.com/site/dyhan0920/"
+      },
+      {
+        "name": "Sangdoo Yun",
+        "highlight": true
+      }
+    ],
+    "venue": "ECCV",
+    "year": 2024,
+    "links": [
+      {
+        "label": "arXiv",
+        "url": "https://arxiv.org/abs/2403.13298"
+      },
+      {
+        "label": "Bibtex",
+        "url": ""
+      },
+      {
+        "label": "Code",
+        "url": ""
+      }
+    ],
+    "description": "We study the impact of <a href=\"https://arxiv.org/abs/2104.09864\">Rotary Position Embedding (RoPE)</a> on vision models, especially Vision Transformers (ViTs).\n              From the original 1D RoPE for text data, we search for practical implementation for 2D vision data. \n              Our analysis shows that RoPE shows remarkable extrapolation performance (e.g., increasing image resolution).",
+    "selected": true
+  },
+  {
+    "id": "gubri2024acl_trap",
+    "image": "images/gubri2024acl_trap.png",
+    "title": "TRAP: Targeted Random Adversarial Prompt Honeypot for Black-Box Identification",
+    "url": "data/gubri2024acl_trap.pdf",
+    "authors": [
+      {
+        "name": "Martin Gubri",
+        "url": "https://gubri.eu/"
+      },
+      {
+        "name": "Dennis Thomas Ulmer",
+        "url": "https://dennisulmer.eu/"
+      },
+      {
+        "name": "Hwaran Lee",
+        "url": "https://hwaranlee.github.io/"
+      },
+      {
+        "name": "Sangdoo Yun",
+        "highlight": true
+      },
+      {
+        "name": "Seong Joon Oh",
+        "url": "https://coallaoh.github.io/"
+      }
+    ],
+    "venue": "ACL Findings",
+    "year": 2024,
+    "links": [
+      {
+        "label": "arXiv",
+        "url": "https://arxiv.org/abs/2402.12991"
+      },
+      {
+        "label": "Bibtex",
+        "url": ""
+      },
+      {
+        "label": "Code",
+        "url": "https://github.com/parameterlab/trap"
+      }
+    ],
+    "description": "LLM weights are valuable assets, and their usage should be strictly controlled under rules given by the providers, either in open- or closed-source models.\n              For instance, when a new model has came, the provider wants to know whether the model is based on their own LLMs or not.\n              To this end, we propose <strong>TRAP</strong>, a black-box LLM identification.\n              TRAP asks the model a very specific question (e.g., give a random 4 digit number) that only one company's machine will answer in a certain way.",
+    "selected": true
+  },
+  {
+    "id": "ulmer2024acl_apricot",
+    "image": "images/ulmer2024acl_apricot.png",
+    "title": "Calibrating Large Language Models Using Their Generations Only",
+    "url": "data/ulmer2024acl_apricot.pdf",
+    "authors": [
+      {
+        "name": "Dennis Thomas Ulmer",
+        "url": "https://dennisulmer.eu/"
+      },
+      {
+        "name": "Martin Gubri",
+        "url": "https://gubri.eu/"
+      },
+      {
+        "name": "Hwaran Lee",
+        "url": "https://hwaranlee.github.io/"
+      },
+      {
+        "name": "Sangdoo Yun",
+        "highlight": true
+      },
+      {
+        "name": "Seong Joon Oh",
+        "url": "https://coallaoh.github.io/"
+      }
+    ],
+    "venue": "ACL",
+    "year": 2024,
+    "links": [
+      {
+        "label": "arXiv",
+        "url": "https://arxiv.org/abs/2403.05973"
+      },
+      {
+        "label": "Bibtex",
+        "url": ""
+      },
+      {
+        "label": "Code",
+        "url": "https://github.com/parameterlab/apricot"
+      }
+    ],
+    "description": "Our goal is to calibrate the confidence of LLMs to increase the reliability of their outputs.\n              We propose <strong>APRICOT</strong>, a method to calibrate the confidence of LLMs via utilizing external lightweight model.",
+    "selected": false
+  },
+  {
+    "id": "ahn2024acl_timechara",
+    "image": "images/ahn2024acl_timechara.png",
+    "title": "TimeChara: Evaluating Point-in-Time Character Hallucination of Role-Playing Large Language Models",
+    "url": "data/ahn2024acl_timechara.pdf",
+    "authors": [
+      {
+        "name": "Jaewoo Ahn",
+        "url": "https://ahnjaewoo.github.io/"
+      },
+      {
+        "name": "Taehyun Lee",
+        "url": "https://vision.snu.ac.kr/people/taehyunlee.html/"
+      },
+      {
+        "name": "Junyoung Lim",
+        "url": "https://github.com/2018JunyoungLim/"
+      },
+      {
+        "name": "Jin-Hwa Kim",
+        "url": "http://wityworks.com/"
+      },
+      {
+        "name": "Sangdoo Yun",
+        "highlight": true
+      },
+      {
+        "name": "Hwaran Lee",
+        "url": "https://hwaranlee.github.io/"
+      },
+      {
+        "name": "Gunhee Kim",
+        "url": "https://vision.snu.ac.kr/gunhee/"
+      }
+    ],
+    "venue": "ACL Findings",
+    "year": 2024,
+    "links": [
+      {
+        "label": "arXiv",
+        "url": "https://arxiv.org/abs/2405.18027"
+      },
+      {
+        "label": "Bibtex",
+        "url": ""
+      },
+      {
+        "label": "Code",
+        "url": "https://ahnjaewoo.github.io/timechara/"
+      }
+    ],
+    "description": "When interacting with LLM-based chatbot, especially in role-playing scenarios, users expect the model to act as a specific character at a specific time point.\n              We propose <strong>TimeChara</strong>, a method to evaluate the point-in-time character hallucination of role-playing large language models. \n              TimeChara can evaluate the model's consistency and coherence in the role-playing task.",
+    "selected": false
+  },
+  {
+    "id": "lee2024acl_sweet",
+    "image": "images/lee2024acl_sweet.png",
+    "title": "Who Wrote this Code? Watermarking for Code Generation",
+    "url": "data/lee2024acl_sweet.pdf",
+    "authors": [
+      {
+        "name": "Taehyun Lee*",
+        "url": "https://vision.snu.ac.kr/people/taehyunlee.html/"
+      },
+      {
+        "name": "Seokhee Hong*",
+        "url": "https://hongcheki.github.io/"
+      },
+      {
+        "name": "Jaewoo Ahn",
+        "url": "https://ahnjaewoo.github.io/"
+      },
+      {
+        "name": "Ilgee Hong",
+        "url": "https://ilgeehong.github.io/"
+      },
+      {
+        "name": "Hwaran Lee",
+        "url": "https://hwaranlee.github.io/"
+      },
+      {
+        "name": "Sangdoo Yun",
+        "highlight": true
+      },
+      {
+        "name": "Jamin Shin",
+        "url": "https://www.jayshin.xyz/"
+      },
+      {
+        "name": "Gunhee Kim",
+        "url": "https://vision.snu.ac.kr/gunhee/"
+      }
+    ],
+    "venue": "ACL",
+    "year": 2024,
+    "links": [
+      {
+        "label": "arXiv",
+        "url": "https://arxiv.org/abs/2305.15060"
+      },
+      {
+        "label": "Bibtex",
+        "url": ""
+      },
+      {
+        "label": "Code",
+        "url": "https://github.com/hongcheki/sweet-watermark"
+      }
+    ],
+    "description": "We propose <strong>SWEET</strong>, a watermarking method for code generation LLMs. \n              Previous <a href=\"https://arxiv.org/pdf/2301.10226\">watermarking</a> methods fail to handle code generation scenarios due to syntactic and semantic characteristics of code.\n              SWEET leverages the entropy of token distribution, and shows strong watermarking performance in code generation.",
+    "selected": true
+  },
+  {
+    "id": "lee2024naacl_regionvlm",
+    "image": "images/lee2024naacl_regionvlm.png",
+    "title": "Toward Interactive Regional Understanding in Vision-Large Language Models",
+    "url": "data/lee2024naacl_regionvlm.pdf",
+    "authors": [
+      {
+        "name": "Jungbeom Lee",
+        "url": "https://jbeomlee93.github.io/"
+      },
+      {
+        "name": "Sanghyuk Chun*",
+        "url": "https://sanghyukchun.github.io/home/"
+      },
+      {
+        "name": "Sangdoo Yun*",
+        "highlight": true
+      }
+    ],
+    "venue": "NAACL",
+    "year": 2024,
+    "links": [
+      {
+        "label": "arXiv",
+        "url": "https://arxiv.org/abs/2403.18260"
+      },
+      {
+        "label": "Bibtex",
+        "url": ""
+      },
+      {
+        "label": "Code",
+        "url": ""
+      }
+    ],
+    "description": "We propose <strong>RegionVLM</strong>, a vision-large language model that can interactively attend to regions of interest in images. \n              Region-VLM simply handles the regional infomation (e.g., coordinates) as additional text inputs.\n              Training with <a href=\"https://google.github.io/localized-narratives/\">Localized Narratives dataset</a>, RegionVLM shows improved performance in regional understanding tasks.",
+    "selected": true
+  },
+  {
+    "id": "gu2024cvpr_lincir",
+    "image": "images/gu2024cvpr_lincir.png",
+    "title": "Language-only Efficient Training of Zero-shot Composed Image Retrieval",
+    "url": "data/gu2024cvpr_lincir.pdf",
+    "authors": [
+      {
+        "name": "Geonmo Gu*",
+        "url": "https://geonm.github.io/"
+      },
+      {
+        "name": "Sanghyuk Chun*",
+        "url": "https://sanghyukchun.github.io/home/"
+      },
+      {
+        "name": "Wonjae Kim",
+        "url": "https://wonjae.kim/"
+      },
+      {
+        "name": "Yoohoon Kang"
+      },
+      {
+        "name": "Sangdoo Yun",
+        "highlight": true
+      }
+    ],
+    "venue": "CVPR",
+    "year": 2024,
+    "links": [
+      {
+        "label": "arXiv",
+        "url": "https://arxiv.org/abs/2312.01998"
+      },
+      {
+        "label": "Bibtex",
+        "url": ""
+      },
+      {
+        "label": "Code",
+        "url": "https://github.com/navervision/lincir"
+      },
+      {
+        "label": "Demo",
+        "url": "https://huggingface.co/spaces/navervision/LinCIR"
+      }
+    ],
+    "description": "Do we really need images for training composed image retrieval (CIR) models? Our answer is NO. \n               We propose <strong>LinCIR</strong>, a language-only training method for CIR. \n               LinCIR shows strong performance with efficeint training cost (e.g., training LinCIR with a CLIP ViT-G backbone in 1 hour).",
+    "selected": true
+  },
+  {
+    "id": "kim2024ccm",
+    "image": "images/kim2024ccm.png",
+    "title": "Compressed Context Memory for Online Language Model Interaction",
+    "url": "data/kim2024ccm.pdf",
+    "authors": [
+      {
+        "name": "Jang-Hyun Kim",
+        "url": "https://janghyun1230.github.io/"
+      },
+      {
+        "name": "Junyoung Yeom",
+        "url": "https://yeomjy.com/"
+      },
+      {
+        "name": "Sangdoo Yun*",
+        "highlight": true
+      },
+      {
+        "name": "Hyun Oh Song*",
+        "url": "https://mllab.snu.ac.kr/hyunoh/"
+      }
+    ],
+    "venue": "ICLR",
+    "year": 2024,
+    "links": [
+      {
+        "label": "arXiv",
+        "url": "https://arxiv.org/abs/2312.03414"
+      },
+      {
+        "label": "Bibtex",
+        "url": ""
+      },
+      {
+        "label": "Code",
+        "url": "https://github.com/snu-mllab/Context-Memory"
+      }
+    ],
+    "description": "How can we use infinitly long contexts for LLMs? Inspired from the <a href=\"https://arxiv.org/abs/2304.08467\">gist token</a>, we propose an <strong>online</strong> context compression method. \n                Our method can compress accumulated attention KVs into few [comp] tokens with 5x smaller context memory size.",
+    "selected": true
+  },
+  {
+    "id": "kim2024prom",
+    "image": "images/kim2024prom.png",
+    "title": "Prometheus: Inducing Fine-grained Evaluation Capability in Language Models",
+    "url": "data/kim2024prom.pdf",
+    "authors": [
+      {
+        "name": "Seungone Kim*",
+        "url": "https://seungonekim.github.io/"
+      },
+      {
+        "name": "Jamin Shin*",
+        "url": "https://www.jayshin.xyz/"
+      },
+      {
+        "name": "Yejin Cho*"
+      },
+      {
+        "name": "Joel Jang",
+        "url": "https://joeljang.github.io/"
+      },
+      {
+        "name": "Shayne Longpre",
+        "url": "https://www.shaynelongpre.com/"
+      },
+      {
+        "name": "Hwaran Lee",
+        "url": "https://hwaranlee.github.io/"
+      },
+      {
+        "name": "Sangdoo Yun",
+        "highlight": true
+      },
+      {
+        "name": "Seongjin Shin",
+        "url": "https://scholar.google.com/citations?user=hF3NWVcAAAAJ&hl=en"
+      },
+      {
+        "name": "Sungdong Kim",
+        "url": "https://scholar.google.com/citations?user=xKrSnDoAAAAJ&hl=ko"
+      },
+      {
+        "name": "James Thorne",
+        "url": "https://jamesthorne.com/"
+      },
+      {
+        "name": "Minjoon Seo",
+        "url": "https://seominjoon.github.io/"
+      }
+    ],
+    "venue": "ICLR",
+    "year": 2024,
+    "links": [
+      {
+        "label": "arXiv",
+        "url": "https://arxiv.org/abs/2310.08491"
+      },
+      {
+        "label": "Bibtex",
+        "url": ""
+      },
+      {
+        "label": "Code",
+        "url": "https://github.com/kaistAI/Prometheus"
+      }
+    ],
+    "description": "We introduce <strong>Prometheus</strong>, a fully open-sourced LLMs with GPT-4 compatible evaluation performance.  \n                We built the Feedback Collection dataset, which is also open-sourced, including more than 20K instructions and 100K responses.",
+    "selected": true
+  },
+  {
+    "id": "kim2023cream",
+    "image": "images/kim2023cream.png",
+    "title": "Cream: Visually-Situated Natural Language Understanding with Contrastive Reading Model and Frozen Large Language Models",
+    "url": "data/kim2023cream.pdf",
+    "authors": [
+      {
+        "name": "Geewook Kim",
+        "url": "http://geewook.kim/"
+      },
+      {
+        "name": "Hodong Lee"
+      },
+      {
+        "name": "Daehee Kim"
+      },
+      {
+        "name": "Haeji Jung"
+      },
+      {
+        "name": "Sanghee Park"
+      },
+      {
+        "name": "Yoonsik Kim"
+      },
+      {
+        "name": "Sangdoo Yun",
+        "highlight": true
+      },
+      {
+        "name": "Taeho Kil"
+      },
+      {
+        "name": "Bado Lee"
+      },
+      {
+        "name": "Seunghyun Park",
+        "url": "https://scholar.google.co.kr/citations?user=iowjmTwAAAAJ&hl=en"
+      }
+    ],
+    "venue": "EMNLP",
+    "year": 2023,
+    "links": [
+      {
+        "label": "arXiv",
+        "url": "https://arxiv.org/abs/2305.15080"
+      },
+      {
+        "label": "Bibtex",
+        "url": "data/kim2023cream.txt"
+      },
+      {
+        "label": "Code",
+        "url": ""
+      },
+      {
+        "label": "Demo",
+        "url": ""
+      }
+    ],
+    "description": "After introducing <a href=\"#kim2021donut\">Donut</a>, we build Cream🍦 which leverages large language models (LLMs).\n               To mitigate the gap between vision encoders and LMs, we propose auxiliary encoders and contrastive learning scheme. \n               Cream demonstrates robust and impressive document understanding performance.",
+    "selected": true
+  },
+  {
+    "id": "kim2023propile",
+    "image": "images/kim2023propile.png",
+    "title": "ProPILE: Probing Privacy Leakage in Large Language Models",
+    "url": "data/kim2023propile.pdf",
+    "authors": [
+      {
+        "name": "Siwon Kim",
+        "url": "https://sites.google.com/view/siwonkim"
+      },
+      {
+        "name": "Sangdoo Yun",
+        "highlight": true
+      },
+      {
+        "name": "Hwaran Lee",
+        "url": "https://hwaranlee.github.io/"
+      },
+      {
+        "name": "Martin Gubri",
+        "url": "https://gubri.eu/"
+      },
+      {
+        "name": "Sungroh Yoon",
+        "url": "http://data.snu.ac.kr/index.php/people/"
+      },
+      {
+        "name": "Seong Joon Oh",
+        "url": "https://coallaoh.github.io/"
+      }
+    ],
+    "venue": "NeurIPS",
+    "year": 2023,
+    "venue_note_html": "(Spotlight)",
+    "links": [
+      {
+        "label": "arXiv",
+        "url": "https://arxiv.org/abs/2307.01881"
+      },
+      {
+        "label": "Bibtex",
+        "url": "data/kim2023propile.txt"
+      },
+      {
+        "label": "tweet",
+        "url": "https://twitter.com/parameterlab/status/1706235969488208172"
+      },
+      {
+        "label": "Code",
+        "url": ""
+      },
+      {
+        "label": "Demo",
+        "url": ""
+      }
+    ],
+    "description": "Perhaps, Large language models (LLMs) can answer just about anything, with their hyper-scale parameters and data. \n              However, they may answer your private information (i.e., personally identifiable information (PII)), then it could be problematic. \n              With our probing tool, ProPILE, we can investigate whether the model reveals our personal information or not.",
+    "selected": true
+  },
+  {
+    "id": "kim2023nrg",
+    "image": "images/kim2023nrg.png",
+    "title": "Neural Relation Graph for Identifying Problematic Data",
+    "url": "data/kim2023nrg.pdf",
+    "authors": [
+      {
+        "name": "Jang-Hyun Kim",
+        "url": "https://janghyun1230.github.io/"
+      },
+      {
+        "name": "Sangdoo Yun",
+        "highlight": true
+      },
+      {
+        "name": "Hyun Oh Song",
+        "url": "https://mllab.snu.ac.kr/hyunoh/"
+      }
+    ],
+    "venue": "NeurIPS",
+    "year": 2023,
+    "links": [
+      {
+        "label": "arXiv",
+        "url": "https://arxiv.org/abs/2301.12321"
+      },
+      {
+        "label": "Bibtex",
+        "url": "data/kim2023nrg.txt"
+      },
+      {
+        "label": "Code",
+        "url": ""
+      }
+    ],
+    "description": "Problematic data (e.g., outlier data or incorrect labels) harm model performance and robustness. \n              However, identifying such problematic data in large-scale datasets is quite challenging.\n              Our solution focuses on the relationship among data, particularly in the feature space. \n              By utilizing our relation graph, we can easily determine whether a data point is an outlier, has a misassigned label, or is perfectly fine.",
+    "selected": false
+  },
+  {
+    "id": "gu2023compodiff",
+    "image": "images/gu2023compodiff.png",
+    "title": "CompoDiff: Versatile Composed Image Retrieval With Latent Diffusion",
+    "url": "data/gu2023compodiff.pdf",
+    "authors": [
+      {
+        "name": "Geonmo Gu*",
+        "url": "https://geonm.github.io/"
+      },
+      {
+        "name": "Sanghyuk Chun*",
+        "url": "https://sanghyukchun.github.io/home/"
+      },
+      {
+        "name": "Wonjae Kim",
+        "url": "https://wonjae.kim/"
+      },
+      {
+        "name": "HeeJae Jun"
+      },
+      {
+        "name": "Yoohoon Kang"
+      },
+      {
+        "name": "Sangdoo Yun",
+        "highlight": true
+      }
+    ],
+    "venue": "TMLR",
+    "year": 2024,
+    "pre_venue_html": "<em>*Equal contribution</em>",
+    "links": [
+      {
+        "label": "arXiv",
+        "url": "https://arxiv.org/abs/2303.11916"
+      },
+      {
+        "label": "Bibtex",
+        "url": "data/gu2023compodiff.txt"
+      },
+      {
+        "label": "Code",
+        "url": "https://github.com/navervision/CompoDiff"
+      },
+      {
+        "label": "Demo",
+        "url": "https://huggingface.co/spaces/navervision/CompoDiff-Aesthetic"
+      }
+    ],
+    "description": "We propose a diffusion-based model, <em>CompoDiff</em>, for Composed Image Retrieval (CIR) task. \n              To train the model, we created a new dataset comprising 18 million triplets of images and associated conditions. \n              <em>CompoDiff</em> shows state-of-the-art zero-shot CIR performance.",
+    "selected": true
+  },
+  {
+    "id": "han2023luab",
+    "image": "images/han2023luab.png",
+    "title": "Neglected Free Lunch -- Learning Image Classifiers Using Annotation Byproducts",
+    "url": "data/han2023luab.pdf",
+    "authors": [
+      {
+        "name": "Dongyoon Han*",
+        "url": "https://sites.google.com/site/dyhan0920/"
+      },
+      {
+        "name": "Junsuk Choe*",
+        "url": "https://sites.google.com/site/junsukchoe/"
+      },
+      {
+        "name": "Dante Chun",
+        "url": "https://github.com/1000ship"
+      },
+      {
+        "name": "John Joon Young Chung",
+        "url": "https://johnr0.github.io/"
+      },
+      {
+        "name": "Minsuk Chang",
+        "url": "https://minsukchang.com/"
+      },
+      {
+        "name": "Sangdoo Yun",
+        "highlight": true
+      },
+      {
+        "name": "Jean Y. Song",
+        "url": "https://jyskwon.github.io/"
+      },
+      {
+        "name": "Seong Joon Oh",
+        "url": "https://coallaoh.github.io/"
+      }
+    ],
+    "venue": "ICCV",
+    "year": 2023,
+    "pre_venue_html": "<em>*Equal contribution</em>",
+    "links": [
+      {
+        "label": "arXiv",
+        "url": "https://arxiv.org/abs/2303.17595"
+      },
+      {
+        "label": "cvf",
+        "url": "https://openaccess.thecvf.com/content/ICCV2023/html/Han_Neglected_Free_Lunch_-_Learning_Image_Classifiers_Using_Annotation_Byproducts_ICCV_2023_paper.html"
+      },
+      {
+        "label": "Bibtex",
+        "url": "data/han2023luab.txt"
+      },
+      {
+        "label": "Code & Dataset",
+        "url": "https://github.com/naver-ai/NeglectedFreeLunch"
+      },
+      {
+        "label": "Video",
+        "url": "https://youtu.be/9HEj3Km2TWo"
+      },
+      {
+        "label": "slide (@KCCV2024)",
+        "url": "https://docs.google.com/presentation/d/1P2L6sTGw26KUYglriAVh5FMFKH-e61jzY-ylqtppEsQ/edit?usp=sharing"
+      }
+    ],
+    "description": "When annotating data, annotators unintionally generate auxiliary information during the annotation task, \n              such as mouse traces, mouse clicks, time durations.\n              We call them <em>annotation byproducts (AB)</em>.\n              We propose the new paradigm of <em>learning using annotation byproducts (LUAB)</em> which can enhance robustness of image classifiers by aligning them with human recognition mechanisms.",
+    "selected": true
+  },
+  {
+    "id": "park2023seit",
+    "image": "images/park2023seit.png",
+    "title": "SeiT: Storage-Efficient Vision Training with Tokens Using 1% of Pixel Storage",
+    "url": "data/park2023seit.pdf",
+    "authors": [
+      {
+        "name": "Song Park*",
+        "url": "https://8uos.github.io/"
+      },
+      {
+        "name": "Sanghyuk Chun*",
+        "url": "https://sanghyukchun.github.io/home/"
+      },
+      {
+        "name": "Byeongho Heo",
+        "url": "https://sites.google.com/view/byeongho-heo/home"
+      },
+      {
+        "name": "Wonjae Kim",
+        "url": "https://wonjae.kim/"
+      },
+      {
+        "name": "Sangdoo Yun",
+        "highlight": true
+      }
+    ],
+    "venue": "ICCV",
+    "year": 2023,
+    "pre_venue_html": "<em>*Equal contribution</em>",
+    "links": [
+      {
+        "label": "arXiv",
+        "url": "https://arxiv.org/abs/2303.11114"
+      },
+      {
+        "label": "cvf",
+        "url": "https://openaccess.thecvf.com/content/ICCV2023/html/Park_SeiT_Storage-Efficient_Vision_Training_with_Tokens_Using_1_of_Pixel_ICCV_2023_paper.html"
+      },
+      {
+        "label": "Bibtex",
+        "url": "data/park2023seit.txt"
+      },
+      {
+        "label": "Code",
+        "url": "https://github.com/naver-ai/seit"
+      }
+    ],
+    "description": "Vision deep models are image data hungry, but image storage has become a bottleneck (e.g., LAION-5B images require 240 TB).\n              We propose a storage-efficient training method, <em>SeiT</em>, that utilizes only 1% of standard pixel storage without sacrificing accuracy.",
+    "selected": true
+  },
+  {
+    "id": "ahn2023mpchat",
+    "image": "images/ahn2023mpchat.png",
+    "title": "MPChat: Towards Multimodal Persona-Grounded Conversation",
+    "url": "data/ahn2023mpchat.pdf",
+    "authors": [
+      {
+        "name": "Jaewoo Ahn",
+        "url": "https://ahnjaewoo.github.io/"
+      },
+      {
+        "name": "Yeda Song",
+        "url": "https://vision.snu.ac.kr/people/yedasong.html"
+      },
+      {
+        "name": "Sangdoo Yun",
+        "highlight": true
+      },
+      {
+        "name": "Gunhee Kim",
+        "url": "https://vision.snu.ac.kr/gunhee/"
+      }
+    ],
+    "venue": "ACL",
+    "year": 2023,
+    "links": [
+      {
+        "label": "arXiv",
+        "url": "https://arxiv.org/abs/2305.17388"
+      },
+      {
+        "label": "Bibtex",
+        "url": "data/ahn2023mpchat.txt"
+      },
+      {
+        "label": "Code",
+        "url": "https://vision.snu.ac.kr/projects/mpchat/"
+      }
+    ],
+    "description": "Building persona is crucial for personalized dialog sistem. \n              We explore additional vision modality beyond text-based persona.  \n              To this end, we collect multimodal persona dialog dataset (<em>MPChat</em>) and demonstrate how vision modality help the conversation.",
+    "selected": false
+  },
+  {
+    "id": "park2023vitssl",
+    "image": "images/park2023vitssl.png",
+    "title": "What Do Self-Supervised Vision Transformers Learn?",
+    "url": "data/park2023vitssl.pdf",
+    "authors": [
+      {
+        "name": "Namuk Park",
+        "url": "https://www.namukpark.com/"
+      },
+      {
+        "name": "Wonjae Kim",
+        "url": "https://wonjae.kim/"
+      },
+      {
+        "name": "Byeongho Heo",
+        "url": "https://sites.google.com/view/byeongho-heo/home"
+      },
+      {
+        "name": "Taekyung Kim",
+        "url": "https://scholar.google.es/citations?user=u-9bdkwAAAAJ"
+      },
+      {
+        "name": "Sangdoo Yun",
+        "highlight": true
+      }
+    ],
+    "venue": "ICLR",
+    "year": 2023,
+    "links": [
+      {
+        "label": "OpenReview",
+        "url": ""
+      },
+      {
+        "label": "Poster",
+        "url": "https://github.com/xxxnell/cl-vs-mim-storage/blob/main/resources/cl_vs_mim_iclr2023_poster.pdf"
+      },
+      {
+        "label": "Slide",
+        "url": "https://github.com/xxxnell/cl-vs-mim-storage/blob/main/resources/cl_vs_mim_talk.pdf"
+      },
+      {
+        "label": "arXiv",
+        "url": "https://arxiv.org/abs/2305.00729"
+      },
+      {
+        "label": "Bibtex",
+        "url": "data/park2023vitssl.txt"
+      },
+      {
+        "label": "Code",
+        "url": "https://github.com/naver-ai/cl-vs-mim"
+      }
+    ],
+    "description": "What are the differences between contrastive learning (CL) and masked image modeling (MIM)? \n              Our findings indicate that: (1) CL captures global patterns more effectively than MIM, \n              (2) CL learns shape-oriented features while MIM focuses on texture-oriented features, \n              and (3) CL plays a key role in later layers, whereas MIM is more concentrated on early layers.",
+    "selected": true
+  },
+  {
+    "id": "kim2023dynaaug",
+    "image": "images/kim2023dynaaug.png",
+    "title": "Exploring Temporally Dynamic Data Augmentation for Video Recognition",
+    "url": "data/kim2023dynaaug.pdf",
+    "authors": [
+      {
+        "name": "Taeoh Kim",
+        "url": "https://taeoh-kim.github.io/"
+      },
+      {
+        "name": "Jinhyung Kim",
+        "url": "https://scholar.google.com/citations?user=HPd_1LMAAAAJ&hl=en"
+      },
+      {
+        "name": "Minho Shim",
+        "url": "https://scholar.google.co.kr/citations?user=42dUnrgAAAAJ&hl=ko"
+      },
+      {
+        "name": "Sangdoo Yun",
+        "highlight": true
+      },
+      {
+        "name": "Myunggu Kang",
+        "url": "https://scholar.google.co.kr/citations?user=QyoxwbUAAAAJ&hl=ko"
+      },
+      {
+        "name": "Dongyoon Wee",
+        "url": "https://scholar.google.com/citations?user=oEKX8h0AAAAJ&hl=ko"
+      },
+      {
+        "name": "Sangyoun Lee",
+        "url": "http://mvp.yonsei.ac.kr/"
+      }
+    ],
+    "venue": "ICLR",
+    "year": 2023,
+    "venue_note_html": "(Notable Top 25%)",
+    "links": [
+      {
+        "label": "OpenReview",
+        "url": "https://openreview.net/pdf?id=fxjzKOdw9wb"
+      },
+      {
+        "label": "arXiv",
+        "url": "https://arxiv.org/abs/2206.15015"
+      },
+      {
+        "label": "Bibtex",
+        "url": "data/kim2023dynaaug.txt"
+      }
+    ],
+    "description": "We introduce <em>DynaAugment</em>, a new video data augmentation to capture the temporal dynamics in videos. \n              DynaAugment changes the magnitude of augmentation operation over time to emulate temporal dynamics found in real-world videos.",
+    "selected": false
+  },
+  {
+    "id": "park2022msda",
+    "image": "images/park2022msda.jpg",
+    "title": "A Unified Analysis of Mixed Sample Data Augmentation: A Loss Function Perspective",
+    "url": "data/park2022msda.pdf",
+    "authors": [
+      {
+        "name": "Chanwoo Park*",
+        "url": "https://chanwoo-park-official.github.io/"
+      },
+      {
+        "name": "Sangdoo Yun*",
+        "highlight": true
+      },
+      {
+        "name": "Sanghyuk Chun",
+        "url": "https://sanghyukchun.github.io/home/"
+      }
+    ],
+    "venue": "NeurIPS",
+    "year": 2022,
+    "pre_venue_html": "<em>*Equal contribution</em>",
+    "links": [
+      {
+        "label": "OpenReview",
+        "url": "https://openreview.net/forum?id=SLdfxFdIFeN"
+      },
+      {
+        "label": "arXiv",
+        "url": "https://arxiv.org/abs/2208.09913"
+      },
+      {
+        "label": "Poster",
+        "url": "https://nips.cc/media/PosterPDFs/NeurIPS%202022/459a4ddcb586f24efd9395aa7662bc7c.png?t=1667049606.3860223"
+      },
+      {
+        "label": "Bibtex",
+        "url": "data/park2022msda.txt"
+      },
+      {
+        "label": "Code",
+        "url": "https://github.com/naver-ai/hmix-gmix"
+      }
+    ],
+    "description": "Mixed sample data augmentation (MSDA), such as <a href=\"https://arxiv.org/abs/1710.09412\">mixup</a> and <a href=\"#yun2019cutmix\">CutMix</a>, has become a de facto strategy, \n              but its understanding is not studied deeply yet.\n              We introduce the first unified theoretical analysis for MSDAs and figure out what is the difference between mixup and CutMix. \n              Up on the analysis, we build a simple hybrid version of mixup and CutMix to leverage the advantages of mixup and CutMix.",
+    "selected": true
+  },
+  {
+    "id": "kim2021donut",
+    "image": "images/kim2021donut.png",
+    "title": "Donut 🍩: Document Understanding Transformer without OCR",
+    "url": "data/kim2021donut.pdf",
+    "authors": [
+      {
+        "name": "Geewook Kim",
+        "url": "http://geewook.kim/"
+      },
+      {
+        "name": "Teakgyu Hong",
+        "url": "http://ailab.kaist.ac.kr/users/tghong"
+      },
+      {
+        "name": "Moonbin Yim",
+        "url": "https://github.com/moonbings"
+      },
+      {
+        "name": "Jinyoung Park"
+      },
+      {
+        "name": "Jinyeong Yim",
+        "url": "https://scholar.google.co.kr/citations?user=UltFXK0AAAAJ&hl=en"
+      },
+      {
+        "name": "Wonseok Hwang",
+        "url": "https://scholar.google.com/citations?user=M13_WdcAAAAJ&hl=en"
+      },
+      {
+        "name": "Sangdoo Yun",
+        "highlight": true
+      },
+      {
+        "name": "Dongyoon Han",
+        "url": "https://sites.google.com/site/dyhan0920/"
+      },
+      {
+        "name": "Seunghyun Park",
+        "url": "https://scholar.google.co.kr/citations?user=iowjmTwAAAAJ&hl=en"
+      }
+    ],
+    "venue": "ECCV",
+    "year": 2022,
+    "links": [
+      {
+        "label": "arXiv",
+        "url": "https://arxiv.org/abs/2111.15664"
+      },
+      {
+        "label": "Bibtex",
+        "url": "data/kim2021donut.txt"
+      },
+      {
+        "label": "Code",
+        "url": "https://github.com/clovaai/donut"
+      }
+    ],
+    "description": "Current visual document understanding (VDU) models heavily rely on external OCR framework (<em>e.g.</em>, <a href=\"#baek2019craft\">text detection</a>,\n              <a href=\"#baek2019STR\">text recognition</a>).\n              OCR is expensive and sometimes not available.\n              We bravely remove the dependency of OCR by modeling a simple transformer architecture.\n              Take our highly efficient and powerful VDU model, Donut 🍩!",
+    "selected": true
+  },
+  {
+    "id": "kim2022dataset",
+    "image": "images/kim2022dataset.png",
+    "title": "Dataset Condensation via Efficient Synthetic-Data Parameterization",
+    "url": "data/kim2022dataset.pdf",
+    "authors": [
+      {
+        "name": "Jang-Hyun Kim",
+        "url": "https://janghyun1230.github.io/"
+      },
+      {
+        "name": "Jinuk Kim",
+        "url": "https://mllab.snu.ac.kr/people.html"
+      },
+      {
+        "name": "Seong Joon Oh",
+        "url": "https://coallaoh.github.io/"
+      },
+      {
+        "name": "Sangdoo Yun",
+        "highlight": true
+      },
+      {
+        "name": "Hwanjun Song",
+        "url": "https://sites.google.com/site/junsukchoe/"
+      },
+      {
+        "name": "Joonhyun Jeong",
+        "url": "https://songhwanjun.github.io/"
+      },
+      {
+        "name": "Jung-Woo Ha",
+        "url": "https://aidljwha.wordpress.com/"
+      },
+      {
+        "name": "Hyun Oh Song",
+        "url": "https://mllab.snu.ac.kr/hyunoh/"
+      }
+    ],
+    "venue": "ICML",
+    "year": 2022,
+    "links": [
+      {
+        "label": "Bibtex",
+        "url": "data/kim2022dataset.txt"
+      },
+      {
+        "label": "Code",
+        "url": "https://github.com/snu-mllab/Efficient-Dataset-Condensation"
+      }
+    ],
+    "description": "Data condensation is a trick to compress training data by synthesizing them into several images. \n              The goal is to obtain higher performance with lower consumption of data storage. \n              We propose practical tricks for data condensation to bring it into more practical real-world settings (e.g., 224x224 size with ImageNet) \n              beyond previous toy-ish settings (e.g., 32x32 size with CIFARs).",
+    "selected": false
+  },
+  {
+    "id": "lee2022dataset",
+    "image": "images/lee2022dataset.jpg",
+    "title": "Dataset Condensation with Contrastive Signals",
+    "url": "data/lee2022dataset.pdf",
+    "authors": [
+      {
+        "name": "Saehyung Lee",
+        "url": "https://scholar.google.com/citations?user=nS24h74AAAAJ&hl=en"
+      },
+      {
+        "name": "Sanghyuk Chun",
+        "url": "https://sanghyukchun.github.io/home/"
+      },
+      {
+        "name": "Sangwon Jung",
+        "url": "https://sites.google.com/view/sangwon-jung"
+      },
+      {
+        "name": "Sangdoo Yun",
+        "highlight": true
+      },
+      {
+        "name": "Sungroh Yoon",
+        "url": "http://data.snu.ac.kr/index.php/people/"
+      }
+    ],
+    "venue": "ICML",
+    "year": 2022,
+    "links": [
+      {
+        "label": "Bibtex",
+        "url": "data/lee2022dataset.txt"
+      }
+    ],
+    "description": "Existing data condensation methods deal with class-wise gradients and ignore the inter-class information. \n              We show it would degrade performance in practical scenarios like fine-grained classification. \n              Our simple remedy is modifying the loss function to integrate contrastive signals, which shows effectiveness in several practical scenarios.",
+    "selected": false
+  },
+  {
+    "id": "lee2022cvpr_wood",
+    "image": "images/lee2022cvpr_wood.png",
+    "title": "Weakly Supervised Semantic Segmentation using Out-of-Distribution Data",
+    "url": "data/lee2022cvpr_wood.pdf",
+    "authors": [
+      {
+        "name": "Jungbeom Lee",
+        "url": "https://github.com/jbeomlee93"
+      },
+      {
+        "name": "Seong Joon Oh",
+        "url": "https://coallaoh.github.io/"
+      },
+      {
+        "name": "Sangdoo Yun",
+        "highlight": true
+      },
+      {
+        "name": "Junsuk Choe",
+        "url": "https://sites.google.com/site/junsukchoe/"
+      },
+      {
+        "name": "Eunji Kim",
+        "url": "http://data.snu.ac.kr/index.php/people/"
+      },
+      {
+        "name": "Sungroh Yoon",
+        "url": "http://data.snu.ac.kr/index.php/people/"
+      }
+    ],
+    "venue": "CVPR",
+    "year": 2022,
+    "links": [
+      {
+        "label": "Bibtex",
+        "url": "data/lee2022cvpr_wood.txt"
+      },
+      {
+        "label": "Code",
+        "url": "https://github.com/naver-ai/w-ood"
+      }
+    ],
+    "description": "Weakly supervised semantic segmentation (WSSS) suffers from spurious correlations between foreground (e.g., train) and background (e.g., rail). \n            Our idea is to collect background images without any foreground pixels (e.g., collecting railroad images without trains).\n            Then we teach the model not to see the background pixels to classify foreground class. \n            Adding small amount of background images brings large performance gain in WSSS.",
+    "selected": false
+  },
+  {
+    "id": "park2022cmo",
+    "image": "images/park2021cmo.png",
+    "title": "The Majority Can Help The Minority: Context-rich Minority Oversampling for Long-tailed Classification",
+    "url": "data/park2021cmo.pdf",
+    "authors": [
+      {
+        "name": "Seulki Park",
+        "url": "https://www.linkedin.com/in/seulki-park-49a775147?originalSubdomain=kr"
+      },
+      {
+        "name": "Youngkyu Hong",
+        "url": "https://grayhong.github.io/"
+      },
+      {
+        "name": "Byeongho Heo",
+        "url": "https://sites.google.com/view/byeongho-heo/home"
+      },
+      {
+        "name": "Sangdoo Yun",
+        "highlight": true
+      },
+      {
+        "name": "Jin Young Choi",
+        "url": "http://pil.snu.ac.kr/about/view.do?idx=1"
+      }
+    ],
+    "venue": "CVPR",
+    "year": 2022,
+    "links": [
+      {
+        "label": "Bibtex",
+        "url": "data/park2021cmo.txt"
+      },
+      {
+        "label": "Code",
+        "url": "https://github.com/naver-ai/cmo"
+      }
+    ],
+    "description": "Data oversampling is a simple solution for long-tailed classification, but it may exacerbate overfitting with limited context information.\n              Motivated from <a href=\"#yun2019cutmix\">CutMix</a>, we introduce a simple context-rich oversampling method.\n              Interestingly, majority classes play a key role for boosting classification accuracy of minority classes!",
+    "selected": true
+  },
+  {
+    "id": "lim2022hg",
+    "image": "images/lim2022hg.jpg",
+    "title": "Hypergraph-Induced Semantic Tuplet Loss for Deep Metric Learning",
+    "url": "data/lim2022hg.pdf",
+    "authors": [
+      {
+        "name": "Jongin Lim",
+        "url": "https://scholar.google.com/citations?user=6jxQqmoAAAAJ&hl=en&oi=ao"
+      },
+      {
+        "name": "Sangdoo Yun",
+        "highlight": true
+      },
+      {
+        "name": "Seulki Park",
+        "url": "https://www.linkedin.com/in/seulki-park-49a775147?originalSubdomain=kr"
+      },
+      {
+        "name": "Jin Young Choi",
+        "url": "http://pil.snu.ac.kr/about/view.do?idx=1"
+      }
+    ],
+    "venue": "CVPR",
+    "year": 2022,
+    "links": [
+      {
+        "label": "Bibtex",
+        "url": "lim2022hg.txt"
+      },
+      {
+        "label": "Code",
+        "url": "https://github.com/ljin0429/HIST"
+      }
+    ],
+    "description": "We formulate deep metric learning as a hypergraph node classification problem to capture multilateral relationship by semantic tuples beyond previous pairwise relationship-based methods.",
+    "selected": false
+  },
+  {
+    "id": "luca2021shortcut",
+    "image": "images/luca2021shortcut.png",
+    "title": "Which shortcut cues will dnns choose? a study from the parameter-space perspective",
+    "url": "data/luca2021shortcut.pdf",
+    "authors": [
+      {
+        "name": "Luca Scimeca*",
+        "url": "https://lucascimeca.com/"
+      },
+      {
+        "name": "Seong Joon Oh*",
+        "url": "https://coallaoh.github.io/"
+      },
+      {
+        "name": "Sanghyuk Chun",
+        "url": "https://sanghyukchun.github.io/home/"
+      },
+      {
+        "name": "Michael Poli",
+        "url": "https://scholar.google.com/citations?user=RgIBwboAAAAJ&hl=en"
+      },
+      {
+        "name": "Sangdoo Yun",
+        "highlight": true
+      }
+    ],
+    "venue": "ICLR",
+    "year": 2022,
+    "pre_venue_html": "<em>*Equal contribution</em>",
+    "links": [
+      {
+        "label": "Bibtex",
+        "url": "data/luca2021shortcut.txt"
+      },
+      {
+        "label": "OpenReview",
+        "url": "https://openreview.net/forum?id=qRDQi3ocgR3"
+      }
+    ],
+    "description": "What causes <a href=\"https://arxiv.org/abs/2004.07780\">shortcut learning</a> problem?\n              We observe the model's behaviors when we provide equal chance of being fit to multiple cues (<em>e.g.</em>, color and shape with equal chance).\n              Interestingly, the model would like to fit into a certain cue (<em>e.g.</em>, color than shape) in such even situation.\n              This paper explains the reason in terms of parameter-space perspective.",
+    "selected": true
+  },
+  {
+    "id": "cho2021text",
+    "image": "images/cho2021text.png",
+    "title": "Detecting and Removing Text in the Wild",
+    "url": "https://ieeexplore.ieee.org/iel7/6287639/9312710/09529177.pdf",
+    "authors": [
+      {
+        "name": "Junho Cho",
+        "url": "http://pil.snu.ac.kr/member/view.do?idx=9"
+      },
+      {
+        "name": "Sangdoo Yun",
+        "highlight": true
+      },
+      {
+        "name": "Dongyoon Han",
+        "url": "https://sites.google.com/site/dyhan0920/"
+      },
+      {
+        "name": "Byeongho Heo",
+        "url": "https://sites.google.com/view/byeongho-heo/home"
+      },
+      {
+        "name": "Jin Young Choi",
+        "url": "http://pil.snu.ac.kr/about/view.do?idx=1"
+      }
+    ],
+    "venue": "IEEE Access",
+    "year": 2021,
+    "links": [
+      {
+        "label": "Bibtex",
+        "url": "data/cho2021text.txt"
+      }
+    ],
+    "description": "Unifyied text detection and text removal framework for scene text removal in the wild.",
+    "selected": false
+  },
+  {
+    "id": "heo2021iccv_pit",
+    "image": "images/heo2021iccv_pit.png",
+    "title": "Rethinking spatial dimensions of vision transformers",
+    "url": "data/heo2021iccv_pit.pdf",
+    "authors": [
+      {
+        "name": "Byeongho Heo",
+        "url": "https://sites.google.com/view/byeongho-heo/home"
+      },
+      {
+        "name": "Sangdoo Yun",
+        "highlight": true
+      },
+      {
+        "name": "Dongyoon Han",
+        "url": "https://sites.google.com/site/dyhan0920/"
+      },
+      {
+        "name": "Sanghyuk Chun",
+        "url": "https://sanghyukchun.github.io/home/"
+      },
+      {
+        "name": "Junsuk Choe",
+        "url": "https://sites.google.com/site/junsukchoe/"
+      },
+      {
+        "name": "Seong Joon Oh",
+        "url": "https://coallaoh.github.io/"
+      }
+    ],
+    "venue": "ICCV",
+    "year": 2021,
+    "links": [
+      {
+        "label": "Bibtex",
+        "url": "data/heo2021iccv_pit.txt"
+      },
+      {
+        "label": "Code",
+        "url": "https://github.com/naver-ai/pit"
+      }
+    ],
+    "description": "The <a href=\"https://arxiv.org/abs/2010.11929\">Vision transformer (ViT)</a> has become a strong design principle for vision modeling.\n                Because ViT is originated from NLP's <a href=\"http://papers.neurips.cc/paper/7181-attention-is-all-you-need.pdf\">Transformer</a>,\n                it has no intermediate pooling layers, which is common in CNNs.\n                We simply inject the pooling concept on ViT and introduce a new architecture PiT.",
+    "selected": true
+  },
+  {
+    "id": "kim2021iccv_wsolnorm",
+    "image": "images/kim2021iccv_wsol.png",
+    "title": "Normalization Matters in Weakly Supervised Object Localization",
+    "url": "https://openaccess.thecvf.com/content/ICCV2021/papers/Kim_Normalization_Matters_in_Weakly_Supervised_Object_Localization_ICCV_2021_paper.pdf",
+    "authors": [
+      {
+        "name": "Jeesoo Kim",
+        "url": "https://sites.google.com/site/jeesookim0305"
+      },
+      {
+        "name": "Junsuk Choe",
+        "url": "https://sites.google.com/site/junsukchoe/"
+      },
+      {
+        "name": "Sangdoo Yun",
+        "highlight": true
+      },
+      {
+        "name": "Nojun Kwak",
+        "url": "http://mipal.snu.ac.kr/index.php/Nojun_Kwak"
+      }
+    ],
+    "venue": "ICCV",
+    "year": 2021,
+    "links": [
+      {
+        "label": "Bibtex",
+        "url": "data/kim2021iccv_wsol.txt"
+      },
+      {
+        "label": "Code",
+        "url": "https://github.com/GenDisc/IVR"
+      }
+    ],
+    "description": "We investigates the effect of <a href=\"http://cnnlocalization.csail.mit.edu/Zhou_Learning_Deep_Features_CVPR_2016_paper.pdf\">CAM (CVPR'16)</a> normalization on WSOL,\n                and suggest a new normalization method.",
+    "selected": false
+  },
+  {
+    "id": "yun2021relabel",
+    "image": "images/yun2021relabel.png",
+    "title": "Re-labeling ImageNet: from Single to Multi-Labels, from Global to Localized Labels",
+    "url": "data/yun2021cvpr_relabel.pdf",
+    "authors": [
+      {
+        "name": "Sangdoo Yun",
+        "highlight": true
+      },
+      {
+        "name": "Seong Joon Oh",
+        "url": "https://coallaoh.github.io/"
+      },
+      {
+        "name": "Byeongho Heo",
+        "url": "https://sites.google.com/view/byeongho-heo/home"
+      },
+      {
+        "name": "Dongyoon Han",
+        "url": "https://sites.google.com/site/dyhan0920/"
+      },
+      {
+        "name": "Junsuk Choe",
+        "url": "https://sites.google.com/site/junsukchoe/"
+      },
+      {
+        "name": "Sanghyuk Chun",
+        "url": "https://sanghyukchun.github.io/home/"
+      }
+    ],
+    "venue": "CVPR",
+    "year": 2021,
+    "links": [
+      {
+        "label": "Bibtex",
+        "url": "data/yun2021cvpr_relabel.txt"
+      },
+      {
+        "label": "Code",
+        "url": "https://github.com/naver-ai/relabel_imagenet"
+      },
+      {
+        "label": "Video",
+        "url": "https://www.youtube.com/watch?v=hc29xYQIlBE"
+      },
+      {
+        "label": "Poster",
+        "url": "data/yun2021cvpr_relabel_poster.pdf"
+      }
+    ],
+    "description": "<a href=\"https://www.image-net.org/\">ImageNet</a> has lots of label noises and there have been efforts to fix them on the evaluation set\n                (<em>e.g.</em> <a href=\"http://proceedings.mlr.press/v119/shankar20c.html\">Shankar <em>et al.</em></a>, <a href=\"https://arxiv.org/abs/2006.07159\">Bayer <em>et al.</em></a>).\n                We paid our attention to the training set, whose label noises have been overlooked, and release the re-labeled ImageNet and codebase\n                (published at <a href=\"https://github.com/naver-ai/relabel_imagenet\">this repo</a>).\n                The re-labeled data improves the ImageNet and downstream task accuracies.",
+    "selected": true
+  },
+  {
+    "id": "han2021cvpr_rex",
+    "image": "images/han2021cvpr_rex.png",
+    "title": "Rethinking Channel Dimensions for Efficient Model Design",
+    "url": "data/han2021cvpr_rex.pdf",
+    "authors": [
+      {
+        "name": "Dongyoon Han",
+        "url": "https://sites.google.com/site/dyhan0920/"
+      },
+      {
+        "name": "Sangdoo Yun",
+        "highlight": true
+      },
+      {
+        "name": "Byeongho Heo",
+        "url": "https://sites.google.com/view/byeongho-heo/home"
+      },
+      {
+        "name": "Youngjoon Yoo",
+        "url": "https://yjyoo3312.github.io/"
+      }
+    ],
+    "venue": "CVPR",
+    "year": 2021,
+    "links": [
+      {
+        "label": "Bibtex",
+        "url": "data/han2021cvpr_rex.txt"
+      },
+      {
+        "label": "Code",
+        "url": "https://github.com/clovaai/rexnet"
+      }
+    ],
+    "description": "CNN architectures (<em>e.g.,</em> ResNet, MobileNet, etc.) usually follows the same feature-map down-sampling policy.\n                We conjecture such design policy would harm the representation ability of intermediate layers.\n                We analyze the feature-map's rank (inspired by softmax-bottleneck) and suggests a new network architecture,\n                namely, Rank eXpanded Network (ReXNet).",
+    "selected": true
+  },
+  {
+    "id": "heo2021iclr_adamp",
+    "image": "images/heo2021iclr_adamp.png",
+    "title": "AdamP: Slowing Down the Slowdown for Momentum Optimizers on Scale-invariant Weights",
+    "url": "data/heo2021iclr_adamp.pdf",
+    "authors": [
+      {
+        "name": "Byeongho Heo*",
+        "url": "https://sites.google.com/view/byeongho-heo/home"
+      },
+      {
+        "name": "Sanghyuk Chun*",
+        "url": "https://sanghyukchun.github.io/home/"
+      },
+      {
+        "name": "Seong Joon Oh",
+        "url": "https://coallaoh.github.io/"
+      },
+      {
+        "name": "Dongyoon Han",
+        "url": "https://sites.google.com/site/dyhan0920/"
+      },
+      {
+        "name": "Youngjung Uh",
+        "url": "https://sites.google.com/site/youngjunguh"
+      },
+      {
+        "name": "Sangdoo Yun",
+        "highlight": true
+      },
+      {
+        "name": "Jungwoo Ha",
+        "url": "https://sites.google.com/site/hjw9096/"
+      }
+    ],
+    "venue": "ICLR",
+    "year": 2021,
+    "pre_venue_html": "<em>*Equal contribution</em>",
+    "links": [
+      {
+        "label": "Bibtex",
+        "url": "data/heo2021iclr_adamp.txt"
+      },
+      {
+        "label": "Code",
+        "url": "https://github.com/clovaai/AdamP"
+      },
+      {
+        "label": "Project",
+        "url": "https://clovaai.github.io/AdamP/"
+      }
+    ],
+    "description": "Adding projection operation on Adam and SGD optimizer to mitigate slowdown of convergence due to rapidly increased norm.\n                It leads to performance improvements across the board with easy installation (<em>pip install adamp</em>).",
+    "selected": true
+  },
+  {
+    "id": "yun2020videomix",
+    "image": "images/yun2020videomix.png",
+    "title": "VideoMix: Rethinking Data Augmentation for Video Classification",
+    "url": "data/yun2020videomix.pdf",
+    "authors": [
+      {
+        "name": "Sangdoo Yun",
+        "highlight": true
+      },
+      {
+        "name": "Seong Joon Oh",
+        "url": "https://coallaoh.github.io/"
+      },
+      {
+        "name": "Byeongho Heo",
+        "url": "https://sites.google.com/view/byeongho-heo/home"
+      },
+      {
+        "name": "Dongyoon Han",
+        "url": "https://sites.google.com/site/dyhan0920/"
+      },
+      {
+        "name": "Jinhyung Kim",
+        "url": "https://scholar.google.com/citations?user=HPd_1LMAAAAJ&hl=en"
+      }
+    ],
+    "venue": "arXiv",
+    "year": 2020,
+    "links": [
+      {
+        "label": "Bibtex",
+        "url": "data/yun2020videomix.txt"
+      }
+    ],
+    "description": "Extension of <a href=\"#yun2019cutmix\">CutMix</a> to video recognition.\n                We search for the best mixing strategy for video tasks.",
+    "selected": true
+  },
+  {
+    "id": "bahng2020rebias",
+    "image": "images/bahng2020rebias.png",
+    "title": "Learning De-biased Representations with Biased Representations",
+    "url": "data/bahng2020rebias.pdf",
+    "authors": [
+      {
+        "name": "Hyojin Bahng",
+        "url": "https://hjbahng.github.io/"
+      },
+      {
+        "name": "Sanghyuk Chun",
+        "url": "https://sanghyukchun.github.io/home/"
+      },
+      {
+        "name": "Sangdoo Yun",
+        "highlight": true
+      },
+      {
+        "name": "Jaegul Choo",
+        "url": "https://sangdooyun.github.io/"
+      },
+      {
+        "name": "Seong Joon Oh",
+        "url": "https://coallaoh.github.io/"
+      }
+    ],
+    "venue": "ICML",
+    "year": 2020,
+    "links": [
+      {
+        "label": "Bibtex",
+        "url": "data/bahng2020rebias.txt"
+      },
+      {
+        "label": "Code",
+        "url": "https://github.com/clovaai/rebias"
+      },
+      {
+        "label": "ICML Virtual",
+        "url": "https://icml.cc/virtual/2020/poster/5783"
+      },
+      {
+        "label": "Youtube",
+        "url": "https://www.youtube.com/watch?v=lkjMxZDGubA"
+      }
+    ],
+    "description": "Models tend to learn biased representations.\n                To \"de-bias\" model representation, we \"minus\" biased representation from the target model.",
+    "selected": true
+  },
+  {
+    "id": "yoo2019extd",
+    "image": "images/yoo2019extd.png",
+    "title": "EXTD: Extremely tiny face detector via iterative filter reuse",
+    "url": "data/yoo2019extd.pdf",
+    "authors": [
+      {
+        "name": "Youngjoon Yoo",
+        "url": "https://yjyoo3312.github.io/"
+      },
+      {
+        "name": "Dongyoon Han",
+        "url": "https://sites.google.com/site/dyhan0920/"
+      },
+      {
+        "name": "Sangdoo Yun",
+        "highlight": true
+      }
+    ],
+    "venue": "arXiv",
+    "year": 2019,
+    "links": [
+      {
+        "label": "Bibtex",
+        "url": "data/yoo2019extd.txt"
+      },
+      {
+        "label": "Code",
+        "url": "https://github.com/clovaai/EXTD_Pytorch"
+      }
+    ],
+    "description": "Face detector has multi-stage for multi-resolution, but it indeed does not require such complex feature encoding.\n                We introduce an extremely tiny face detector via iterative filter reuse.",
+    "selected": true
+  },
+  {
+    "id": "yun2019cutmix",
+    "image": "images/yun2019cutmix.png",
+    "title": "CutMix: Regularization Strategy to Train Strong Classifiers with Localizable Features",
+    "url": "data/yun2019cutmix.pdf",
+    "authors": [
+      {
+        "name": "Sangdoo Yun",
+        "highlight": true
+      },
+      {
+        "name": "Dongyoon Han",
+        "url": "https://sites.google.com/site/dyhan0920/"
+      },
+      {
+        "name": "Seong Joon Oh",
+        "url": "https://coallaoh.github.io/"
+      },
+      {
+        "name": "Sanghyuk Chun",
+        "url": "https://sanghyukchun.github.io/home/"
+      },
+      {
+        "name": "Junsuk Choe",
+        "url": "https://sites.google.com/site/junsukchoe/"
+      },
+      {
+        "name": "Youngjoon Yoo",
+        "url": "https://yjyoo3312.github.io/"
+      }
+    ],
+    "venue": "ICCV",
+    "year": 2019,
+    "venue_note_html": "<span style=\"color: red; \"><strong>(Oral Presentation)</strong></span>",
+    "links": [
+      {
+        "label": "Bibtex",
+        "url": "data/yun2019cutmix.txt"
+      },
+      {
+        "label": "Code",
+        "url": "https://github.com/clovaai/CutMix-PyTorch"
+      },
+      {
+        "label": "Talk",
+        "url": "data/yun2019cutmix_talk.pdf"
+      },
+      {
+        "label": "Poster",
+        "url": "data/yun2019cutmix_poster.pdf"
+      },
+      {
+        "label": "Blog",
+        "url": "https://clova-ai.blog/2019/07/15/cutmix-regularization-strategy-to-train-strong-classifiers-with-localizable-features/"
+      }
+    ],
+    "description": "Simple cut-and-paste strategy brings significant performance boosts across tasks and datasets.",
+    "selected": true
+  },
+  {
+    "id": "baek2019STR",
+    "image": "images/baek2019STR.png",
+    "title": "What Is Wrong with Scene Text Recognition Model Comparisons? Dataset and Model Analysis",
+    "url": "data/baek2019str.pdf",
+    "authors": [
+      {
+        "name": "Jeonghun Baek",
+        "url": "http://jeonghunbaek.net/"
+      },
+      {
+        "name": "Geewook Kim",
+        "url": "http://geewook.kim/"
+      },
+      {
+        "name": "Junyeop Lee",
+        "url": "https://scholar.google.com/citations?user=syo1R9UAAAAJ&hl=en"
+      },
+      {
+        "name": "Sungrae Park",
+        "url": "https://sites.google.com/view/sungraepark"
+      },
+      {
+        "name": "Dongyoon Han",
+        "url": "https://sites.google.com/site/dyhan0920/"
+      },
+      {
+        "name": "Sangdoo Yun",
+        "highlight": true
+      },
+      {
+        "name": "Seong Joon Oh",
+        "url": "https://coallaoh.github.io/"
+      },
+      {
+        "name": "Hwalsuk Lee",
+        "url": "https://github.com/hwalsuklee"
+      }
+    ],
+    "venue": "ICCV",
+    "year": 2019,
+    "venue_note_html": "<span style=\"color: red; \"><strong>(Oral Presentation)</strong></span>",
+    "links": [
+      {
+        "label": "Bibtex",
+        "url": "data/baek2019STR.txt"
+      },
+      {
+        "label": "Code",
+        "url": "https://github.com/clovaai/deep-text-recognition-benchmark"
+      }
+    ],
+    "description": "Scene text recognition evaluation has been somewhat wrong because the model and dataset were not controlled.\n                We provide unified benchmark protocol and fairly reproduced results. We also found a new architecture from those unified experiments.",
+    "selected": true
+  },
+  {
+    "id": "heo2019iccv_od",
+    "image": "images/heo2019iccv_od.png",
+    "title": "A Comprehensive Overhaul of Feature Distillation",
+    "url": "data/heo2019overhauldistill.pdf",
+    "authors": [
+      {
+        "name": "Byeongho Heo",
+        "url": "https://sites.google.com/view/byeongho-heo/home"
+      },
+      {
+        "name": "Jeesoo Kim",
+        "url": "https://sites.google.com/site/jeesookim0305"
+      },
+      {
+        "name": "Sangdoo Yun",
+        "highlight": true
+      },
+      {
+        "name": "Hyojin Park",
+        "url": "https://sites.google.com/view/hyojin-park"
+      },
+      {
+        "name": "Nojun Kwak",
+        "url": "http://mipal.snu.ac.kr/index.php/Nojun_Kwak"
+      },
+      {
+        "name": "Jin Young Choi",
+        "url": "http://pil.snu.ac.kr/about/view.do?idx=1"
+      }
+    ],
+    "venue": "ICCV",
+    "year": 2019,
+    "links": [
+      {
+        "label": "Bibtex",
+        "url": "data/heo2019overhauldistill.txt"
+      },
+      {
+        "label": "Code",
+        "url": "https://github.com/clovaai/overhaul-distillation"
+      }
+    ],
+    "description": "There are lots of options for feature distillation: loss function, distillation position, teacher/student transforms.\n                We study all the possible methods and provide comprehensive overhaul for feature distillation.\n                Through this, we found the best feature distillation method which even beats the teacher's accuracy.",
+    "selected": true
+  },
+  {
+    "id": "chun2019robustness",
+    "image": "images/chun2019robustness.png",
+    "title": "An Empirical Evaluation on Robustness and Uncertainty of Regularization Methods",
+    "url": "data/chun2019robustness.pdf",
+    "authors": [
+      {
+        "name": "Sanghyuk Chun",
+        "url": "https://sanghyukchun.github.io/home/"
+      },
+      {
+        "name": "Seong Joon Oh",
+        "url": "https://coallaoh.github.io/"
+      },
+      {
+        "name": "Sangdoo Yun",
+        "highlight": true
+      },
+      {
+        "name": "Dongyoon Han",
+        "url": "https://sites.google.com/site/dyhan0920/"
+      },
+      {
+        "name": "Junsuk Choe",
+        "url": "https://sites.google.com/site/junsukchoe/"
+      },
+      {
+        "name": "Youngjoon Yoo",
+        "url": "https://yjyoo3312.github.io/"
+      }
+    ],
+    "venue": "ICML Workshop",
+    "year": 2019,
+    "links": [
+      {
+        "label": "Bibtex",
+        "url": "data/chun2019icmlw.txt"
+      }
+    ],
+    "description": "We provide structured experimental results for the effectiveness of regularization methods on robustness and uncertainty benchmarks.",
+    "selected": false
+  },
+  {
+    "id": "baek2019craft",
+    "image": "images/baek2019craft.png",
+    "title": "Character Region Awareness for Text Detection",
+    "url": "data/baek2019craft.pdf",
+    "authors": [
+      {
+        "name": "Youngmin Baek",
+        "url": "https://scholar.google.com/citations?user=5rN9zcYAAAAJ&hl=en/"
+      },
+      {
+        "name": "Bado Lee",
+        "url": "https://scholar.google.com/citations?user=UAcfGOgAAAAJ&hl=en"
+      },
+      {
+        "name": "Dongyoon Han",
+        "url": "https://sites.google.com/site/dyhan0920/"
+      },
+      {
+        "name": "Sangdoo Yun",
+        "highlight": true
+      },
+      {
+        "name": "Hwalsuk Lee",
+        "url": "https://github.com/hwalsuklee"
+      }
+    ],
+    "venue": "CVPR",
+    "year": 2019,
+    "links": [
+      {
+        "label": "Bibtex",
+        "url": "data/baek2019craft.txt"
+      },
+      {
+        "label": "Code",
+        "url": "https://github.com/clovaai/CRAFT-pytorch"
+      }
+    ],
+    "description": "Text detectors often fail to detect real-world scene-texts, <em>e.g.</em>, curved or long texts.\n                 We propose a two-stage approach; first detect individual characters and connect them.\n                 We also introduce semi-weakly-supervised training trick to boost our detector's performance.",
+    "selected": true
+  },
+  {
+    "id": "heo2019aaai_ab",
+    "image": "images/heo2019aaai_ab.png",
+    "title": "Knowledge Transfer via Distillation of Activation Boundaries Formed by Hidden Neurons",
+    "url": "data/heo2019aaai_ab.pdf",
+    "authors": [
+      {
+        "name": "Byeongho Heo",
+        "url": "https://sites.google.com/view/byeongho-heo/home"
+      },
+      {
+        "name": "Minsik Lee",
+        "url": "http://vml.hanyang.ac.kr/people/minsik-lee/?doing_wp_cron=1639638686.3880200386047363281250"
+      },
+      {
+        "name": "Sangdoo Yun",
+        "highlight": true
+      },
+      {
+        "name": "Jin Young Choi",
+        "url": "http://pil.snu.ac.kr/about/view.do?idx=1"
+      }
+    ],
+    "venue": "AAAI",
+    "year": 2019,
+    "venue_note_html": "<span style=\"color: red; \"><strong>(Oral Presentation)</strong></span>",
+    "links": [
+      {
+        "label": "Bibtex",
+        "url": "data/heo2019aaai_ab.txt"
+      },
+      {
+        "label": "Code",
+        "url": "https://github.com/bhheo/AB_distillation"
+      }
+    ],
+    "description": "Previous feature distillation approach (<em>e.g.</em> <a href=\"https://arxiv.org/abs/1412.6550\">FitNet</a>) focuses on mimicking the teacher's feature values.\n                Rather, our goal is to transfer the actual \"activation boundary\" by assigning binary labels (<em>i.e.</em> activated or not) for all the neurons.\n                Our loss minimizes the binary-labels' similarity.\n                It shows outperforming performance against state-of-the-art KD methods.",
+    "selected": true
+  },
+  {
+    "id": "heo2019aaai_adv",
+    "image": "images/heo2019aaai_adv.png",
+    "title": "Knowledge Distillation with Adversarial Samples Supporting Decision Boundary",
+    "url": "data/heo2019aaai_adv.pdf",
+    "authors": [
+      {
+        "name": "Byeongho Heo",
+        "url": "https://sites.google.com/view/byeongho-heo/home"
+      },
+      {
+        "name": "Minsik Lee",
+        "url": "http://vml.hanyang.ac.kr/people/minsik-lee/?doing_wp_cron=1639638686.3880200386047363281250"
+      },
+      {
+        "name": "Sangdoo Yun",
+        "highlight": true
+      },
+      {
+        "name": "Jin Young Choi",
+        "url": "http://pil.snu.ac.kr/about/view.do?idx=1"
+      }
+    ],
+    "venue": "AAAI",
+    "year": 2019,
+    "links": [
+      {
+        "label": "Bibtex",
+        "url": "data/heo2019aaai_adv.txt"
+      },
+      {
+        "label": "Code",
+        "url": "https://github.com/bhheo/BSS_distillation"
+      }
+    ],
+    "description": "To find teacher network's decision boundary more precisely, we adopt adversarial attack technique.\n                We show the attacked samples improve distillation performance.",
+    "selected": true
+  },
+  {
+    "id": "lee2018keypatchgan",
+    "image": "images/lee2018keypatchgan.png",
+    "title": "Unsupervised Holistic Image Generation from Key Local Patches",
+    "url": "data/lee2018keypatchgan.pdf",
+    "authors": [
+      {
+        "name": "Donghoon Lee",
+        "url": "http://rllab.snu.ac.kr/people/alumni-folder/donghoon-lee/donghoon-lee"
+      },
+      {
+        "name": "Sangdoo Yun",
+        "highlight": true
+      },
+      {
+        "name": "Sungjoon Choi",
+        "url": "https://sites.google.com/view/sungjoon-choi/personal"
+      },
+      {
+        "name": "Hwiyeon Yoo",
+        "url": "http://rllab.snu.ac.kr/people/hwiyeon-yoo/hwiyeon-yoo"
+      },
+      {
+        "name": "Ming-Hsuan Yang",
+        "url": "https://faculty.ucmerced.edu/mhyang/"
+      },
+      {
+        "name": "Songhwai Oh",
+        "url": "http://rllab.snu.ac.kr/people/songhwai-oh"
+      }
+    ],
+    "venue": "ECCV",
+    "year": 2018,
+    "links": [
+      {
+        "label": "Bibtex",
+        "url": "data/lee2018keypatchgan.txt"
+      },
+      {
+        "label": "Code",
+        "url": "https://github.com/hellbell/KeyPatchGan"
+      }
+    ],
+    "description": "We train a GAN model that generates a holistic image from its small parts.",
+    "selected": true
+  },
+  {
+    "id": "choi2018traca",
+    "image": "images/choi2018traca.png",
+    "title": "Context-aware Deep Feature Compression for High-speed Visual Tracking",
+    "url": "data/choi2018traca.pdf",
+    "authors": [
+      {
+        "name": "Jongwon Choi",
+        "url": "https://sites.google.com/site/jwchoivision/"
+      },
+      {
+        "name": "Hyung Jin Chang",
+        "url": "https://hyungjinchang.wordpress.com/"
+      },
+      {
+        "name": "Tobias Fischer",
+        "url": "https://www.tobiasfischer.info/"
+      },
+      {
+        "name": "Sangdoo Yun",
+        "highlight": true
+      },
+      {
+        "name": "Kyuewang Lee",
+        "url": "http://pil.snu.ac.kr/member/view.do?idx=15"
+      },
+      {
+        "name": "Jiyeoup Jeong",
+        "url": "http://pil.snu.ac.kr/member/view.do?idx=7"
+      },
+      {
+        "name": "Yiannis Demiris",
+        "url": "https://www.imperial.ac.uk/people/y.demiris"
+      },
+      {
+        "name": "Jin Young Choi",
+        "url": "http://pil.snu.ac.kr/about/view.do?idx=1"
+      }
+    ],
+    "venue": "CVPR",
+    "year": 2018,
+    "links": [
+      {
+        "label": "Bibtex",
+        "url": "data/choi2018traca.txt"
+      },
+      {
+        "label": "Code",
+        "url": "https://sites.google.com/site/jwchoivision/home/traca"
+      }
+    ],
+    "description": "Correlation-based trackers have shown promising performance using hand-crafted features (<em>e.g.,</em> HOG).\n                When adopting deep features for correlation-based trackers, the bottleneck is the computing costs for CNN feature extraction.\n                We propose a deep feature compression method for high-speed and high-accuracy visual tracker.",
+    "selected": false
+  },
+  {
+    "id": "yun2018_adnet",
+    "image": "images/yun2017adnet.png",
+    "title": "Action-Driven Visual Object Tracking with Deep Reinforcement Learning",
+    "url": "https://ieeexplore.ieee.org/document/8306309",
+    "authors": [
+      {
+        "name": "Sangdoo Yun",
+        "highlight": true
+      },
+      {
+        "name": "Jongwon Choi",
+        "url": "https://sites.google.com/site/jwchoivision/"
+      },
+      {
+        "name": "Youngjoon Yoo",
+        "url": "https://yjyoo3312.github.io/"
+      },
+      {
+        "name": "Kimin Yun",
+        "url": "https://sites.google.com/view/kiminyun/profile"
+      },
+      {
+        "name": "Jin Young Choi",
+        "url": "http://pil.snu.ac.kr/about/view.do?idx=1"
+      }
+    ],
+    "venue": "TNNLS",
+    "year": 2018,
+    "links": [
+      {
+        "label": "Bibtex",
+        "url": "data/yun2018tnnls.txt"
+      },
+      {
+        "label": "Code",
+        "url": "https://github.com/hellbell/ADNet"
+      }
+    ],
+    "description": "A journal extension of <a href=\"#yun2017_adnet\">ADNet (CVPR'17)</a>.",
+    "selected": false
+  },
+  {
+    "id": "yun2017_adnet",
+    "image": "images/yun2017adnet.png",
+    "title": "Action-Decision Networks for Visual Tracking with Deep Reinforcement Learning",
+    "url": "data/yun2017_adnet.pdf",
+    "authors": [
+      {
+        "name": "Sangdoo Yun",
+        "highlight": true
+      },
+      {
+        "name": "Jongwon Choi",
+        "url": "https://sites.google.com/site/jwchoivision/"
+      },
+      {
+        "name": "Youngjoon Yoo",
+        "url": "https://yjyoo3312.github.io/"
+      },
+      {
+        "name": "Kimin Yun",
+        "url": "https://sites.google.com/view/kiminyun/profile"
+      },
+      {
+        "name": "Jin Young Choi",
+        "url": "http://pil.snu.ac.kr/about/view.do?idx=1"
+      }
+    ],
+    "venue": "CVPR",
+    "year": 2017,
+    "venue_note_html": "<span style=\"color: red; \"><strong>(Spotlight Presentation)</strong></span>",
+    "links": [
+      {
+        "label": "Bibtex",
+        "url": "data/yun2017adnet.txt"
+      },
+      {
+        "label": "Code",
+        "url": "https://github.com/hellbell/ADNet"
+      }
+    ],
+    "description": "We fomulate visual tracking as a decision making process and propose a reinforcement learning method to train visual trackers.\n                Our RL-based tracker shows state-of-the-art level performance and especially it shows high efficiency with semi-supervised scenario.",
+    "selected": true
+  },
+  {
+    "id": "yoo2017vae",
+    "image": "images/yoo2017vae.png",
+    "title": "Variational Autoencoded Regression: High Dimensional Regression of Visual Data on Complex Manifold",
+    "url": "data/yoo2017vae.pdf",
+    "authors": [
+      {
+        "name": "Youngjoon Yoo",
+        "url": "https://yjyoo3312.github.io/"
+      },
+      {
+        "name": "Sangdoo Yun",
+        "highlight": true
+      },
+      {
+        "name": "Hyung Jin Chang",
+        "url": "https://hyungjinchang.wordpress.com/"
+      },
+      {
+        "name": "Yiannis Demiris",
+        "url": "https://www.imperial.ac.uk/people/y.demiris"
+      },
+      {
+        "name": "Jin Young Choi",
+        "url": "http://pil.snu.ac.kr/about/view.do?idx=1"
+      }
+    ],
+    "venue": "CVPR",
+    "year": 2017,
+    "links": [
+      {
+        "label": "Bibtex",
+        "url": "data/yoo2017vae.txt"
+      },
+      {
+        "label": "Code",
+        "url": "https://sites.google.com/view/yjyoo3312/project_page_vaeregression"
+      }
+    ],
+    "description": "Generating visual data from given condition (<em>e.g.</em> frame index, pose skeleton, etc.) is difficult due to the visual data's high dimensions.\n                Our idea is to regress the visual data in latent space which is encoded by <a href=\"https://arxiv.org/abs/1312.6114\">VAE</a>.\n                Our method can generate high-quality visual data from frame index or pose skeletons.",
+    "selected": false
+  },
+  {
+    "id": "choi2017acfn",
+    "image": "images/choi2017acfn.png",
+    "title": "Attentional Correlation Filter Network for Adaptive Visual Tracking",
+    "url": "data/choi2017acfn.pdf",
+    "authors": [
+      {
+        "name": "Jongwon Choi",
+        "url": "https://sites.google.com/site/jwchoivision/"
+      },
+      {
+        "name": "Hyung Jin Chang",
+        "url": "https://hyungjinchang.wordpress.com/"
+      },
+      {
+        "name": "Sangdoo Yun",
+        "highlight": true
+      },
+      {
+        "name": "Tobias Fischer",
+        "url": "https://www.tobiasfischer.info/"
+      },
+      {
+        "name": "Yiannis Demiris",
+        "url": "https://www.imperial.ac.uk/people/y.demiris"
+      },
+      {
+        "name": "Jin Young Choi",
+        "url": "http://pil.snu.ac.kr/about/view.do?idx=1"
+      }
+    ],
+    "venue": "CVPR",
+    "year": 2017,
+    "links": [
+      {
+        "label": "Bibtex",
+        "url": "data/choi2017acfn.txt"
+      },
+      {
+        "label": "Code",
+        "url": "https://sites.google.com/site/jwchoivision/home/acfn-1"
+      }
+    ],
+    "description": "Correlation-filter-based trackers usually use pre-defined feature extractor (<em>e.g.,</em> color, edge, etc).\n                Using more correlation filters with diverse feature extractors at the same time will bring higher accuracy, but it induces speed-accuracy trade-off.\n                This work extends the number of correlation filters more than one hundred for maximizing accuracy.\n                To deal with heavy computation, we introduce a LSTM-based attentional filter selection approach.\n                Our method the state-of-the-art performance amongst real-time trackers.",
+    "selected": false
+  },
+  {
+    "id": "cho2017palette",
+    "image": "images/cho2017palette.png",
+    "title": "PaletteNet: Image Recolorization with Given Color Palette",
+    "url": "data/cho2017palette.pdf",
+    "authors": [
+      {
+        "name": "Junho Cho",
+        "url": "http://pil.snu.ac.kr/member/view.do?idx=9"
+      },
+      {
+        "name": "Sangdoo Yun",
+        "highlight": true
+      },
+      {
+        "name": "Kyoung Mu Lee",
+        "url": "https://cv.snu.ac.kr/index.php/~kmlee/"
+      },
+      {
+        "name": "Jin Young Choi",
+        "url": "http://pil.snu.ac.kr/about/view.do?idx=1"
+      }
+    ],
+    "venue": "CVPR Workshop",
+    "year": 2017,
+    "links": [
+      {
+        "label": "Bibtex",
+        "url": "data/cho2017palette.txt"
+      }
+    ],
+    "description": "We propose a image colorization method from the given palette.",
+    "selected": false
+  },
+  {
+    "id": "yoo2017butterfly",
+    "image": "images/yoo2017butterfly.png",
+    "title": "Butterfly Effect: Bidirectional Control of Classification Performance by Small Additive Perturbation",
+    "url": "data/yoo2017butterfly.pdf",
+    "authors": [
+      {
+        "name": "Youngjoon Yoo",
+        "url": "https://yjyoo3312.github.io/"
+      },
+      {
+        "name": "Seonguk Park",
+        "url": "http://mipal.snu.ac.kr/index.php/SeongUk_Park"
+      },
+      {
+        "name": "Junyoung Choi",
+        "url": "http://mipal.snu.ac.kr/index.php/Junyoung_Choi"
+      },
+      {
+        "name": "Sangdoo Yun",
+        "highlight": true
+      },
+      {
+        "name": "Nojun Kwak",
+        "url": "http://mipal.snu.ac.kr/index.php/Nojun_Kwak"
+      }
+    ],
+    "venue": "arXiv",
+    "year": 2017,
+    "links": [
+      {
+        "label": "Bibtex",
+        "url": "data/yoo2017butterfly.txt"
+      }
+    ],
+    "description": "This paper proposes a new algorithm for controlling classification results by generating a small perturbation without changing the classifier network.\n                We show that the perturbation can degrade the performance like adversarial attack, or can improve classification accuracy as well.",
+    "selected": false
+  },
+  {
+    "id": "yoo2016lda",
+    "image": "images/yoo2016lda.png",
+    "title": "Visual Path Prediction in Complex Scenes with Crowded Moving Objects",
+    "url": "https://www.cv-foundation.org/openaccess/content_cvpr_2016/papers/Yoo_Visual_Path_Prediction_CVPR_2016_paper.pdf",
+    "authors": [
+      {
+        "name": "Youngjoon Yoo",
+        "url": "https://yjyoo3312.github.io/"
+      },
+      {
+        "name": "Kimin Yun",
+        "url": "https://sites.google.com/view/kiminyun/profile"
+      },
+      {
+        "name": "Sangdoo Yun",
+        "highlight": true
+      },
+      {
+        "name": "JongHee Hong"
+      },
+      {
+        "name": "Hawook Jeong",
+        "url": "https://www.linkedin.com/in/hawook-jeong-b7472b119/"
+      },
+      {
+        "name": "Jin Young Choi",
+        "url": "http://pil.snu.ac.kr/about/view.do?idx=1"
+      }
+    ],
+    "venue": "CVPR",
+    "year": 2016,
+    "links": [
+      {
+        "label": "Bibtex",
+        "url": "data/yoo2016lda.txt"
+      }
+    ],
+    "description": "Learn latent Dirichlet allocation model from the trajectory of people and predict future paths of people.",
+    "selected": false
+  },
+  {
+    "id": "yun2016density",
+    "image": "images/yun2016density.png",
+    "title": "Density-aware Pedestrian Proposal Networks for Robust People Detection in Crowded Scenes",
+    "url": "https://openreview.net/forum?id=S1N49t-uZr",
+    "authors": [
+      {
+        "name": "Sangdoo Yun",
+        "highlight": true
+      },
+      {
+        "name": "Kimin Yun",
+        "url": "https://sites.google.com/view/kiminyun/profile"
+      },
+      {
+        "name": "Jongwon Choi",
+        "url": "https://sites.google.com/site/jwchoivision/"
+      },
+      {
+        "name": "Jin Young Choi",
+        "url": "http://pil.snu.ac.kr/about/view.do?idx=1"
+      }
+    ],
+    "venue": "ECCV Workshop",
+    "year": 2016,
+    "links": [
+      {
+        "label": "Bibtex",
+        "url": "data/yun2016density.txt"
+      }
+    ],
+    "description": "Detecting people in crowded scene by considering crowd density information.\n                Our intuition is more people should be detected in crowded region.",
+    "selected": true
+  },
+  {
+    "id": "yun2016voting",
+    "image": "images/yun2016voting.png",
+    "title": "Voting-based 3D Object Cuboid Detection Robust to Partial Occlusion from RGB-D Images",
+    "url": "https://ieeexplore.ieee.org/document/7477654",
+    "authors": [
+      {
+        "name": "Sangdoo Yun",
+        "highlight": true
+      },
+      {
+        "name": "Hawook Jeong",
+        "url": "https://www.linkedin.com/in/hawook-jeong-b7472b119/"
+      },
+      {
+        "name": "Soo Wan Kim",
+        "url": "https://www.linkedin.com/in/soo-wan-kim-53936111b/"
+      },
+      {
+        "name": "Jin Young Choi",
+        "url": "http://pil.snu.ac.kr/about/view.do?idx=1"
+      }
+    ],
+    "venue": "WACV",
+    "year": 2016,
+    "links": [
+      {
+        "label": "Bibtex",
+        "url": "data/yun2016voting.txt"
+      }
+    ],
+    "description": "Predicting holistic 3D structure from pratially occluded RGB-D images.\n                The key idea is a voting mechanism. Each part of an object indicates the center of the 3D structure.",
+    "selected": true
+  },
+  {
+    "id": "yun2014vsb",
+    "image": "images/yun2014vsb.png",
+    "title": "Visual Surveillance Briefing System: Event-based Video Retrieval and Summarization",
+    "url": "http://ieeexplore.ieee.org/document/6918669/",
+    "authors": [
+      {
+        "name": "Sangdoo Yun",
+        "highlight": true
+      },
+      {
+        "name": "Kimin Yun",
+        "url": "https://sites.google.com/view/kiminyun/profile"
+      },
+      {
+        "name": "Soo Wan Kim",
+        "url": "https://www.linkedin.com/in/soo-wan-kim-53936111b/"
+      },
+      {
+        "name": "Youngjoon Yoo",
+        "url": "https://yjyoo3312.github.io/"
+      },
+      {
+        "name": "Jiyeoup Jeong",
+        "url": "http://pil.snu.ac.kr/member/view.do?idx=7"
+      }
+    ],
+    "venue": "AVSS",
+    "year": 2014,
+    "venue_note_html": "<span style=\"color: red; \"><strong>(Oral Presentation)</strong></span>",
+    "links": [
+      {
+        "label": "Bibtex",
+        "url": "data/yun2014vsb.txt"
+      }
+    ],
+    "description": "We propose a Visual Surveillance Briefing (VSB) system which generates summarized video with important events.",
+    "selected": true
+  },
+  {
+    "id": "yun2014dpm",
+    "image": "images/yun2014dpm.png",
+    "title": "Self-organizing Cascaded Structure of Deformable Part Models for Fast Object Detection",
+    "url": "https://ieeexplore.ieee.org/document/6977440/",
+    "authors": [
+      {
+        "name": "Sangdoo Yun",
+        "highlight": true
+      },
+      {
+        "name": "Hawook Jeong",
+        "url": "https://www.linkedin.com/in/hawook-jeong-b7472b119/"
+      },
+      {
+        "name": "Woo-Sung Kang"
+      },
+      {
+        "name": "Byeongho Heo",
+        "url": "https://sites.google.com/view/byeongho-heo/home"
+      },
+      {
+        "name": "Jin Young Choi",
+        "url": "http://pil.snu.ac.kr/about/view.do?idx=1"
+      }
+    ],
+    "venue": "ICPR",
+    "year": 2014,
+    "links": [
+      {
+        "label": "Bibtex",
+        "url": "data/yun2014dpm.txt"
+      }
+    ],
+    "description": "We improve the computational efficiency of deformable part model (DPM) by re-organizing the order of part filters.\n                With a cascaded structure, we place more important part filter at first for early rejection.",
+    "selected": true
+  },
+  {
+    "id": "yun2012mgp",
+    "image": "images/yun2012mgp.png",
+    "title": "Multiple ground plane estimation for 3D scene understanding using a monocular camera",
+    "url": "https://dl.acm.org/doi/10.1145/2425836.2425838",
+    "authors": [
+      {
+        "name": "Sangdoo Yun",
+        "highlight": true
+      },
+      {
+        "name": "Soo Wan Kim",
+        "url": "https://www.linkedin.com/in/soo-wan-kim-53936111b/"
+      },
+      {
+        "name": "Kwang Moo Yi",
+        "url": "https://www.cs.ubc.ca/~kmyi/"
+      },
+      {
+        "name": "Haan-ju Yoo",
+        "url": "https://www.linkedin.com/in/haanju-yoo/"
+      },
+      {
+        "name": "Jin Young Choi",
+        "url": "http://pil.snu.ac.kr/about/view.do?idx=1"
+      }
+    ],
+    "venue": "IVCNZ",
+    "year": 2012,
+    "venue_note_html": "<span style=\"color: red; \"><strong>(Oral Presentation)</strong></span>",
+    "links": [
+      {
+        "label": "Bibtex",
+        "url": "data/yun2012mgp.txt"
+      }
+    ],
+    "description": "Ground plain estimation is important for 3D scene understanding.\n                Usually models assume the scene has a single ground plain, but sometimes it has multiple ground planes.\n                We introduce multiple ground plane estimation for more robust scene understanding.",
+    "selected": true
+  }
+]
