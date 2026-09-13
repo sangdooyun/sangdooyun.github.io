@@ -2,8 +2,8 @@
   {
     "id": "seo2026swm",
     "image": "images/page-teaser-2-thumb.gif",
-    "title": "Grounding World Simulation Models in a Real-World Metropolis",
-    "url": "https://arxiv.org/abs/2603.15583",
+    "title": "Seoul World Model: Grounding World Simulation Models in a Real-World Metropolis",
+    "url": "data/seo2026swm.pdf",
     "authors": [
       {
         "name": "Junyoung Seo*"
@@ -49,8 +49,9 @@
         "url": "http://wityworks.com/"
       }
     ],
-    "venue": "arXiv",
+    "venue": "ECCV",
     "year": 2026,
+    "venue_note_html": "<span style=\"color: red; \"><strong>(Spotlight, Oral Presentation)</strong></span>",
     "links": [
       {
         "label": "arXiv",
@@ -68,7 +69,7 @@
     "id": "kim2026fastkvzip",
     "image": "images/kim2026fastkvzip.png",
     "title": "Fast KVzip: Efficient and Accurate LLM Inference with Gated KV Eviction",
-    "url": "https://arxiv.org/abs/2601.17668",
+    "url": "data/kim2026fastkvzip.pdf",
     "authors": [
       {
         "name": "Jang-Hyun Kim",
@@ -100,6 +101,46 @@
       }
     ],
     "description": "Extending <a href=\"#kim2025kvzip\">KVzip</a>, we propose a <strong>gated KV eviction</strong> mechanism that identifies and drops less important KV cache entries on-the-fly, achieving faster and more accurate LLM inference.",
+    "selected": true
+  },
+  {
+    "id": "song2026gaze",
+    "image": "images/song2026gaze.png",
+    "title": "Gaze Attention: Query-Adaptive Visual Routing for Efficient Multimodal LLMs",
+    "url": "data/song2026gaze.pdf",
+    "authors": [
+      {
+        "name": "Junha Song"
+      },
+      {
+        "name": "Byeongho Heo",
+        "url": "https://sites.google.com/view/byeongho-heo/home"
+      },
+      {
+        "name": "Geonmo Gu",
+        "url": "https://geonm.github.io/"
+      },
+      {
+        "name": "Jaegul Choo"
+      },
+      {
+        "name": "Dongyoon Han",
+        "url": "https://sites.google.com/site/dyhan0920/"
+      },
+      {
+        "name": "Sangdoo Yun",
+        "highlight": true
+      }
+    ],
+    "venue": "CoLM",
+    "year": 2026,
+    "links": [
+      {
+        "label": "arXiv",
+        "url": "https://arxiv.org/abs/2605.13080"
+      }
+    ],
+    "description": "Humans do not look at an entire image uniformly; they fixate on the regions that matter. <strong>Gaze attention</strong> gives MLLMs the same ability, routing each decoding query to a small set of relevant visual regions and matching dense attention with up to <strong>90% fewer visual KV entries</strong>.",
     "selected": true
   },
   {
@@ -2455,7 +2496,7 @@
     "id": "kim2021iccv_wsolnorm",
     "image": "images/kim2021iccv_wsol.png",
     "title": "Normalization Matters in Weakly Supervised Object Localization",
-    "url": "https://openaccess.thecvf.com/content/ICCV2021/papers/Kim_Normalization_Matters_in_Weakly_Supervised_Object_Localization_ICCV_2021_paper.pdf",
+    "url": "data/kim2021iccv_wsolnorm.pdf",
     "authors": [
       {
         "name": "Jeesoo Kim",
@@ -3428,7 +3469,7 @@
     "id": "yoo2016lda",
     "image": "images/yoo2016lda.png",
     "title": "Visual Path Prediction in Complex Scenes with Crowded Moving Objects",
-    "url": "https://www.cv-foundation.org/openaccess/content_cvpr_2016/papers/Yoo_Visual_Path_Prediction_CVPR_2016_paper.pdf",
+    "url": "data/yoo2016lda.pdf",
     "authors": [
       {
         "name": "Youngjoon Yoo",
