@@ -1,5 +1,191 @@
 [
   {
+    "id": "gu2026vat",
+    "image": "images/gu2026vat.png",
+    "title": "Verification-Aware Training for Speculative Decoding",
+    "url": "data/gu2026vat.pdf",
+    "authors": [
+      {
+        "name": "Geonmo Gu",
+        "url": "https://geonm.github.io/"
+      },
+      {
+        "name": "Byeongho Heo",
+        "url": "https://sites.google.com/view/byeongho-heo/home"
+      },
+      {
+        "name": "HeeJae Jun"
+      },
+      {
+        "name": "Yoohoon Kang"
+      },
+      {
+        "name": "Sangmin Lee"
+      },
+      {
+        "name": "Sangdoo Yun",
+        "highlight": true
+      },
+      {
+        "name": "Dongyoon Han",
+        "url": "https://sites.google.com/site/dyhan0920/"
+      }
+    ],
+    "venue": "NeurIPS",
+    "year": 2026,
+    "links": [
+      {
+        "label": "arXiv",
+        "url": "https://arxiv.org/abs/2608.30135"
+      }
+    ],
+    "description": "Draft models in speculative decoding are usually trained to imitate the target model, without learning which tokens will pass verification. We propose <strong>VAT</strong>, which incorporates acceptance and rejection signals into draft training, improving decoding speed without changing the inference procedure.",
+    "selected": true
+  },
+  {
+    "id": "kim2026fastkvzip",
+    "image": "images/kim2026fastkvzip.png",
+    "title": "Fast KVzip: Efficient and Accurate LLM Inference with Gated KV Eviction",
+    "url": "data/kim2026fastkvzip.pdf",
+    "authors": [
+      {
+        "name": "Jang-Hyun Kim",
+        "url": "https://janghyun1230.github.io/"
+      },
+      {
+        "name": "Dongyoon Han",
+        "url": "https://sites.google.com/site/dyhan0920/"
+      },
+      {
+        "name": "Sangdoo Yun",
+        "highlight": true
+      }
+    ],
+    "venue": "NeurIPS",
+    "year": 2026,
+    "links": [
+      {
+        "label": "arXiv",
+        "url": "https://arxiv.org/abs/2601.17668"
+      },
+      {
+        "label": "Code",
+        "url": "https://github.com/Janghyun1230/FastKVzip"
+      },
+      {
+        "label": "Project page",
+        "url": "https://janghyun1230.github.io/fastkvzip/"
+      }
+    ],
+    "description": "Extending <a href=\"#kim2025kvzip\">KVzip</a>, we propose a <strong>gated KV eviction</strong> mechanism that identifies and drops less important KV cache entries on-the-fly, achieving faster and more accurate LLM inference.",
+    "selected": true
+  },
+  {
+    "id": "yu2026foam",
+    "image": "images/yu2026foam.png",
+    "title": "FOAM: Factored One-sided Adam-Moment for Practical and Scalable SOAP",
+    "url": "data/yu2026foam.pdf",
+    "authors": [
+      {
+        "name": "Jaemyung Yu*"
+      },
+      {
+        "name": "Byeongho Heo",
+        "url": "https://sites.google.com/view/byeongho-heo/home"
+      },
+      {
+        "name": "Sangdoo Yun",
+        "highlight": true
+      },
+      {
+        "name": "Dongyoon Han*",
+        "url": "https://sites.google.com/site/dyhan0920/"
+      }
+    ],
+    "venue": "NeurIPS",
+    "year": 2026,
+    "links": [
+      {
+        "label": "PDF",
+        "url": "data/yu2026foam.pdf"
+      }
+    ],
+    "description": "We propose <strong>FOAM</strong>, a lightweight optimizer that reduces LLM training costs while maintaining model quality.",
+    "selected": true
+  },
+  {
+    "id": "jung2026meme",
+    "image": "images/jung2026meme.png",
+    "title": "MEME: Multi-entity & Evolving Memory Evaluation",
+    "url": "data/jung2026meme.pdf",
+    "authors": [
+      {
+        "name": "Seokwon Jung"
+      },
+      {
+        "name": "Alexander Rubinstein*"
+      },
+      {
+        "name": "Arnas Uselis*"
+      },
+      {
+        "name": "Sangdoo Yun",
+        "highlight": true
+      },
+      {
+        "name": "Seong Joon Oh",
+        "url": "https://coallaoh.github.io/"
+      }
+    ],
+    "venue": "NeurIPS",
+    "year": 2026,
+    "links": [
+      {
+        "label": "arXiv",
+        "url": "https://arxiv.org/abs/2605.12477"
+      },
+      {
+        "label": "Code",
+        "url": "https://github.com/SeokwonJung-Jay/MEME-public"
+      },
+      {
+        "label": "Project page",
+        "url": "https://seokwonjung-jay.github.io/meme-eval/"
+      }
+    ],
+    "description": "Remembering facts is not enough when information about multiple people and entities changes over time. We introduce <strong>MEME</strong>, a benchmark for evaluating how agents update, delete, and reason over evolving memories.",
+    "selected": true
+  },
+  {
+    "id": "lee2026inoculation",
+    "image": "images/lee2026inoculation.png",
+    "title": "Mark, Don't Erase: Token Inoculation for Dual-Use Knowledge in LLMs",
+    "url": "data/lee2026inoculation.pdf",
+    "authors": [
+      {
+        "name": "Seunghyun Lee"
+      },
+      {
+        "name": "Dongyoon Han",
+        "url": "https://sites.google.com/site/dyhan0920/"
+      },
+      {
+        "name": "Sangdoo Yun",
+        "highlight": true
+      }
+    ],
+    "venue": "NeurIPS",
+    "year": 2026,
+    "links": [
+      {
+        "label": "arXiv",
+        "url": "https://arxiv.org/abs/2607.18639"
+      }
+    ],
+    "description": "The same knowledge can support both useful and harmful requests. We introduce <strong>Token Inoculation</strong>, which inserts a special control token during pre-training to restrict harmful use while preserving useful knowledge.",
+    "selected": true
+  },
+  {
     "id": "seo2026swm",
     "image": "images/page-teaser-2-thumb.gif",
     "title": "Seoul World Model: Grounding World Simulation Models in a Real-World Metropolis",
@@ -63,44 +249,6 @@
       }
     ],
     "description": "World simulation models trained on synthetic environments often fail in the real world. We ground them in <strong>Seoul</strong>, a real-world metropolis, providing large-scale urban data (<a href=\"https://map.naver.com/\">Naver Street-view</a>) to bridge the simulation-to-reality gap.",
-    "selected": true
-  },
-  {
-    "id": "kim2026fastkvzip",
-    "image": "images/kim2026fastkvzip.png",
-    "title": "Fast KVzip: Efficient and Accurate LLM Inference with Gated KV Eviction",
-    "url": "data/kim2026fastkvzip.pdf",
-    "authors": [
-      {
-        "name": "Jang-Hyun Kim",
-        "url": "https://janghyun1230.github.io/"
-      },
-      {
-        "name": "Dongyoon Han",
-        "url": "https://sites.google.com/site/dyhan0920/"
-      },
-      {
-        "name": "Sangdoo Yun",
-        "highlight": true
-      }
-    ],
-    "venue": "arXiv",
-    "year": 2026,
-    "links": [
-      {
-        "label": "arXiv",
-        "url": "https://arxiv.org/abs/2601.17668"
-      },
-      {
-        "label": "Code",
-        "url": "https://github.com/Janghyun1230/FastKVzip"
-      },
-      {
-        "label": "Project page",
-        "url": "https://janghyun1230.github.io/fastkvzip/"
-      }
-    ],
-    "description": "Extending <a href=\"#kim2025kvzip\">KVzip</a>, we propose a <strong>gated KV eviction</strong> mechanism that identifies and drops less important KV cache entries on-the-fly, achieving faster and more accurate LLM inference.",
     "selected": true
   },
   {

@@ -130,9 +130,9 @@
               <img src="${escAttr(p.image)}" alt="${escAttr(p.id)}" width="160">
             </td>
             <td style="padding:20px;width:75%;vertical-align:middle">
-              <a href="${escAttr(p.url)}" id="${escAttr(p.id)}">
-                <papertitle>${esc(p.title)}</papertitle>
-              </a>
+              ${p.url
+                ? `<a href="${escAttr(p.url)}" id="${escAttr(p.id)}"><papertitle>${esc(p.title)}</papertitle></a>`
+                : `<span id="${escAttr(p.id)}"><papertitle>${esc(p.title)}</papertitle></span>`}
               <br>
 ${authors}
               <br>
