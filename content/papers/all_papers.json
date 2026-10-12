@@ -253,7 +253,7 @@
   },
   {
     "id": "song2026gaze",
-    "image": "images/song2026gaze.png",
+    "image": "images/song2026gaze.gif",
     "title": "Gaze Attention: Query-Adaptive Visual Routing for Efficient Multimodal LLMs",
     "url": "data/song2026gaze.pdf",
     "authors": [
