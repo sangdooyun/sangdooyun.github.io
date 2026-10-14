@@ -1,5 +1,43 @@
 [
   {
+    "id": "park2026watch",
+    "image": "images/park2026watch.png",
+    "title": "Learning Transferable World-Action Models from Task-Paired Human Videos",
+    "url": "data/park2026watch.pdf",
+    "authors": [
+      {
+        "name": "Jeongeun Park",
+        "url": "https://jeongeun-park-page.github.io/"
+      },
+      {
+        "name": "Taekyung Kim",
+        "url": "https://taekyungkim918.github.io/"
+      },
+      {
+        "name": "Dongyoon Han",
+        "url": "https://sites.google.com/site/dyhan0920/"
+      },
+      {
+        "name": "Sangdoo Yun",
+        "highlight": true
+      }
+    ],
+    "venue": "arXiv",
+    "year": 2026,
+    "links": [
+      {
+        "label": "arXiv",
+        "url": "https://arxiv.org/abs/2610.14351"
+      },
+      {
+        "label": "Project page",
+        "url": "https://watch-wam.github.io/"
+      }
+    ],
+    "description": "We introduce <strong>WATCH</strong>, which learns transferable world-action representations by predicting one demonstration's actions and future frames from another demonstration of the same task. Pre-training on paired human videos improves robot generalization across scenes and embodiments after robot post-training, without requiring matched human-robot demonstrations.",
+    "selected": true
+  },
+  {
     "id": "gu2026vat",
     "image": "images/gu2026vat.png",
     "title": "Verification-Aware Training for Speculative Decoding",
