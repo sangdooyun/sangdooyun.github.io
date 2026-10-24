@@ -1,5 +1,67 @@
 [
   {
+    "id": "song2026lalaworld",
+    "image": "images/song2026lalaworld.jpg",
+    "title": "LaLa-World: Scaling Latent World Models with Natural Language Actions",
+    "url": "data/song2026lalaworld.pdf",
+    "authors": [
+      {
+        "name": "Junha Song",
+        "url": "https://www.junha.page/p/about.html"
+      },
+      {
+        "name": "Geonmo Gu",
+        "url": "https://geonm.github.io/"
+      },
+      {
+        "name": "Jeongeun Park",
+        "url": "https://jeongeun-park-page.github.io/"
+      },
+      {
+        "name": "Heejeong Nam",
+        "url": "https://hazel-heejeong-nam.github.io/"
+      },
+      {
+        "name": "Lucas Maes",
+        "url": "https://lucasmaes.me/"
+      },
+      {
+        "name": "Byeongho Heo",
+        "url": "https://sites.google.com/view/byeongho-heo/home"
+      },
+      {
+        "name": "Dongyoon Han",
+        "url": "https://sites.google.com/site/dyhan0920/"
+      },
+      {
+        "name": "Sangdoo Yun",
+        "highlight": true
+      }
+    ],
+    "venue": "arXiv",
+    "year": 2026,
+    "links": [
+      {
+        "label": "arXiv",
+        "url": "https://arxiv.org/abs/2610.27851"
+      },
+      {
+        "label": "Code",
+        "url": "https://github.com/junha1125/LaLa-World"
+      },
+      {
+        "label": "Project page",
+        "url": "https://june-page.github.io/lala-world/"
+      },
+      {
+        "label": "Slides",
+        "url": "https://june-page.github.io/lala-world-slides/"
+      }
+    ],
+    "description": "We introduce <strong>LaLa-World</strong>, which expresses actions and visual changes in natural language to train one latent world model across simulation, robot trajectories, images, and videos. The model plans by predicting future visual representations and provides an initialization for <strong>LaLa-Policy</strong>, which jointly predicts robot actions and future visual states.",
+    "selected": true
+  },
+  {
     "id": "park2026watch",
     "image": "images/park2026watch.gif",
     "title": "Learning Transferable World-Action Models from Task-Paired Human Videos",
